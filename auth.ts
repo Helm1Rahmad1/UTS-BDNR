@@ -4,7 +4,7 @@ import { connectDB } from "@/lib/mongodb"
 import User from "@/models/User"
 import bcryptjs from "bcryptjs"
 
-export const { handlers, auth, signIn, signOut } = NextAuth({
+export const authConfig = {
   providers: [
     CredentialsProvider({
       name: "Credentials",
@@ -57,4 +57,6 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
   pages: {
     signIn: "/auth/login",
   },
-})
+}
+
+export const { handlers, auth, signIn, signOut } = NextAuth(authConfig)
