@@ -1,0 +1,90 @@
+[
+  {
+    "_id": "6914b6685602ef785785ac1c",
+    "name": "T-Shirts",
+    "slug": "t-shirts",
+    "createdAt": "2025-11-12T16:31:36.449Z",
+    "__v": 0
+  },
+  {
+    "_id": "6914b6685602ef785785ac1d",
+    "name": "Jeans",
+    "slug": "jeans",
+    "createdAt": "2025-11-12T16:31:36.449Z",
+    "__v": 0
+  },
+  {
+    "_id": "6914b6685602ef785785ac1e",
+    "name": "Jackets",
+    "slug": "jackets",
+    "createdAt": "2025-11-12T16:31:36.449Z",
+    "__v": 0
+  },
+  {
+    "_id": "6914b6685602ef785785ac1f",
+    "name": "Dresses",
+    "slug": "dresses",
+    "createdAt": "2025-11-12T16:31:36.449Z",
+    "__v": 0
+  },
+  {
+    "_id": "6914b6685602ef785785ac20",
+    "name": "Hoodies",
+    "slug": "hoodies",
+    "createdAt": "2025-11-12T16:31:36.449Z",
+    "__v": 0
+  },
+  {
+    "_id": "6914b6685602ef785785ac21",
+    "name": "Vintage",
+    "slug": "vintage",
+    "createdAt": "2025-11-12T16:31:36.449Z",
+    "__v": 0
+  },
+  {
+    "_id": "6914b6685602ef785785ac22",
+    "name": "Accessories",
+    "slug": "accessories",
+    "createdAt": "2025-11-12T16:31:36.449Z",
+    "__v": 0
+  },
+  {
+    "_id": "6914b6685602ef785785ac23",
+    "name": "Shoes",
+    "slug": "shoes",
+    "createdAt": "2025-11-12T16:31:36.449Z",
+    "__v": 0
+  },
+  {
+    "_id": "6914b6685602ef785785ac24",
+    "name": "Skirts",
+    "slug": "skirts",
+    "createdAt": "2025-11-12T16:31:36.450Z",
+    "__v": 0
+  },
+  {
+    "_id": "6914b6685602ef785785ac25",
+    "name": "Sweaters",
+    "slug": "sweaters",
+    "createdAt": "2025-11-12T16:31:36.450Z",
+    "__v": 0
+  },
+  {
+    "_id": "6916e8b8f64047b6d49f4d26",
+    "name": "Sneakers",
+    "slug": "sneakers",
+    "createdAt": "2025-11-14T08:30:48.002Z"
+  },
+  {
+    "_id": "6916e8b8f64047b6d49f4d27",
+    "name": "Shorts",
+    "slug": "shorts",
+    "createdAt": "2025-11-14T08:30:48.008Z"
+  },
+  {
+    "_id": "6916e8b8f64047b6d49f4d28",
+    "name": "Bags",
+    "slug": "bags",
+    "createdAt": "2025-11-14T08:30:48.013Z"
+  }
+]

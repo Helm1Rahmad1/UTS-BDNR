@@ -1,0 +1,4693 @@
+[
+  {
+    "_id": "6914b6685602ef785785ac38",
+    "name": "Silk Camisole #0",
+    "slug": "product-0",
+    "description": "Authentic thrifted item with unique vintage charm. Never worn.",
+    "images": [
+      "/placeholder.svg?height=500&width=500&query=thrift-fashion-0",
+      "/placeholder.svg?height=500&width=500&query=vintage-clothing-0"
+    ],
+    "category": "6914b6685602ef785785ac25",
+    "brand": "6914b6685602ef785785ac2a",
+    "sizes": [
+      "XL"
+    ],
+    "condition": "new",
+    "price": 671854,
+    "stock": 1,
+    "sold": 0,
+    "avgRating": 0,
+    "ratingCount": 0,
+    "tags": [
+      "thrift",
+      "vintage",
+      "sustainable",
+      "unique"
+    ],
+    "createdAt": "2025-11-12T16:31:36.609Z",
+    "__v": 0,
+    "listingStatus": "ACTIVE",
+    "seller": "6914b6685602ef785785ac32"
+  },
+  {
+    "_id": "6914b6685602ef785785ac39",
+    "name": "Canvas Sneakers #1",
+    "slug": "product-1",
+    "description": "Authentic thrifted item with unique vintage charm. Never worn.",
+    "images": [
+      "/placeholder.svg?height=500&width=500&query=thrift-fashion-1",
+      "/placeholder.svg?height=500&width=500&query=vintage-clothing-1"
+    ],
+    "category": "6914b6685602ef785785ac25",
+    "brand": "6914b6685602ef785785ac30",
+    "sizes": [
+      "XL"
+    ],
+    "condition": "new",
+    "price": 243775,
+    "stock": 1,
+    "sold": 0,
+    "avgRating": 0,
+    "ratingCount": 0,
+    "tags": [
+      "thrift",
+      "vintage",
+      "sustainable",
+      "unique"
+    ],
+    "createdAt": "2025-11-12T16:31:36.609Z",
+    "__v": 0,
+    "listingStatus": "ACTIVE",
+    "seller": "6914b6685602ef785785ac32"
+  },
+  {
+    "_id": "6914b6685602ef785785ac3a",
+    "name": "Platform Shoes #2",
+    "slug": "product-2",
+    "description": "Authentic thrifted item with unique vintage charm. Never worn.",
+    "images": [
+      "/placeholder.svg?height=500&width=500&query=thrift-fashion-2",
+      "/placeholder.svg?height=500&width=500&query=vintage-clothing-2"
+    ],
+    "category": "6914b6685602ef785785ac24",
+    "brand": "6914b6685602ef785785ac2a",
+    "sizes": [
+      "M"
+    ],
+    "condition": "new",
+    "price": 67932,
+    "stock": 1,
+    "sold": 0,
+    "avgRating": 0,
+    "ratingCount": 0,
+    "tags": [
+      "thrift",
+      "vintage",
+      "sustainable",
+      "unique"
+    ],
+    "createdAt": "2025-11-12T16:31:36.609Z",
+    "__v": 0,
+    "listingStatus": "ACTIVE",
+    "seller": "6914b6685602ef785785ac32"
+  },
+  {
+    "_id": "6914b6685602ef785785ac3b",
+    "name": "Retro Sunglasses #3",
+    "slug": "product-3",
+    "description": "Authentic thrifted item with unique vintage charm. Well-loved and full of character.",
+    "images": [
+      "/placeholder.svg?height=500&width=500&query=thrift-fashion-3",
+      "/placeholder.svg?height=500&width=500&query=vintage-clothing-3"
+    ],
+    "category": "6914b6685602ef785785ac21",
+    "brand": "6914b6685602ef785785ac27",
+    "sizes": [
+      "L"
+    ],
+    "condition": "used",
+    "price": 289953,
+    "stock": 1,
+    "sold": 0,
+    "avgRating": 0,
+    "ratingCount": 0,
+    "tags": [
+      "thrift",
+      "vintage",
+      "sustainable",
+      "unique"
+    ],
+    "createdAt": "2025-11-12T16:31:36.609Z",
+    "__v": 0,
+    "listingStatus": "ACTIVE",
+    "seller": "6914b6685602ef785785ac32"
+  },
+  {
+    "_id": "6914b6685602ef785785ac3c",
+    "name": "Wool Coat #4",
+    "slug": "product-4",
+    "description": "Authentic thrifted item with unique vintage charm. Gently used.",
+    "images": [
+      "/placeholder.svg?height=500&width=500&query=thrift-fashion-4",
+      "/placeholder.svg?height=500&width=500&query=vintage-clothing-4"
+    ],
+    "category": "6914b6685602ef785785ac1c",
+    "brand": "6914b6685602ef785785ac29",
+    "sizes": [
+      "XL"
+    ],
+    "condition": "like-new",
+    "price": 65027,
+    "stock": 1,
+    "sold": 0,
+    "avgRating": 0,
+    "ratingCount": 0,
+    "tags": [
+      "thrift",
+      "vintage",
+      "sustainable",
+      "unique"
+    ],
+    "createdAt": "2025-11-12T16:31:36.609Z",
+    "__v": 0,
+    "listingStatus": "ACTIVE",
+    "seller": "6914b6685602ef785785ac32"
+  },
+  {
+    "_id": "6914b6685602ef785785ac3d",
+    "name": "Retro Sunglasses #5",
+    "slug": "product-5",
+    "description": "Authentic thrifted item with unique vintage charm. Gently used.",
+    "images": [
+      "/placeholder.svg?height=500&width=500&query=thrift-fashion-5",
+      "/placeholder.svg?height=500&width=500&query=vintage-clothing-5"
+    ],
+    "category": "6914b6685602ef785785ac25",
+    "brand": "6914b6685602ef785785ac2f",
+    "sizes": [
+      "L"
+    ],
+    "condition": "like-new",
+    "price": 574324,
+    "stock": 1,
+    "sold": 0,
+    "avgRating": 0,
+    "ratingCount": 0,
+    "tags": [
+      "thrift",
+      "vintage",
+      "sustainable",
+      "unique"
+    ],
+    "createdAt": "2025-11-12T16:31:36.609Z",
+    "__v": 0,
+    "listingStatus": "ACTIVE",
+    "seller": "6914b6685602ef785785ac32"
+  },
+  {
+    "_id": "6914b6685602ef785785ac3e",
+    "name": "Corduroy Pants #6",
+    "slug": "product-6",
+    "description": "Authentic thrifted item with unique vintage charm. Gently used.",
+    "images": [
+      "/placeholder.svg?height=500&width=500&query=thrift-fashion-6",
+      "/placeholder.svg?height=500&width=500&query=vintage-clothing-6"
+    ],
+    "category": "6914b6685602ef785785ac1c",
+    "brand": "6914b6685602ef785785ac27",
+    "sizes": [
+      "M"
+    ],
+    "condition": "like-new",
+    "price": 527990,
+    "stock": 1,
+    "sold": 0,
+    "avgRating": 0,
+    "ratingCount": 0,
+    "tags": [
+      "thrift",
+      "vintage",
+      "sustainable",
+      "unique"
+    ],
+    "createdAt": "2025-11-12T16:31:36.609Z",
+    "__v": 0,
+    "listingStatus": "ACTIVE",
+    "seller": "6914b6685602ef785785ac32"
+  },
+  {
+    "_id": "6914b6685602ef785785ac3f",
+    "name": "Straight Leg Jeans #7",
+    "slug": "product-7",
+    "description": "Authentic thrifted item with unique vintage charm. Gently used.",
+    "images": [
+      "/placeholder.svg?height=500&width=500&query=thrift-fashion-7",
+      "/placeholder.svg?height=500&width=500&query=vintage-clothing-7"
+    ],
+    "category": "6914b6685602ef785785ac20",
+    "brand": "6914b6685602ef785785ac29",
+    "sizes": [
+      "XL"
+    ],
+    "condition": "like-new",
+    "price": 231299,
+    "stock": 1,
+    "sold": 0,
+    "avgRating": 0,
+    "ratingCount": 0,
+    "tags": [
+      "thrift",
+      "vintage",
+      "sustainable",
+      "unique"
+    ],
+    "createdAt": "2025-11-12T16:31:36.609Z",
+    "__v": 0,
+    "listingStatus": "ACTIVE",
+    "seller": "6914b6685602ef785785ac32"
+  },
+  {
+    "_id": "6914b6685602ef785785ac40",
+    "name": "Leather Jacket #8",
+    "slug": "product-8",
+    "description": "Authentic thrifted item with unique vintage charm. Gently used.",
+    "images": [
+      "/placeholder.svg?height=500&width=500&query=thrift-fashion-8",
+      "/placeholder.svg?height=500&width=500&query=vintage-clothing-8"
+    ],
+    "category": "6914b6685602ef785785ac21",
+    "brand": "6914b6685602ef785785ac27",
+    "sizes": [
+      "M"
+    ],
+    "condition": "like-new",
+    "price": 718363,
+    "stock": 1,
+    "sold": 0,
+    "avgRating": 0,
+    "ratingCount": 0,
+    "tags": [
+      "thrift",
+      "vintage",
+      "sustainable",
+      "unique"
+    ],
+    "createdAt": "2025-11-12T16:31:36.609Z",
+    "__v": 0,
+    "listingStatus": "ACTIVE",
+    "seller": "6914b6685602ef785785ac32"
+  },
+  {
+    "_id": "6914b6685602ef785785ac41",
+    "name": "Vintage Hat #9",
+    "slug": "product-9",
+    "description": "Authentic thrifted item with unique vintage charm. Never worn.",
+    "images": [
+      "/placeholder.svg?height=500&width=500&query=thrift-fashion-9",
+      "/placeholder.svg?height=500&width=500&query=vintage-clothing-9"
+    ],
+    "category": "6914b6685602ef785785ac21",
+    "brand": "6914b6685602ef785785ac2d",
+    "sizes": [
+      "M"
+    ],
+    "condition": "new",
+    "price": 731358,
+    "stock": 1,
+    "sold": 0,
+    "avgRating": 0,
+    "ratingCount": 0,
+    "tags": [
+      "thrift",
+      "vintage",
+      "sustainable",
+      "unique"
+    ],
+    "createdAt": "2025-11-12T16:31:36.609Z",
+    "__v": 0,
+    "listingStatus": "ACTIVE",
+    "seller": "6914b6685602ef785785ac32"
+  },
+  {
+    "_id": "6914b6685602ef785785ac42",
+    "name": "Classic White T-Shirt #10",
+    "slug": "product-10",
+    "description": "Authentic thrifted item with unique vintage charm. Gently used.",
+    "images": [
+      "/placeholder.svg?height=500&width=500&query=thrift-fashion-10",
+      "/placeholder.svg?height=500&width=500&query=vintage-clothing-10"
+    ],
+    "category": "6914b6685602ef785785ac21",
+    "brand": "6914b6685602ef785785ac27",
+    "sizes": [
+      "XL"
+    ],
+    "condition": "like-new",
+    "price": 433677,
+    "stock": 1,
+    "sold": 0,
+    "avgRating": 0,
+    "ratingCount": 0,
+    "tags": [
+      "thrift",
+      "vintage",
+      "sustainable",
+      "unique"
+    ],
+    "createdAt": "2025-11-12T16:31:36.610Z",
+    "__v": 0,
+    "listingStatus": "ACTIVE",
+    "seller": "6914b6685602ef785785ac32"
+  },
+  {
+    "_id": "6914b6685602ef785785ac43",
+    "name": "Vintage Cardigan #11",
+    "slug": "product-11",
+    "description": "Authentic thrifted item with unique vintage charm. Gently used.",
+    "images": [
+      "/placeholder.svg?height=500&width=500&query=thrift-fashion-11",
+      "/placeholder.svg?height=500&width=500&query=vintage-clothing-11"
+    ],
+    "category": "6914b6685602ef785785ac25",
+    "brand": "6914b6685602ef785785ac2d",
+    "sizes": [
+      "M"
+    ],
+    "condition": "like-new",
+    "price": 88988,
+    "stock": 1,
+    "sold": 0,
+    "avgRating": 0,
+    "ratingCount": 0,
+    "tags": [
+      "thrift",
+      "vintage",
+      "sustainable",
+      "unique"
+    ],
+    "createdAt": "2025-11-12T16:31:36.610Z",
+    "__v": 0,
+    "listingStatus": "ACTIVE",
+    "seller": "6914b6685602ef785785ac32"
+  },
+  {
+    "_id": "6914b6685602ef785785ac44",
+    "name": "Vintage Floral Dress #12",
+    "slug": "product-12",
+    "description": "Authentic thrifted item with unique vintage charm. Never worn.",
+    "images": [
+      "/placeholder.svg?height=500&width=500&query=thrift-fashion-12",
+      "/placeholder.svg?height=500&width=500&query=vintage-clothing-12"
+    ],
+    "category": "6914b6685602ef785785ac25",
+    "brand": "6914b6685602ef785785ac28",
+    "sizes": [
+      "S"
+    ],
+    "condition": "new",
+    "price": 380162,
+    "stock": 1,
+    "sold": 0,
+    "avgRating": 0,
+    "ratingCount": 0,
+    "tags": [
+      "thrift",
+      "vintage",
+      "sustainable",
+      "unique"
+    ],
+    "createdAt": "2025-11-12T16:31:36.610Z",
+    "__v": 0,
+    "listingStatus": "ACTIVE",
+    "seller": "6914b6685602ef785785ac32"
+  },
+  {
+    "_id": "6914b6685602ef785785ac45",
+    "name": "Vintage Scarf #13",
+    "slug": "product-13",
+    "description": "Authentic thrifted item with unique vintage charm. Well-loved and full of character.",
+    "images": [
+      "/placeholder.svg?height=500&width=500&query=thrift-fashion-13",
+      "/placeholder.svg?height=500&width=500&query=vintage-clothing-13"
+    ],
+    "category": "6914b6685602ef785785ac22",
+    "brand": "6914b6685602ef785785ac2f",
+    "sizes": [
+      "L"
+    ],
+    "condition": "used",
+    "price": 338561,
+    "stock": 1,
+    "sold": 0,
+    "avgRating": 0,
+    "ratingCount": 0,
+    "tags": [
+      "thrift",
+      "vintage",
+      "sustainable",
+      "unique"
+    ],
+    "createdAt": "2025-11-12T16:31:36.610Z",
+    "__v": 0,
+    "listingStatus": "ACTIVE",
+    "seller": "6914b6685602ef785785ac32"
+  },
+  {
+    "_id": "6914b6685602ef785785ac46",
+    "name": "Leather Jacket #14",
+    "slug": "product-14",
+    "description": "Authentic thrifted item with unique vintage charm. Gently used.",
+    "images": [
+      "/placeholder.svg?height=500&width=500&query=thrift-fashion-14",
+      "/placeholder.svg?height=500&width=500&query=vintage-clothing-14"
+    ],
+    "category": "6914b6685602ef785785ac1e",
+    "brand": "6914b6685602ef785785ac2f",
+    "sizes": [
+      "L"
+    ],
+    "condition": "like-new",
+    "price": 519611,
+    "stock": 1,
+    "sold": 0,
+    "avgRating": 0,
+    "ratingCount": 0,
+    "tags": [
+      "thrift",
+      "vintage",
+      "sustainable",
+      "unique"
+    ],
+    "createdAt": "2025-11-12T16:31:36.610Z",
+    "__v": 0,
+    "listingStatus": "ACTIVE",
+    "seller": "6914b6685602ef785785ac32"
+  },
+  {
+    "_id": "6914b6685602ef785785ac47",
+    "name": "Faded Blue Denim #15",
+    "slug": "product-15",
+    "description": "Authentic thrifted item with unique vintage charm. Gently used.",
+    "images": [
+      "/placeholder.svg?height=500&width=500&query=thrift-fashion-15",
+      "/placeholder.svg?height=500&width=500&query=vintage-clothing-15"
+    ],
+    "category": "6914b6685602ef785785ac22",
+    "brand": "6914b6685602ef785785ac28",
+    "sizes": [
+      "M"
+    ],
+    "condition": "like-new",
+    "price": 202178,
+    "stock": 1,
+    "sold": 0,
+    "avgRating": 0,
+    "ratingCount": 0,
+    "tags": [
+      "thrift",
+      "vintage",
+      "sustainable",
+      "unique"
+    ],
+    "createdAt": "2025-11-12T16:31:36.610Z",
+    "__v": 0,
+    "listingStatus": "ACTIVE",
+    "seller": "6914b6685602ef785785ac32"
+  },
+  {
+    "_id": "6914b6685602ef785785ac48",
+    "name": "Vintage Belt #16",
+    "slug": "product-16",
+    "description": "Authentic thrifted item with unique vintage charm. Never worn.",
+    "images": [
+      "/placeholder.svg?height=500&width=500&query=thrift-fashion-16",
+      "/placeholder.svg?height=500&width=500&query=vintage-clothing-16"
+    ],
+    "category": "6914b6685602ef785785ac21",
+    "brand": "6914b6685602ef785785ac29",
+    "sizes": [
+      "S"
+    ],
+    "condition": "new",
+    "price": 342446,
+    "stock": 1,
+    "sold": 0,
+    "avgRating": 0,
+    "ratingCount": 0,
+    "tags": [
+      "thrift",
+      "vintage",
+      "sustainable",
+      "unique"
+    ],
+    "createdAt": "2025-11-12T16:31:36.610Z",
+    "__v": 0,
+    "listingStatus": "ACTIVE",
+    "seller": "6914b6685602ef785785ac32"
+  },
+  {
+    "_id": "6914b6685602ef785785ac49",
+    "name": "High Waisted Jeans #17",
+    "slug": "product-17",
+    "description": "Authentic thrifted item with unique vintage charm. Never worn.",
+    "images": [
+      "/placeholder.svg?height=500&width=500&query=thrift-fashion-17",
+      "/placeholder.svg?height=500&width=500&query=vintage-clothing-17"
+    ],
+    "category": "6914b6685602ef785785ac23",
+    "brand": "6914b6685602ef785785ac2c",
+    "sizes": [
+      "L"
+    ],
+    "condition": "new",
+    "price": 204948,
+    "stock": 1,
+    "sold": 0,
+    "avgRating": 0,
+    "ratingCount": 0,
+    "tags": [
+      "thrift",
+      "vintage",
+      "sustainable",
+      "unique"
+    ],
+    "createdAt": "2025-11-12T16:31:36.610Z",
+    "__v": 0,
+    "listingStatus": "ACTIVE",
+    "seller": "6914b6685602ef785785ac32"
+  },
+  {
+    "_id": "6914b6685602ef785785ac4a",
+    "name": "Silk Camisole #18",
+    "slug": "product-18",
+    "description": "Authentic thrifted item with unique vintage charm. Never worn.",
+    "images": [
+      "/placeholder.svg?height=500&width=500&query=thrift-fashion-18",
+      "/placeholder.svg?height=500&width=500&query=vintage-clothing-18"
+    ],
+    "category": "6914b6685602ef785785ac22",
+    "brand": "6914b6685602ef785785ac2f",
+    "sizes": [
+      "L"
+    ],
+    "condition": "new",
+    "price": 815825,
+    "stock": 1,
+    "sold": 0,
+    "avgRating": 0,
+    "ratingCount": 0,
+    "tags": [
+      "thrift",
+      "vintage",
+      "sustainable",
+      "unique"
+    ],
+    "createdAt": "2025-11-12T16:31:36.610Z",
+    "__v": 0,
+    "listingStatus": "ACTIVE",
+    "seller": "6914b6685602ef785785ac32"
+  },
+  {
+    "_id": "6914b6685602ef785785ac4b",
+    "name": "Wool Coat #19",
+    "slug": "product-19",
+    "description": "Authentic thrifted item with unique vintage charm. Gently used.",
+    "images": [
+      "/placeholder.svg?height=500&width=500&query=thrift-fashion-19",
+      "/placeholder.svg?height=500&width=500&query=vintage-clothing-19"
+    ],
+    "category": "6914b6685602ef785785ac20",
+    "brand": "6914b6685602ef785785ac2e",
+    "sizes": [
+      "S"
+    ],
+    "condition": "like-new",
+    "price": 182485,
+    "stock": 1,
+    "sold": 0,
+    "avgRating": 0,
+    "ratingCount": 0,
+    "tags": [
+      "thrift",
+      "vintage",
+      "sustainable",
+      "unique"
+    ],
+    "createdAt": "2025-11-12T16:31:36.610Z",
+    "__v": 0,
+    "listingStatus": "ACTIVE",
+    "seller": "6914b6685602ef785785ac32"
+  },
+  {
+    "_id": "6914b6685602ef785785ac4c",
+    "name": "Canvas Sneakers #20",
+    "slug": "product-20",
+    "description": "Authentic thrifted item with unique vintage charm. Well-loved and full of character.",
+    "images": [
+      "/placeholder.svg?height=500&width=500&query=thrift-fashion-20",
+      "/placeholder.svg?height=500&width=500&query=vintage-clothing-20"
+    ],
+    "category": "6914b6685602ef785785ac25",
+    "brand": "6914b6685602ef785785ac30",
+    "sizes": [
+      "M"
+    ],
+    "condition": "used",
+    "price": 142073,
+    "stock": 1,
+    "sold": 0,
+    "avgRating": 0,
+    "ratingCount": 0,
+    "tags": [
+      "thrift",
+      "vintage",
+      "sustainable",
+      "unique"
+    ],
+    "createdAt": "2025-11-12T16:31:36.610Z",
+    "__v": 0,
+    "listingStatus": "ACTIVE",
+    "seller": "6914b6685602ef785785ac32"
+  },
+  {
+    "_id": "6914b6685602ef785785ac4d",
+    "name": "Retro Sunglasses #21",
+    "slug": "product-21",
+    "description": "Authentic thrifted item with unique vintage charm. Gently used.",
+    "images": [
+      "/placeholder.svg?height=500&width=500&query=thrift-fashion-21",
+      "/placeholder.svg?height=500&width=500&query=vintage-clothing-21"
+    ],
+    "category": "6914b6685602ef785785ac1c",
+    "brand": "6914b6685602ef785785ac28",
+    "sizes": [
+      "XL"
+    ],
+    "condition": "like-new",
+    "price": 263166,
+    "stock": 1,
+    "sold": 0,
+    "avgRating": 0,
+    "ratingCount": 0,
+    "tags": [
+      "thrift",
+      "vintage",
+      "sustainable",
+      "unique"
+    ],
+    "createdAt": "2025-11-12T16:31:36.610Z",
+    "__v": 0,
+    "listingStatus": "ACTIVE",
+    "seller": "6914b6685602ef785785ac32"
+  },
+  {
+    "_id": "6914b6685602ef785785ac4e",
+    "name": "Vintage Bag #22",
+    "slug": "product-22",
+    "description": "Authentic thrifted item with unique vintage charm. Well-loved and full of character.",
+    "images": [
+      "/placeholder.svg?height=500&width=500&query=thrift-fashion-22",
+      "/placeholder.svg?height=500&width=500&query=vintage-clothing-22"
+    ],
+    "category": "6914b6685602ef785785ac21",
+    "brand": "6914b6685602ef785785ac29",
+    "sizes": [
+      "S"
+    ],
+    "condition": "used",
+    "price": 554958,
+    "stock": 1,
+    "sold": 0,
+    "avgRating": 0,
+    "ratingCount": 0,
+    "tags": [
+      "thrift",
+      "vintage",
+      "sustainable",
+      "unique"
+    ],
+    "createdAt": "2025-11-12T16:31:36.610Z",
+    "__v": 0,
+    "listingStatus": "ACTIVE",
+    "seller": "6914b6685602ef785785ac32"
+  },
+  {
+    "_id": "6914b6685602ef785785ac4f",
+    "name": "Canvas Sneakers #23",
+    "slug": "product-23",
+    "description": "Authentic thrifted item with unique vintage charm. Never worn.",
+    "images": [
+      "/placeholder.svg?height=500&width=500&query=thrift-fashion-23",
+      "/placeholder.svg?height=500&width=500&query=vintage-clothing-23"
+    ],
+    "category": "6914b6685602ef785785ac22",
+    "brand": "6914b6685602ef785785ac2e",
+    "sizes": [
+      "L"
+    ],
+    "condition": "new",
+    "price": 776422,
+    "stock": 1,
+    "sold": 0,
+    "avgRating": 0,
+    "ratingCount": 0,
+    "tags": [
+      "thrift",
+      "vintage",
+      "sustainable",
+      "unique"
+    ],
+    "createdAt": "2025-11-12T16:31:36.611Z",
+    "__v": 0,
+    "listingStatus": "ACTIVE",
+    "seller": "6914b6685602ef785785ac32"
+  },
+  {
+    "_id": "6914b6685602ef785785ac50",
+    "name": "Oversized Denim Jacket #24",
+    "slug": "product-24",
+    "description": "Authentic thrifted item with unique vintage charm. Well-loved and full of character.",
+    "images": [
+      "/placeholder.svg?height=500&width=500&query=thrift-fashion-24",
+      "/placeholder.svg?height=500&width=500&query=vintage-clothing-24"
+    ],
+    "category": "6914b6685602ef785785ac24",
+    "brand": "6914b6685602ef785785ac28",
+    "sizes": [
+      "M"
+    ],
+    "condition": "used",
+    "price": 409405,
+    "stock": 1,
+    "sold": 0,
+    "avgRating": 0,
+    "ratingCount": 0,
+    "tags": [
+      "thrift",
+      "vintage",
+      "sustainable",
+      "unique"
+    ],
+    "createdAt": "2025-11-12T16:31:36.611Z",
+    "__v": 0,
+    "listingStatus": "ACTIVE",
+    "seller": "6914b6685602ef785785ac32"
+  },
+  {
+    "_id": "6914b6685602ef785785ac51",
+    "name": "Vintage Jewelry #25",
+    "slug": "product-25",
+    "description": "Authentic thrifted item with unique vintage charm. Well-loved and full of character.",
+    "images": [
+      "/placeholder.svg?height=500&width=500&query=thrift-fashion-25",
+      "/placeholder.svg?height=500&width=500&query=vintage-clothing-25"
+    ],
+    "category": "6914b6685602ef785785ac1c",
+    "brand": "6914b6685602ef785785ac2d",
+    "sizes": [
+      "XL"
+    ],
+    "condition": "used",
+    "price": 475249,
+    "stock": 1,
+    "sold": 0,
+    "avgRating": 0,
+    "ratingCount": 0,
+    "tags": [
+      "thrift",
+      "vintage",
+      "sustainable",
+      "unique"
+    ],
+    "createdAt": "2025-11-12T16:31:36.611Z",
+    "__v": 0,
+    "listingStatus": "ACTIVE",
+    "seller": "6914b6685602ef785785ac32"
+  },
+  {
+    "_id": "6914b6685602ef785785ac52",
+    "name": "Cropped Sweater #26",
+    "slug": "product-26",
+    "description": "Authentic thrifted item with unique vintage charm. Gently used.",
+    "images": [
+      "/placeholder.svg?height=500&width=500&query=thrift-fashion-26",
+      "/placeholder.svg?height=500&width=500&query=vintage-clothing-26"
+    ],
+    "category": "6914b6685602ef785785ac23",
+    "brand": "6914b6685602ef785785ac27",
+    "sizes": [
+      "XL"
+    ],
+    "condition": "like-new",
+    "price": 459329,
+    "stock": 1,
+    "sold": 0,
+    "avgRating": 0,
+    "ratingCount": 0,
+    "tags": [
+      "thrift",
+      "vintage",
+      "sustainable",
+      "unique"
+    ],
+    "createdAt": "2025-11-12T16:31:36.611Z",
+    "__v": 0,
+    "listingStatus": "ACTIVE",
+    "seller": "6914b6685602ef785785ac32"
+  },
+  {
+    "_id": "6914b6685602ef785785ac53",
+    "name": "Vintage Scarf #27",
+    "slug": "product-27",
+    "description": "Authentic thrifted item with unique vintage charm. Well-loved and full of character.",
+    "images": [
+      "/placeholder.svg?height=500&width=500&query=thrift-fashion-27",
+      "/placeholder.svg?height=500&width=500&query=vintage-clothing-27"
+    ],
+    "category": "6914b6685602ef785785ac23",
+    "brand": "6914b6685602ef785785ac27",
+    "sizes": [
+      "M"
+    ],
+    "condition": "used",
+    "price": 478146,
+    "stock": 1,
+    "sold": 0,
+    "avgRating": 0,
+    "ratingCount": 0,
+    "tags": [
+      "thrift",
+      "vintage",
+      "sustainable",
+      "unique"
+    ],
+    "createdAt": "2025-11-12T16:31:36.611Z",
+    "__v": 0,
+    "listingStatus": "ACTIVE",
+    "seller": "6914b6685602ef785785ac32"
+  },
+  {
+    "_id": "6914b6685602ef785785ac54",
+    "name": "Vintage Windbreaker #28",
+    "slug": "product-28",
+    "description": "Authentic thrifted item with unique vintage charm. Well-loved and full of character.",
+    "images": [
+      "/placeholder.svg?height=500&width=500&query=thrift-fashion-28",
+      "/placeholder.svg?height=500&width=500&query=vintage-clothing-28"
+    ],
+    "category": "6914b6685602ef785785ac20",
+    "brand": "6914b6685602ef785785ac2b",
+    "sizes": [
+      "S"
+    ],
+    "condition": "used",
+    "price": 139048,
+    "stock": 1,
+    "sold": 0,
+    "avgRating": 0,
+    "ratingCount": 0,
+    "tags": [
+      "thrift",
+      "vintage",
+      "sustainable",
+      "unique"
+    ],
+    "createdAt": "2025-11-12T16:31:36.611Z",
+    "__v": 0,
+    "listingStatus": "ACTIVE",
+    "seller": "6914b6685602ef785785ac32"
+  },
+  {
+    "_id": "6914b6685602ef785785ac55",
+    "name": "Canvas Sneakers #29",
+    "slug": "product-29",
+    "description": "Authentic thrifted item with unique vintage charm. Well-loved and full of character.",
+    "images": [
+      "/placeholder.svg?height=500&width=500&query=thrift-fashion-29",
+      "/placeholder.svg?height=500&width=500&query=vintage-clothing-29"
+    ],
+    "category": "6914b6685602ef785785ac1e",
+    "brand": "6914b6685602ef785785ac30",
+    "sizes": [
+      "L"
+    ],
+    "condition": "used",
+    "price": 496901,
+    "stock": 1,
+    "sold": 0,
+    "avgRating": 0,
+    "ratingCount": 0,
+    "tags": [
+      "thrift",
+      "vintage",
+      "sustainable",
+      "unique"
+    ],
+    "createdAt": "2025-11-12T16:31:36.611Z",
+    "__v": 0,
+    "listingStatus": "ACTIVE",
+    "seller": "6914b6685602ef785785ac32"
+  },
+  {
+    "_id": "6914b6685602ef785785ac56",
+    "name": "Vintage Scarf #30",
+    "slug": "product-30",
+    "description": "Authentic thrifted item with unique vintage charm. Well-loved and full of character.",
+    "images": [
+      "/placeholder.svg?height=500&width=500&query=thrift-fashion-30",
+      "/placeholder.svg?height=500&width=500&query=vintage-clothing-30"
+    ],
+    "category": "6914b6685602ef785785ac20",
+    "brand": "6914b6685602ef785785ac2a",
+    "sizes": [
+      "S"
+    ],
+    "condition": "used",
+    "price": 462004,
+    "stock": 1,
+    "sold": 0,
+    "avgRating": 0,
+    "ratingCount": 0,
+    "tags": [
+      "thrift",
+      "vintage",
+      "sustainable",
+      "unique"
+    ],
+    "createdAt": "2025-11-12T16:31:36.611Z",
+    "__v": 0,
+    "listingStatus": "ACTIVE",
+    "seller": "6914b6685602ef785785ac32"
+  },
+  {
+    "_id": "6914b6685602ef785785ac57",
+    "name": "Denim Shorts #31",
+    "slug": "product-31",
+    "description": "Authentic thrifted item with unique vintage charm. Gently used.",
+    "images": [
+      "/placeholder.svg?height=500&width=500&query=thrift-fashion-31",
+      "/placeholder.svg?height=500&width=500&query=vintage-clothing-31"
+    ],
+    "category": "6914b6685602ef785785ac1d",
+    "brand": "6914b6685602ef785785ac29",
+    "sizes": [
+      "M"
+    ],
+    "condition": "like-new",
+    "price": 266569,
+    "stock": 1,
+    "sold": 0,
+    "avgRating": 0,
+    "ratingCount": 0,
+    "tags": [
+      "thrift",
+      "vintage",
+      "sustainable",
+      "unique"
+    ],
+    "createdAt": "2025-11-12T16:31:36.611Z",
+    "__v": 0,
+    "listingStatus": "ACTIVE",
+    "seller": "6914b6685602ef785785ac32"
+  },
+  {
+    "_id": "6914b6685602ef785785ac58",
+    "name": "Retro Sunglasses #32",
+    "slug": "product-32",
+    "description": "Authentic thrifted item with unique vintage charm. Never worn.",
+    "images": [
+      "/placeholder.svg?height=500&width=500&query=thrift-fashion-32",
+      "/placeholder.svg?height=500&width=500&query=vintage-clothing-32"
+    ],
+    "category": "6914b6685602ef785785ac24",
+    "brand": "6914b6685602ef785785ac2b",
+    "sizes": [
+      "M"
+    ],
+    "condition": "new",
+    "price": 702832,
+    "stock": 1,
+    "sold": 0,
+    "avgRating": 0,
+    "ratingCount": 0,
+    "tags": [
+      "thrift",
+      "vintage",
+      "sustainable",
+      "unique"
+    ],
+    "createdAt": "2025-11-12T16:31:36.611Z",
+    "__v": 0,
+    "listingStatus": "ACTIVE",
+    "seller": "6914b6685602ef785785ac32"
+  },
+  {
+    "_id": "6914b6685602ef785785ac59",
+    "name": "Oversized Denim Jacket #33",
+    "slug": "product-33",
+    "description": "Authentic thrifted item with unique vintage charm. Gently used.",
+    "images": [
+      "/placeholder.svg?height=500&width=500&query=thrift-fashion-33",
+      "/placeholder.svg?height=500&width=500&query=vintage-clothing-33"
+    ],
+    "category": "6914b6685602ef785785ac1c",
+    "brand": "6914b6685602ef785785ac2f",
+    "sizes": [
+      "M"
+    ],
+    "condition": "like-new",
+    "price": 612580,
+    "stock": 1,
+    "sold": 0,
+    "avgRating": 0,
+    "ratingCount": 0,
+    "tags": [
+      "thrift",
+      "vintage",
+      "sustainable",
+      "unique"
+    ],
+    "createdAt": "2025-11-12T16:31:36.611Z",
+    "__v": 0,
+    "listingStatus": "ACTIVE",
+    "seller": "6914b6685602ef785785ac32"
+  },
+  {
+    "_id": "6914b6685602ef785785ac5a",
+    "name": "Vintage Scarf #34",
+    "slug": "product-34",
+    "description": "Authentic thrifted item with unique vintage charm. Well-loved and full of character.",
+    "images": [
+      "/placeholder.svg?height=500&width=500&query=thrift-fashion-34",
+      "/placeholder.svg?height=500&width=500&query=vintage-clothing-34"
+    ],
+    "category": "6914b6685602ef785785ac1d",
+    "brand": "6914b6685602ef785785ac30",
+    "sizes": [
+      "S"
+    ],
+    "condition": "used",
+    "price": 811021,
+    "stock": 1,
+    "sold": 0,
+    "avgRating": 0,
+    "ratingCount": 0,
+    "tags": [
+      "thrift",
+      "vintage",
+      "sustainable",
+      "unique"
+    ],
+    "createdAt": "2025-11-12T16:31:36.611Z",
+    "__v": 0,
+    "listingStatus": "ACTIVE",
+    "seller": "6914b6685602ef785785ac32"
+  },
+  {
+    "_id": "6914b6685602ef785785ac5b",
+    "name": "Classic White T-Shirt #35",
+    "slug": "product-35",
+    "description": "Authentic thrifted item with unique vintage charm. Well-loved and full of character.",
+    "images": [
+      "/placeholder.svg?height=500&width=500&query=thrift-fashion-35",
+      "/placeholder.svg?height=500&width=500&query=vintage-clothing-35"
+    ],
+    "category": "6914b6685602ef785785ac22",
+    "brand": "6914b6685602ef785785ac2f",
+    "sizes": [
+      "M"
+    ],
+    "condition": "used",
+    "price": 677521,
+    "stock": 1,
+    "sold": 0,
+    "avgRating": 0,
+    "ratingCount": 0,
+    "tags": [
+      "thrift",
+      "vintage",
+      "sustainable",
+      "unique"
+    ],
+    "createdAt": "2025-11-12T16:31:36.611Z",
+    "__v": 0,
+    "listingStatus": "ACTIVE",
+    "seller": "6914b6685602ef785785ac32"
+  },
+  {
+    "_id": "6914b6685602ef785785ac5c",
+    "name": "Corduroy Pants #36",
+    "slug": "product-36",
+    "description": "Authentic thrifted item with unique vintage charm. Gently used.",
+    "images": [
+      "/placeholder.svg?height=500&width=500&query=thrift-fashion-36",
+      "/placeholder.svg?height=500&width=500&query=vintage-clothing-36"
+    ],
+    "category": "6914b6685602ef785785ac24",
+    "brand": "6914b6685602ef785785ac2a",
+    "sizes": [
+      "L"
+    ],
+    "condition": "like-new",
+    "price": 648926,
+    "stock": 1,
+    "sold": 0,
+    "avgRating": 0,
+    "ratingCount": 0,
+    "tags": [
+      "thrift",
+      "vintage",
+      "sustainable",
+      "unique"
+    ],
+    "createdAt": "2025-11-12T16:31:36.611Z",
+    "__v": 0,
+    "listingStatus": "ACTIVE",
+    "seller": "6914b6685602ef785785ac32"
+  },
+  {
+    "_id": "6914b6685602ef785785ac5d",
+    "name": "Vintage Jewelry #37",
+    "slug": "product-37",
+    "description": "Authentic thrifted item with unique vintage charm. Gently used.",
+    "images": [
+      "/placeholder.svg?height=500&width=500&query=thrift-fashion-37",
+      "/placeholder.svg?height=500&width=500&query=vintage-clothing-37"
+    ],
+    "category": "6914b6685602ef785785ac21",
+    "brand": "6914b6685602ef785785ac28",
+    "sizes": [
+      "XL"
+    ],
+    "condition": "like-new",
+    "price": 212361,
+    "stock": 1,
+    "sold": 0,
+    "avgRating": 0,
+    "ratingCount": 0,
+    "tags": [
+      "thrift",
+      "vintage",
+      "sustainable",
+      "unique"
+    ],
+    "createdAt": "2025-11-12T16:31:36.611Z",
+    "__v": 0,
+    "listingStatus": "ACTIVE",
+    "seller": "6914b6685602ef785785ac32"
+  },
+  {
+    "_id": "6914b6685602ef785785ac5e",
+    "name": "Graphic Band T-Shirt #38",
+    "slug": "product-38",
+    "description": "Authentic thrifted item with unique vintage charm. Well-loved and full of character.",
+    "images": [
+      "/placeholder.svg?height=500&width=500&query=thrift-fashion-38",
+      "/placeholder.svg?height=500&width=500&query=vintage-clothing-38"
+    ],
+    "category": "6914b6685602ef785785ac23",
+    "brand": "6914b6685602ef785785ac27",
+    "sizes": [
+      "L"
+    ],
+    "condition": "used",
+    "price": 265173,
+    "stock": 1,
+    "sold": 0,
+    "avgRating": 0,
+    "ratingCount": 0,
+    "tags": [
+      "thrift",
+      "vintage",
+      "sustainable",
+      "unique"
+    ],
+    "createdAt": "2025-11-12T16:31:36.611Z",
+    "__v": 0,
+    "listingStatus": "ACTIVE",
+    "seller": "6914b6685602ef785785ac32"
+  },
+  {
+    "_id": "6914b6685602ef785785ac5f",
+    "name": "Vintage Cardigan #39",
+    "slug": "product-39",
+    "description": "Authentic thrifted item with unique vintage charm. Never worn.",
+    "images": [
+      "/placeholder.svg?height=500&width=500&query=thrift-fashion-39",
+      "/placeholder.svg?height=500&width=500&query=vintage-clothing-39"
+    ],
+    "category": "6914b6685602ef785785ac1e",
+    "brand": "6914b6685602ef785785ac2c",
+    "sizes": [
+      "M"
+    ],
+    "condition": "new",
+    "price": 176171,
+    "stock": 1,
+    "sold": 0,
+    "avgRating": 0,
+    "ratingCount": 0,
+    "tags": [
+      "thrift",
+      "vintage",
+      "sustainable",
+      "unique"
+    ],
+    "createdAt": "2025-11-12T16:31:36.611Z",
+    "__v": 0,
+    "listingStatus": "ACTIVE",
+    "seller": "6914b6685602ef785785ac32"
+  },
+  {
+    "_id": "6914b6685602ef785785ac60",
+    "name": "Oversized Blazer #40",
+    "slug": "product-40",
+    "description": "Authentic thrifted item with unique vintage charm. Well-loved and full of character.",
+    "images": [
+      "/placeholder.svg?height=500&width=500&query=thrift-fashion-40",
+      "/placeholder.svg?height=500&width=500&query=vintage-clothing-40"
+    ],
+    "category": "6914b6685602ef785785ac24",
+    "brand": "6914b6685602ef785785ac30",
+    "sizes": [
+      "XL"
+    ],
+    "condition": "used",
+    "price": 87603,
+    "stock": 1,
+    "sold": 0,
+    "avgRating": 0,
+    "ratingCount": 0,
+    "tags": [
+      "thrift",
+      "vintage",
+      "sustainable",
+      "unique"
+    ],
+    "createdAt": "2025-11-12T16:31:36.611Z",
+    "__v": 0,
+    "listingStatus": "ACTIVE",
+    "seller": "6914b6685602ef785785ac32"
+  },
+  {
+    "_id": "6914b6685602ef785785ac61",
+    "name": "Wool Coat #41",
+    "slug": "product-41",
+    "description": "Authentic thrifted item with unique vintage charm. Never worn.",
+    "images": [
+      "/placeholder.svg?height=500&width=500&query=thrift-fashion-41",
+      "/placeholder.svg?height=500&width=500&query=vintage-clothing-41"
+    ],
+    "category": "6914b6685602ef785785ac1f",
+    "brand": "6914b6685602ef785785ac2b",
+    "sizes": [
+      "S"
+    ],
+    "condition": "new",
+    "price": 551251,
+    "stock": 1,
+    "sold": 0,
+    "avgRating": 0,
+    "ratingCount": 0,
+    "tags": [
+      "thrift",
+      "vintage",
+      "sustainable",
+      "unique"
+    ],
+    "createdAt": "2025-11-12T16:31:36.611Z",
+    "__v": 0,
+    "listingStatus": "ACTIVE",
+    "seller": "6914b6685602ef785785ac32"
+  },
+  {
+    "_id": "6914b6685602ef785785ac62",
+    "name": "Wide Leg Trousers #42",
+    "slug": "product-42",
+    "description": "Authentic thrifted item with unique vintage charm. Never worn.",
+    "images": [
+      "/placeholder.svg?height=500&width=500&query=thrift-fashion-42",
+      "/placeholder.svg?height=500&width=500&query=vintage-clothing-42"
+    ],
+    "category": "6914b6685602ef785785ac1e",
+    "brand": "6914b6685602ef785785ac2e",
+    "sizes": [
+      "S"
+    ],
+    "condition": "new",
+    "price": 233467,
+    "stock": 1,
+    "sold": 0,
+    "avgRating": 0,
+    "ratingCount": 0,
+    "tags": [
+      "thrift",
+      "vintage",
+      "sustainable",
+      "unique"
+    ],
+    "createdAt": "2025-11-12T16:31:36.612Z",
+    "__v": 0,
+    "listingStatus": "ACTIVE",
+    "seller": "6914b6685602ef785785ac32"
+  },
+  {
+    "_id": "6914b6685602ef785785ac63",
+    "name": "Crop Top #43",
+    "slug": "product-43",
+    "description": "Authentic thrifted item with unique vintage charm. Never worn.",
+    "images": [
+      "/placeholder.svg?height=500&width=500&query=thrift-fashion-43",
+      "/placeholder.svg?height=500&width=500&query=vintage-clothing-43"
+    ],
+    "category": "6914b6685602ef785785ac22",
+    "brand": "6914b6685602ef785785ac2f",
+    "sizes": [
+      "L"
+    ],
+    "condition": "new",
+    "price": 621504,
+    "stock": 1,
+    "sold": 0,
+    "avgRating": 0,
+    "ratingCount": 0,
+    "tags": [
+      "thrift",
+      "vintage",
+      "sustainable",
+      "unique"
+    ],
+    "createdAt": "2025-11-12T16:31:36.612Z",
+    "__v": 0,
+    "listingStatus": "ACTIVE",
+    "seller": "6914b6685602ef785785ac32"
+  },
+  {
+    "_id": "6914b6685602ef785785ac64",
+    "name": "Platform Shoes #44",
+    "slug": "product-44",
+    "description": "Authentic thrifted item with unique vintage charm. Never worn.",
+    "images": [
+      "/placeholder.svg?height=500&width=500&query=thrift-fashion-44",
+      "/placeholder.svg?height=500&width=500&query=vintage-clothing-44"
+    ],
+    "category": "6914b6685602ef785785ac22",
+    "brand": "6914b6685602ef785785ac2e",
+    "sizes": [
+      "L"
+    ],
+    "condition": "new",
+    "price": 222112,
+    "stock": 1,
+    "sold": 0,
+    "avgRating": 0,
+    "ratingCount": 0,
+    "tags": [
+      "thrift",
+      "vintage",
+      "sustainable",
+      "unique"
+    ],
+    "createdAt": "2025-11-12T16:31:36.612Z",
+    "__v": 0,
+    "listingStatus": "ACTIVE",
+    "seller": "6914b6685602ef785785ac32"
+  },
+  {
+    "_id": "6914b6685602ef785785ac65",
+    "name": "Vintage Cardigan #45",
+    "slug": "product-45",
+    "description": "Authentic thrifted item with unique vintage charm. Never worn.",
+    "images": [
+      "/placeholder.svg?height=500&width=500&query=thrift-fashion-45",
+      "/placeholder.svg?height=500&width=500&query=vintage-clothing-45"
+    ],
+    "category": "6914b6685602ef785785ac23",
+    "brand": "6914b6685602ef785785ac2f",
+    "sizes": [
+      "S"
+    ],
+    "condition": "new",
+    "price": 558542,
+    "stock": 1,
+    "sold": 0,
+    "avgRating": 0,
+    "ratingCount": 0,
+    "tags": [
+      "thrift",
+      "vintage",
+      "sustainable",
+      "unique"
+    ],
+    "createdAt": "2025-11-12T16:31:36.612Z",
+    "__v": 0,
+    "listingStatus": "ACTIVE",
+    "seller": "6914b6685602ef785785ac32"
+  },
+  {
+    "_id": "6914b6685602ef785785ac66",
+    "name": "High Waisted Jeans #46",
+    "slug": "product-46",
+    "description": "Authentic thrifted item with unique vintage charm. Well-loved and full of character.",
+    "images": [
+      "/placeholder.svg?height=500&width=500&query=thrift-fashion-46",
+      "/placeholder.svg?height=500&width=500&query=vintage-clothing-46"
+    ],
+    "category": "6914b6685602ef785785ac22",
+    "brand": "6914b6685602ef785785ac2c",
+    "sizes": [
+      "L"
+    ],
+    "condition": "used",
+    "price": 524610,
+    "stock": 1,
+    "sold": 0,
+    "avgRating": 0,
+    "ratingCount": 0,
+    "tags": [
+      "thrift",
+      "vintage",
+      "sustainable",
+      "unique"
+    ],
+    "createdAt": "2025-11-12T16:31:36.612Z",
+    "__v": 0,
+    "listingStatus": "ACTIVE",
+    "seller": "6914b6685602ef785785ac32"
+  },
+  {
+    "_id": "6914b6685602ef785785ac67",
+    "name": "Vintage Hat #47",
+    "slug": "product-47",
+    "description": "Authentic thrifted item with unique vintage charm. Never worn.",
+    "images": [
+      "/placeholder.svg?height=500&width=500&query=thrift-fashion-47",
+      "/placeholder.svg?height=500&width=500&query=vintage-clothing-47"
+    ],
+    "category": "6914b6685602ef785785ac21",
+    "brand": "6914b6685602ef785785ac2f",
+    "sizes": [
+      "XL"
+    ],
+    "condition": "new",
+    "price": 306068,
+    "stock": 1,
+    "sold": 0,
+    "avgRating": 0,
+    "ratingCount": 0,
+    "tags": [
+      "thrift",
+      "vintage",
+      "sustainable",
+      "unique"
+    ],
+    "createdAt": "2025-11-12T16:31:36.612Z",
+    "__v": 0,
+    "listingStatus": "ACTIVE",
+    "seller": "6914b6685602ef785785ac32"
+  },
+  {
+    "_id": "6914b6685602ef785785ac68",
+    "name": "Knit Sweater Vest #48",
+    "slug": "product-48",
+    "description": "Authentic thrifted item with unique vintage charm. Gently used.",
+    "images": [
+      "/placeholder.svg?height=500&width=500&query=thrift-fashion-48",
+      "/placeholder.svg?height=500&width=500&query=vintage-clothing-48"
+    ],
+    "category": "6914b6685602ef785785ac1c",
+    "brand": "6914b6685602ef785785ac2a",
+    "sizes": [
+      "S"
+    ],
+    "condition": "like-new",
+    "price": 198589,
+    "stock": 1,
+    "sold": 0,
+    "avgRating": 0,
+    "ratingCount": 0,
+    "tags": [
+      "thrift",
+      "vintage",
+      "sustainable",
+      "unique"
+    ],
+    "createdAt": "2025-11-12T16:31:36.612Z",
+    "__v": 0,
+    "listingStatus": "ACTIVE",
+    "seller": "6914b6685602ef785785ac32"
+  },
+  {
+    "_id": "6914b6685602ef785785ac69",
+    "name": "Combat Boots #49",
+    "slug": "product-49",
+    "description": "Authentic thrifted item with unique vintage charm. Well-loved and full of character.",
+    "images": [
+      "/placeholder.svg?height=500&width=500&query=thrift-fashion-49",
+      "/placeholder.svg?height=500&width=500&query=vintage-clothing-49"
+    ],
+    "category": "6914b6685602ef785785ac24",
+    "brand": "6914b6685602ef785785ac28",
+    "sizes": [
+      "M"
+    ],
+    "condition": "used",
+    "price": 319128,
+    "stock": 1,
+    "sold": 0,
+    "avgRating": 0,
+    "ratingCount": 0,
+    "tags": [
+      "thrift",
+      "vintage",
+      "sustainable",
+      "unique"
+    ],
+    "createdAt": "2025-11-12T16:31:36.612Z",
+    "__v": 0,
+    "listingStatus": "ACTIVE",
+    "seller": "6914b6685602ef785785ac32"
+  },
+  {
+    "_id": "6914b6685602ef785785ac6a",
+    "name": "Crop Top #50",
+    "slug": "product-50",
+    "description": "Authentic thrifted item with unique vintage charm. Well-loved and full of character.",
+    "images": [
+      "/placeholder.svg?height=500&width=500&query=thrift-fashion-50",
+      "/placeholder.svg?height=500&width=500&query=vintage-clothing-50"
+    ],
+    "category": "6914b6685602ef785785ac1f",
+    "brand": "6914b6685602ef785785ac29",
+    "sizes": [
+      "S"
+    ],
+    "condition": "used",
+    "price": 507850,
+    "stock": 1,
+    "sold": 0,
+    "avgRating": 0,
+    "ratingCount": 0,
+    "tags": [
+      "thrift",
+      "vintage",
+      "sustainable",
+      "unique"
+    ],
+    "createdAt": "2025-11-12T16:31:36.612Z",
+    "__v": 0,
+    "listingStatus": "ACTIVE",
+    "seller": "6914b6685602ef785785ac32"
+  },
+  {
+    "_id": "6914b6685602ef785785ac6b",
+    "name": "Vintage Windbreaker #51",
+    "slug": "product-51",
+    "description": "Authentic thrifted item with unique vintage charm. Well-loved and full of character.",
+    "images": [
+      "/placeholder.svg?height=500&width=500&query=thrift-fashion-51",
+      "/placeholder.svg?height=500&width=500&query=vintage-clothing-51"
+    ],
+    "category": "6914b6685602ef785785ac22",
+    "brand": "6914b6685602ef785785ac29",
+    "sizes": [
+      "XL"
+    ],
+    "condition": "used",
+    "price": 475911,
+    "stock": 1,
+    "sold": 0,
+    "avgRating": 0,
+    "ratingCount": 0,
+    "tags": [
+      "thrift",
+      "vintage",
+      "sustainable",
+      "unique"
+    ],
+    "createdAt": "2025-11-12T16:31:36.612Z",
+    "__v": 0,
+    "listingStatus": "ACTIVE",
+    "seller": "6914b6685602ef785785ac32"
+  },
+  {
+    "_id": "6914b6685602ef785785ac6c",
+    "name": "Faded Blue Denim #52",
+    "slug": "product-52",
+    "description": "Authentic thrifted item with unique vintage charm. Gently used.",
+    "images": [
+      "/placeholder.svg?height=500&width=500&query=thrift-fashion-52",
+      "/placeholder.svg?height=500&width=500&query=vintage-clothing-52"
+    ],
+    "category": "6914b6685602ef785785ac1e",
+    "brand": "6914b6685602ef785785ac2d",
+    "sizes": [
+      "L"
+    ],
+    "condition": "like-new",
+    "price": 767001,
+    "stock": 1,
+    "sold": 0,
+    "avgRating": 0,
+    "ratingCount": 0,
+    "tags": [
+      "thrift",
+      "vintage",
+      "sustainable",
+      "unique"
+    ],
+    "createdAt": "2025-11-12T16:31:36.612Z",
+    "__v": 0,
+    "listingStatus": "ACTIVE",
+    "seller": "6914b6685602ef785785ac32"
+  },
+  {
+    "_id": "6914b6685602ef785785ac6d",
+    "name": "Oversized Denim Jacket #53",
+    "slug": "product-53",
+    "description": "Authentic thrifted item with unique vintage charm. Gently used.",
+    "images": [
+      "/placeholder.svg?height=500&width=500&query=thrift-fashion-53",
+      "/placeholder.svg?height=500&width=500&query=vintage-clothing-53"
+    ],
+    "category": "6914b6685602ef785785ac25",
+    "brand": "6914b6685602ef785785ac28",
+    "sizes": [
+      "S"
+    ],
+    "condition": "like-new",
+    "price": 306715,
+    "stock": 1,
+    "sold": 0,
+    "avgRating": 0,
+    "ratingCount": 0,
+    "tags": [
+      "thrift",
+      "vintage",
+      "sustainable",
+      "unique"
+    ],
+    "createdAt": "2025-11-12T16:31:36.612Z",
+    "__v": 0,
+    "listingStatus": "ACTIVE",
+    "seller": "6914b6685602ef785785ac32"
+  },
+  {
+    "_id": "6914b6685602ef785785ac6e",
+    "name": "Knit Sweater Vest #54",
+    "slug": "product-54",
+    "description": "Authentic thrifted item with unique vintage charm. Gently used.",
+    "images": [
+      "/placeholder.svg?height=500&width=500&query=thrift-fashion-54",
+      "/placeholder.svg?height=500&width=500&query=vintage-clothing-54"
+    ],
+    "category": "6914b6685602ef785785ac23",
+    "brand": "6914b6685602ef785785ac29",
+    "sizes": [
+      "XL"
+    ],
+    "condition": "like-new",
+    "price": 458694,
+    "stock": 1,
+    "sold": 0,
+    "avgRating": 0,
+    "ratingCount": 0,
+    "tags": [
+      "thrift",
+      "vintage",
+      "sustainable",
+      "unique"
+    ],
+    "createdAt": "2025-11-12T16:31:36.612Z",
+    "__v": 0,
+    "listingStatus": "ACTIVE",
+    "seller": "6914b6685602ef785785ac32"
+  },
+  {
+    "_id": "6914b6685602ef785785ac6f",
+    "name": "Vintage Hat #55",
+    "slug": "product-55",
+    "description": "Authentic thrifted item with unique vintage charm. Never worn.",
+    "images": [
+      "/placeholder.svg?height=500&width=500&query=thrift-fashion-55",
+      "/placeholder.svg?height=500&width=500&query=vintage-clothing-55"
+    ],
+    "category": "6914b6685602ef785785ac1f",
+    "brand": "6914b6685602ef785785ac2b",
+    "sizes": [
+      "L"
+    ],
+    "condition": "new",
+    "price": 782397,
+    "stock": 1,
+    "sold": 0,
+    "avgRating": 0,
+    "ratingCount": 0,
+    "tags": [
+      "thrift",
+      "vintage",
+      "sustainable",
+      "unique"
+    ],
+    "createdAt": "2025-11-12T16:31:36.612Z",
+    "__v": 0,
+    "listingStatus": "ACTIVE",
+    "seller": "6914b6685602ef785785ac32"
+  },
+  {
+    "_id": "6914b6685602ef785785ac70",
+    "name": "Vintage Cardigan #56",
+    "slug": "product-56",
+    "description": "Authentic thrifted item with unique vintage charm. Never worn.",
+    "images": [
+      "/placeholder.svg?height=500&width=500&query=thrift-fashion-56",
+      "/placeholder.svg?height=500&width=500&query=vintage-clothing-56"
+    ],
+    "category": "6914b6685602ef785785ac20",
+    "brand": "6914b6685602ef785785ac28",
+    "sizes": [
+      "S"
+    ],
+    "condition": "new",
+    "price": 453655,
+    "stock": 1,
+    "sold": 0,
+    "avgRating": 0,
+    "ratingCount": 0,
+    "tags": [
+      "thrift",
+      "vintage",
+      "sustainable",
+      "unique"
+    ],
+    "createdAt": "2025-11-12T16:31:36.612Z",
+    "__v": 0,
+    "listingStatus": "ACTIVE",
+    "seller": "6914b6685602ef785785ac32"
+  },
+  {
+    "_id": "6914b6685602ef785785ac71",
+    "name": "Canvas Sneakers #57",
+    "slug": "product-57",
+    "description": "Authentic thrifted item with unique vintage charm. Never worn.",
+    "images": [
+      "/placeholder.svg?height=500&width=500&query=thrift-fashion-57",
+      "/placeholder.svg?height=500&width=500&query=vintage-clothing-57"
+    ],
+    "category": "6914b6685602ef785785ac24",
+    "brand": "6914b6685602ef785785ac29",
+    "sizes": [
+      "S"
+    ],
+    "condition": "new",
+    "price": 791802,
+    "stock": 1,
+    "sold": 0,
+    "avgRating": 0,
+    "ratingCount": 0,
+    "tags": [
+      "thrift",
+      "vintage",
+      "sustainable",
+      "unique"
+    ],
+    "createdAt": "2025-11-12T16:31:36.612Z",
+    "__v": 0,
+    "listingStatus": "ACTIVE",
+    "seller": "6914b6685602ef785785ac32"
+  },
+  {
+    "_id": "6914b6685602ef785785ac72",
+    "name": "Vintage Cardigan #58",
+    "slug": "product-58",
+    "description": "Authentic thrifted item with unique vintage charm. Never worn.",
+    "images": [
+      "/placeholder.svg?height=500&width=500&query=thrift-fashion-58",
+      "/placeholder.svg?height=500&width=500&query=vintage-clothing-58"
+    ],
+    "category": "6914b6685602ef785785ac20",
+    "brand": "6914b6685602ef785785ac27",
+    "sizes": [
+      "L"
+    ],
+    "condition": "new",
+    "price": 375284,
+    "stock": 1,
+    "sold": 0,
+    "avgRating": 0,
+    "ratingCount": 0,
+    "tags": [
+      "thrift",
+      "vintage",
+      "sustainable",
+      "unique"
+    ],
+    "createdAt": "2025-11-12T16:31:36.612Z",
+    "__v": 0,
+    "listingStatus": "ACTIVE",
+    "seller": "6914b6685602ef785785ac32"
+  },
+  {
+    "_id": "6914b6685602ef785785ac73",
+    "name": "Retro Sunglasses #59",
+    "slug": "product-59",
+    "description": "Authentic thrifted item with unique vintage charm. Gently used.",
+    "images": [
+      "/placeholder.svg?height=500&width=500&query=thrift-fashion-59",
+      "/placeholder.svg?height=500&width=500&query=vintage-clothing-59"
+    ],
+    "category": "6914b6685602ef785785ac1d",
+    "brand": "6914b6685602ef785785ac29",
+    "sizes": [
+      "XL"
+    ],
+    "condition": "like-new",
+    "price": 281086,
+    "stock": 1,
+    "sold": 0,
+    "avgRating": 0,
+    "ratingCount": 0,
+    "tags": [
+      "thrift",
+      "vintage",
+      "sustainable",
+      "unique"
+    ],
+    "createdAt": "2025-11-12T16:31:36.612Z",
+    "__v": 0,
+    "listingStatus": "ACTIVE",
+    "seller": "6914b6685602ef785785ac32"
+  },
+  {
+    "_id": "6914b6685602ef785785ac74",
+    "name": "Vintage Belt #60",
+    "slug": "product-60",
+    "description": "Authentic thrifted item with unique vintage charm. Gently used.",
+    "images": [
+      "/placeholder.svg?height=500&width=500&query=thrift-fashion-60",
+      "/placeholder.svg?height=500&width=500&query=vintage-clothing-60"
+    ],
+    "category": "6914b6685602ef785785ac23",
+    "brand": "6914b6685602ef785785ac2e",
+    "sizes": [
+      "S"
+    ],
+    "condition": "like-new",
+    "price": 556233,
+    "stock": 1,
+    "sold": 0,
+    "avgRating": 0,
+    "ratingCount": 0,
+    "tags": [
+      "thrift",
+      "vintage",
+      "sustainable",
+      "unique"
+    ],
+    "createdAt": "2025-11-12T16:31:36.612Z",
+    "__v": 0,
+    "listingStatus": "ACTIVE",
+    "seller": "6914b6685602ef785785ac32"
+  },
+  {
+    "_id": "6914b6685602ef785785ac75",
+    "name": "Platform Shoes #61",
+    "slug": "product-61",
+    "description": "Authentic thrifted item with unique vintage charm. Well-loved and full of character.",
+    "images": [
+      "/placeholder.svg?height=500&width=500&query=thrift-fashion-61",
+      "/placeholder.svg?height=500&width=500&query=vintage-clothing-61"
+    ],
+    "category": "6914b6685602ef785785ac1f",
+    "brand": "6914b6685602ef785785ac2c",
+    "sizes": [
+      "L"
+    ],
+    "condition": "used",
+    "price": 778845,
+    "stock": 1,
+    "sold": 0,
+    "avgRating": 0,
+    "ratingCount": 0,
+    "tags": [
+      "thrift",
+      "vintage",
+      "sustainable",
+      "unique"
+    ],
+    "createdAt": "2025-11-12T16:31:36.612Z",
+    "__v": 0,
+    "listingStatus": "ACTIVE",
+    "seller": "6914b6685602ef785785ac32"
+  },
+  {
+    "_id": "6914b6685602ef785785ac76",
+    "name": "Vintage Windbreaker #62",
+    "slug": "product-62",
+    "description": "Authentic thrifted item with unique vintage charm. Well-loved and full of character.",
+    "images": [
+      "/placeholder.svg?height=500&width=500&query=thrift-fashion-62",
+      "/placeholder.svg?height=500&width=500&query=vintage-clothing-62"
+    ],
+    "category": "6914b6685602ef785785ac1e",
+    "brand": "6914b6685602ef785785ac2b",
+    "sizes": [
+      "L"
+    ],
+    "condition": "used",
+    "price": 821917,
+    "stock": 1,
+    "sold": 0,
+    "avgRating": 0,
+    "ratingCount": 0,
+    "tags": [
+      "thrift",
+      "vintage",
+      "sustainable",
+      "unique"
+    ],
+    "createdAt": "2025-11-12T16:31:36.612Z",
+    "__v": 0,
+    "listingStatus": "ACTIVE",
+    "seller": "6914b6685602ef785785ac32"
+  },
+  {
+    "_id": "6914b6685602ef785785ac77",
+    "name": "Vintage Scarf #63",
+    "slug": "product-63",
+    "description": "Authentic thrifted item with unique vintage charm. Well-loved and full of character.",
+    "images": [
+      "/placeholder.svg?height=500&width=500&query=thrift-fashion-63",
+      "/placeholder.svg?height=500&width=500&query=vintage-clothing-63"
+    ],
+    "category": "6914b6685602ef785785ac20",
+    "brand": "6914b6685602ef785785ac30",
+    "sizes": [
+      "XL"
+    ],
+    "condition": "used",
+    "price": 814384,
+    "stock": 1,
+    "sold": 0,
+    "avgRating": 0,
+    "ratingCount": 0,
+    "tags": [
+      "thrift",
+      "vintage",
+      "sustainable",
+      "unique"
+    ],
+    "createdAt": "2025-11-12T16:31:36.612Z",
+    "__v": 0,
+    "listingStatus": "ACTIVE",
+    "seller": "6914b6685602ef785785ac32"
+  },
+  {
+    "_id": "6914b6685602ef785785ac78",
+    "name": "Classic White T-Shirt #64",
+    "slug": "product-64",
+    "description": "Authentic thrifted item with unique vintage charm. Well-loved and full of character.",
+    "images": [
+      "/placeholder.svg?height=500&width=500&query=thrift-fashion-64",
+      "/placeholder.svg?height=500&width=500&query=vintage-clothing-64"
+    ],
+    "category": "6914b6685602ef785785ac1c",
+    "brand": "6914b6685602ef785785ac30",
+    "sizes": [
+      "M"
+    ],
+    "condition": "used",
+    "price": 787053,
+    "stock": 1,
+    "sold": 0,
+    "avgRating": 0,
+    "ratingCount": 0,
+    "tags": [
+      "thrift",
+      "vintage",
+      "sustainable",
+      "unique"
+    ],
+    "createdAt": "2025-11-12T16:31:36.613Z",
+    "__v": 0,
+    "listingStatus": "ACTIVE",
+    "seller": "6914b6685602ef785785ac32"
+  },
+  {
+    "_id": "6914b6685602ef785785ac79",
+    "name": "Silk Camisole #65",
+    "slug": "product-65",
+    "description": "Authentic thrifted item with unique vintage charm. Well-loved and full of character.",
+    "images": [
+      "/placeholder.svg?height=500&width=500&query=thrift-fashion-65",
+      "/placeholder.svg?height=500&width=500&query=vintage-clothing-65"
+    ],
+    "category": "6914b6685602ef785785ac24",
+    "brand": "6914b6685602ef785785ac30",
+    "sizes": [
+      "S"
+    ],
+    "condition": "used",
+    "price": 329112,
+    "stock": 1,
+    "sold": 0,
+    "avgRating": 0,
+    "ratingCount": 0,
+    "tags": [
+      "thrift",
+      "vintage",
+      "sustainable",
+      "unique"
+    ],
+    "createdAt": "2025-11-12T16:31:36.613Z",
+    "__v": 0,
+    "listingStatus": "ACTIVE",
+    "seller": "6914b6685602ef785785ac32"
+  },
+  {
+    "_id": "6914b6685602ef785785ac7a",
+    "name": "Linen Shirt #66",
+    "slug": "product-66",
+    "description": "Authentic thrifted item with unique vintage charm. Gently used.",
+    "images": [
+      "/placeholder.svg?height=500&width=500&query=thrift-fashion-66",
+      "/placeholder.svg?height=500&width=500&query=vintage-clothing-66"
+    ],
+    "category": "6914b6685602ef785785ac22",
+    "brand": "6914b6685602ef785785ac2f",
+    "sizes": [
+      "M"
+    ],
+    "condition": "like-new",
+    "price": 392935,
+    "stock": 1,
+    "sold": 0,
+    "avgRating": 0,
+    "ratingCount": 0,
+    "tags": [
+      "thrift",
+      "vintage",
+      "sustainable",
+      "unique"
+    ],
+    "createdAt": "2025-11-12T16:31:36.613Z",
+    "__v": 0,
+    "listingStatus": "ACTIVE",
+    "seller": "6914b6685602ef785785ac32"
+  },
+  {
+    "_id": "6914b6685602ef785785ac7b",
+    "name": "Distressed Black Jeans #67",
+    "slug": "product-67",
+    "description": "Authentic thrifted item with unique vintage charm. Never worn.",
+    "images": [
+      "/placeholder.svg?height=500&width=500&query=thrift-fashion-67",
+      "/placeholder.svg?height=500&width=500&query=vintage-clothing-67"
+    ],
+    "category": "6914b6685602ef785785ac22",
+    "brand": "6914b6685602ef785785ac2e",
+    "sizes": [
+      "S"
+    ],
+    "condition": "new",
+    "price": 315505,
+    "stock": 1,
+    "sold": 0,
+    "avgRating": 0,
+    "ratingCount": 0,
+    "tags": [
+      "thrift",
+      "vintage",
+      "sustainable",
+      "unique"
+    ],
+    "createdAt": "2025-11-12T16:31:36.613Z",
+    "__v": 0,
+    "listingStatus": "ACTIVE",
+    "seller": "6914b6685602ef785785ac32"
+  },
+  {
+    "_id": "6914b6685602ef785785ac7c",
+    "name": "Silk Camisole #68",
+    "slug": "product-68",
+    "description": "Authentic thrifted item with unique vintage charm. Well-loved and full of character.",
+    "images": [
+      "/placeholder.svg?height=500&width=500&query=thrift-fashion-68",
+      "/placeholder.svg?height=500&width=500&query=vintage-clothing-68"
+    ],
+    "category": "6914b6685602ef785785ac1e",
+    "brand": "6914b6685602ef785785ac2c",
+    "sizes": [
+      "XL"
+    ],
+    "condition": "used",
+    "price": 497118,
+    "stock": 1,
+    "sold": 0,
+    "avgRating": 0,
+    "ratingCount": 0,
+    "tags": [
+      "thrift",
+      "vintage",
+      "sustainable",
+      "unique"
+    ],
+    "createdAt": "2025-11-12T16:31:36.613Z",
+    "__v": 0,
+    "listingStatus": "ACTIVE",
+    "seller": "6914b6685602ef785785ac32"
+  },
+  {
+    "_id": "6914b6685602ef785785ac7d",
+    "name": "Vintage Belt #69",
+    "slug": "product-69",
+    "description": "Authentic thrifted item with unique vintage charm. Well-loved and full of character.",
+    "images": [
+      "/placeholder.svg?height=500&width=500&query=thrift-fashion-69",
+      "/placeholder.svg?height=500&width=500&query=vintage-clothing-69"
+    ],
+    "category": "6914b6685602ef785785ac1d",
+    "brand": "6914b6685602ef785785ac2d",
+    "sizes": [
+      "M"
+    ],
+    "condition": "used",
+    "price": 614146,
+    "stock": 1,
+    "sold": 0,
+    "avgRating": 0,
+    "ratingCount": 0,
+    "tags": [
+      "thrift",
+      "vintage",
+      "sustainable",
+      "unique"
+    ],
+    "createdAt": "2025-11-12T16:31:36.613Z",
+    "__v": 0,
+    "listingStatus": "ACTIVE",
+    "seller": "6914b6685602ef785785ac32"
+  },
+  {
+    "_id": "6914b6685602ef785785ac7e",
+    "name": "Denim Shorts #70",
+    "slug": "product-70",
+    "description": "Authentic thrifted item with unique vintage charm. Well-loved and full of character.",
+    "images": [
+      "/placeholder.svg?height=500&width=500&query=thrift-fashion-70",
+      "/placeholder.svg?height=500&width=500&query=vintage-clothing-70"
+    ],
+    "category": "6914b6685602ef785785ac20",
+    "brand": "6914b6685602ef785785ac2c",
+    "sizes": [
+      "XL"
+    ],
+    "condition": "used",
+    "price": 527265,
+    "stock": 1,
+    "sold": 0,
+    "avgRating": 0,
+    "ratingCount": 0,
+    "tags": [
+      "thrift",
+      "vintage",
+      "sustainable",
+      "unique"
+    ],
+    "createdAt": "2025-11-12T16:31:36.613Z",
+    "__v": 0,
+    "listingStatus": "ACTIVE",
+    "seller": "6914b6685602ef785785ac32"
+  },
+  {
+    "_id": "6914b6685602ef785785ac7f",
+    "name": "Retro Sunglasses #71",
+    "slug": "product-71",
+    "description": "Authentic thrifted item with unique vintage charm. Gently used.",
+    "images": [
+      "/placeholder.svg?height=500&width=500&query=thrift-fashion-71",
+      "/placeholder.svg?height=500&width=500&query=vintage-clothing-71"
+    ],
+    "category": "6914b6685602ef785785ac1d",
+    "brand": "6914b6685602ef785785ac2e",
+    "sizes": [
+      "XL"
+    ],
+    "condition": "like-new",
+    "price": 292856,
+    "stock": 1,
+    "sold": 0,
+    "avgRating": 0,
+    "ratingCount": 0,
+    "tags": [
+      "thrift",
+      "vintage",
+      "sustainable",
+      "unique"
+    ],
+    "createdAt": "2025-11-12T16:31:36.613Z",
+    "__v": 0,
+    "listingStatus": "ACTIVE",
+    "seller": "6914b6685602ef785785ac32"
+  },
+  {
+    "_id": "6914b6685602ef785785ac80",
+    "name": "Oversized Blazer #72",
+    "slug": "product-72",
+    "description": "Authentic thrifted item with unique vintage charm. Well-loved and full of character.",
+    "images": [
+      "/placeholder.svg?height=500&width=500&query=thrift-fashion-72",
+      "/placeholder.svg?height=500&width=500&query=vintage-clothing-72"
+    ],
+    "category": "6914b6685602ef785785ac20",
+    "brand": "6914b6685602ef785785ac2e",
+    "sizes": [
+      "XL"
+    ],
+    "condition": "used",
+    "price": 617481,
+    "stock": 1,
+    "sold": 0,
+    "avgRating": 0,
+    "ratingCount": 0,
+    "tags": [
+      "thrift",
+      "vintage",
+      "sustainable",
+      "unique"
+    ],
+    "createdAt": "2025-11-12T16:31:36.613Z",
+    "__v": 0,
+    "listingStatus": "ACTIVE",
+    "seller": "6914b6685602ef785785ac32"
+  },
+  {
+    "_id": "6914b6685602ef785785ac81",
+    "name": "Straight Leg Jeans #73",
+    "slug": "product-73",
+    "description": "Authentic thrifted item with unique vintage charm. Gently used.",
+    "images": [
+      "/placeholder.svg?height=500&width=500&query=thrift-fashion-73",
+      "/placeholder.svg?height=500&width=500&query=vintage-clothing-73"
+    ],
+    "category": "6914b6685602ef785785ac20",
+    "brand": "6914b6685602ef785785ac2b",
+    "sizes": [
+      "M"
+    ],
+    "condition": "like-new",
+    "price": 66045,
+    "stock": 1,
+    "sold": 0,
+    "avgRating": 0,
+    "ratingCount": 0,
+    "tags": [
+      "thrift",
+      "vintage",
+      "sustainable",
+      "unique"
+    ],
+    "createdAt": "2025-11-12T16:31:36.613Z",
+    "__v": 0,
+    "listingStatus": "ACTIVE",
+    "seller": "6914b6685602ef785785ac32"
+  },
+  {
+    "_id": "6914b6685602ef785785ac82",
+    "name": "Button-Up Shirt #74",
+    "slug": "product-74",
+    "description": "Authentic thrifted item with unique vintage charm. Gently used.",
+    "images": [
+      "/placeholder.svg?height=500&width=500&query=thrift-fashion-74",
+      "/placeholder.svg?height=500&width=500&query=vintage-clothing-74"
+    ],
+    "category": "6914b6685602ef785785ac23",
+    "brand": "6914b6685602ef785785ac2f",
+    "sizes": [
+      "XL"
+    ],
+    "condition": "like-new",
+    "price": 551101,
+    "stock": 1,
+    "sold": 0,
+    "avgRating": 0,
+    "ratingCount": 0,
+    "tags": [
+      "thrift",
+      "vintage",
+      "sustainable",
+      "unique"
+    ],
+    "createdAt": "2025-11-12T16:31:36.613Z",
+    "__v": 0,
+    "listingStatus": "ACTIVE",
+    "seller": "6914b6685602ef785785ac32"
+  },
+  {
+    "_id": "6914b6685602ef785785ac83",
+    "name": "Printed Blouse #75",
+    "slug": "product-75",
+    "description": "Authentic thrifted item with unique vintage charm. Never worn.",
+    "images": [
+      "/placeholder.svg?height=500&width=500&query=thrift-fashion-75",
+      "/placeholder.svg?height=500&width=500&query=vintage-clothing-75"
+    ],
+    "category": "6914b6685602ef785785ac1c",
+    "brand": "6914b6685602ef785785ac29",
+    "sizes": [
+      "M"
+    ],
+    "condition": "new",
+    "price": 639963,
+    "stock": 1,
+    "sold": 0,
+    "avgRating": 0,
+    "ratingCount": 0,
+    "tags": [
+      "thrift",
+      "vintage",
+      "sustainable",
+      "unique"
+    ],
+    "createdAt": "2025-11-12T16:31:36.613Z",
+    "__v": 0,
+    "listingStatus": "ACTIVE",
+    "seller": "6914b6685602ef785785ac32"
+  },
+  {
+    "_id": "6914b6685602ef785785ac84",
+    "name": "Graphic Band T-Shirt #76",
+    "slug": "product-76",
+    "description": "Authentic thrifted item with unique vintage charm. Never worn.",
+    "images": [
+      "/placeholder.svg?height=500&width=500&query=thrift-fashion-76",
+      "/placeholder.svg?height=500&width=500&query=vintage-clothing-76"
+    ],
+    "category": "6914b6685602ef785785ac25",
+    "brand": "6914b6685602ef785785ac2b",
+    "sizes": [
+      "XL"
+    ],
+    "condition": "new",
+    "price": 801723,
+    "stock": 1,
+    "sold": 0,
+    "avgRating": 0,
+    "ratingCount": 0,
+    "tags": [
+      "thrift",
+      "vintage",
+      "sustainable",
+      "unique"
+    ],
+    "createdAt": "2025-11-12T16:31:36.613Z",
+    "__v": 0,
+    "listingStatus": "ACTIVE",
+    "seller": "6914b6685602ef785785ac32"
+  },
+  {
+    "_id": "6914b6685602ef785785ac85",
+    "name": "Cozy Fleece Hoodie #77",
+    "slug": "product-77",
+    "description": "Authentic thrifted item with unique vintage charm. Gently used.",
+    "images": [
+      "/placeholder.svg?height=500&width=500&query=thrift-fashion-77",
+      "/placeholder.svg?height=500&width=500&query=vintage-clothing-77"
+    ],
+    "category": "6914b6685602ef785785ac25",
+    "brand": "6914b6685602ef785785ac30",
+    "sizes": [
+      "S"
+    ],
+    "condition": "like-new",
+    "price": 363545,
+    "stock": 1,
+    "sold": 0,
+    "avgRating": 0,
+    "ratingCount": 0,
+    "tags": [
+      "thrift",
+      "vintage",
+      "sustainable",
+      "unique"
+    ],
+    "createdAt": "2025-11-12T16:31:36.613Z",
+    "__v": 0,
+    "listingStatus": "ACTIVE",
+    "seller": "6914b6685602ef785785ac32"
+  },
+  {
+    "_id": "6914b6685602ef785785ac86",
+    "name": "Vintage Cardigan #78",
+    "slug": "product-78",
+    "description": "Authentic thrifted item with unique vintage charm. Never worn.",
+    "images": [
+      "/placeholder.svg?height=500&width=500&query=thrift-fashion-78",
+      "/placeholder.svg?height=500&width=500&query=vintage-clothing-78"
+    ],
+    "category": "6914b6685602ef785785ac1e",
+    "brand": "6914b6685602ef785785ac30",
+    "sizes": [
+      "S"
+    ],
+    "condition": "new",
+    "price": 612435,
+    "stock": 1,
+    "sold": 0,
+    "avgRating": 0,
+    "ratingCount": 0,
+    "tags": [
+      "thrift",
+      "vintage",
+      "sustainable",
+      "unique"
+    ],
+    "createdAt": "2025-11-12T16:31:36.613Z",
+    "__v": 0,
+    "listingStatus": "ACTIVE",
+    "seller": "6914b6685602ef785785ac32"
+  },
+  {
+    "_id": "6914b6685602ef785785ac87",
+    "name": "Oversized Denim Jacket #79",
+    "slug": "product-79",
+    "description": "Authentic thrifted item with unique vintage charm. Gently used.",
+    "images": [
+      "/placeholder.svg?height=500&width=500&query=thrift-fashion-79",
+      "/placeholder.svg?height=500&width=500&query=vintage-clothing-79"
+    ],
+    "category": "6914b6685602ef785785ac21",
+    "brand": "6914b6685602ef785785ac2f",
+    "sizes": [
+      "S"
+    ],
+    "condition": "like-new",
+    "price": 193359,
+    "stock": 1,
+    "sold": 0,
+    "avgRating": 0,
+    "ratingCount": 0,
+    "tags": [
+      "thrift",
+      "vintage",
+      "sustainable",
+      "unique"
+    ],
+    "createdAt": "2025-11-12T16:31:36.613Z",
+    "__v": 0,
+    "listingStatus": "ACTIVE",
+    "seller": "6914b6685602ef785785ac32"
+  },
+  {
+    "_id": "6914b6685602ef785785ac88",
+    "name": "Graphic Band T-Shirt #80",
+    "slug": "product-80",
+    "description": "Authentic thrifted item with unique vintage charm. Never worn.",
+    "images": [
+      "/placeholder.svg?height=500&width=500&query=thrift-fashion-80",
+      "/placeholder.svg?height=500&width=500&query=vintage-clothing-80"
+    ],
+    "category": "6914b6685602ef785785ac22",
+    "brand": "6914b6685602ef785785ac27",
+    "sizes": [
+      "L"
+    ],
+    "condition": "new",
+    "price": 249831,
+    "stock": 1,
+    "sold": 0,
+    "avgRating": 0,
+    "ratingCount": 0,
+    "tags": [
+      "thrift",
+      "vintage",
+      "sustainable",
+      "unique"
+    ],
+    "createdAt": "2025-11-12T16:31:36.613Z",
+    "__v": 0,
+    "listingStatus": "ACTIVE",
+    "seller": "6914b6685602ef785785ac32"
+  },
+  {
+    "_id": "6914b6685602ef785785ac89",
+    "name": "Pinafore Dress #81",
+    "slug": "product-81",
+    "description": "Authentic thrifted item with unique vintage charm. Gently used.",
+    "images": [
+      "/placeholder.svg?height=500&width=500&query=thrift-fashion-81",
+      "/placeholder.svg?height=500&width=500&query=vintage-clothing-81"
+    ],
+    "category": "6914b6685602ef785785ac1f",
+    "brand": "6914b6685602ef785785ac2b",
+    "sizes": [
+      "M"
+    ],
+    "condition": "like-new",
+    "price": 611190,
+    "stock": 1,
+    "sold": 0,
+    "avgRating": 0,
+    "ratingCount": 0,
+    "tags": [
+      "thrift",
+      "vintage",
+      "sustainable",
+      "unique"
+    ],
+    "createdAt": "2025-11-12T16:31:36.613Z",
+    "__v": 0,
+    "listingStatus": "ACTIVE",
+    "seller": "6914b6685602ef785785ac32"
+  },
+  {
+    "_id": "6914b6685602ef785785ac8a",
+    "name": "Vintage Cardigan #82",
+    "slug": "product-82",
+    "description": "Authentic thrifted item with unique vintage charm. Well-loved and full of character.",
+    "images": [
+      "/placeholder.svg?height=500&width=500&query=thrift-fashion-82",
+      "/placeholder.svg?height=500&width=500&query=vintage-clothing-82"
+    ],
+    "category": "6914b6685602ef785785ac24",
+    "brand": "6914b6685602ef785785ac28",
+    "sizes": [
+      "S"
+    ],
+    "condition": "used",
+    "price": 628048,
+    "stock": 1,
+    "sold": 0,
+    "avgRating": 0,
+    "ratingCount": 0,
+    "tags": [
+      "thrift",
+      "vintage",
+      "sustainable",
+      "unique"
+    ],
+    "createdAt": "2025-11-12T16:31:36.613Z",
+    "__v": 0,
+    "listingStatus": "ACTIVE",
+    "seller": "6914b6685602ef785785ac32"
+  },
+  {
+    "_id": "6914b6685602ef785785ac8b",
+    "name": "Oversized Denim Jacket #83",
+    "slug": "product-83",
+    "description": "Authentic thrifted item with unique vintage charm. Gently used.",
+    "images": [
+      "/placeholder.svg?height=500&width=500&query=thrift-fashion-83",
+      "/placeholder.svg?height=500&width=500&query=vintage-clothing-83"
+    ],
+    "category": "6914b6685602ef785785ac1f",
+    "brand": "6914b6685602ef785785ac2b",
+    "sizes": [
+      "S"
+    ],
+    "condition": "like-new",
+    "price": 790719,
+    "stock": 1,
+    "sold": 0,
+    "avgRating": 0,
+    "ratingCount": 0,
+    "tags": [
+      "thrift",
+      "vintage",
+      "sustainable",
+      "unique"
+    ],
+    "createdAt": "2025-11-12T16:31:36.613Z",
+    "__v": 0,
+    "listingStatus": "ACTIVE",
+    "seller": "6914b6685602ef785785ac32"
+  },
+  {
+    "_id": "6914b6685602ef785785ac8c",
+    "name": "Cropped Sweater #84",
+    "slug": "product-84",
+    "description": "Authentic thrifted item with unique vintage charm. Well-loved and full of character.",
+    "images": [
+      "/placeholder.svg?height=500&width=500&query=thrift-fashion-84",
+      "/placeholder.svg?height=500&width=500&query=vintage-clothing-84"
+    ],
+    "category": "6914b6685602ef785785ac21",
+    "brand": "6914b6685602ef785785ac27",
+    "sizes": [
+      "XL"
+    ],
+    "condition": "used",
+    "price": 238457,
+    "stock": 1,
+    "sold": 0,
+    "avgRating": 0,
+    "ratingCount": 0,
+    "tags": [
+      "thrift",
+      "vintage",
+      "sustainable",
+      "unique"
+    ],
+    "createdAt": "2025-11-12T16:31:36.613Z",
+    "__v": 0,
+    "listingStatus": "ACTIVE",
+    "seller": "6914b6685602ef785785ac32"
+  },
+  {
+    "_id": "6914b6685602ef785785ac8d",
+    "name": "Straight Leg Jeans #85",
+    "slug": "product-85",
+    "description": "Authentic thrifted item with unique vintage charm. Gently used.",
+    "images": [
+      "/placeholder.svg?height=500&width=500&query=thrift-fashion-85",
+      "/placeholder.svg?height=500&width=500&query=vintage-clothing-85"
+    ],
+    "category": "6914b6685602ef785785ac23",
+    "brand": "6914b6685602ef785785ac2e",
+    "sizes": [
+      "L"
+    ],
+    "condition": "like-new",
+    "price": 275124,
+    "stock": 1,
+    "sold": 0,
+    "avgRating": 0,
+    "ratingCount": 0,
+    "tags": [
+      "thrift",
+      "vintage",
+      "sustainable",
+      "unique"
+    ],
+    "createdAt": "2025-11-12T16:31:36.613Z",
+    "__v": 0,
+    "listingStatus": "ACTIVE",
+    "seller": "6914b6685602ef785785ac32"
+  },
+  {
+    "_id": "6914b6685602ef785785ac8e",
+    "name": "Graphic Band T-Shirt #86",
+    "slug": "product-86",
+    "description": "Authentic thrifted item with unique vintage charm. Well-loved and full of character.",
+    "images": [
+      "/placeholder.svg?height=500&width=500&query=thrift-fashion-86",
+      "/placeholder.svg?height=500&width=500&query=vintage-clothing-86"
+    ],
+    "category": "6914b6685602ef785785ac1c",
+    "brand": "6914b6685602ef785785ac2b",
+    "sizes": [
+      "XL"
+    ],
+    "condition": "used",
+    "price": 109830,
+    "stock": 1,
+    "sold": 0,
+    "avgRating": 0,
+    "ratingCount": 0,
+    "tags": [
+      "thrift",
+      "vintage",
+      "sustainable",
+      "unique"
+    ],
+    "createdAt": "2025-11-12T16:31:36.613Z",
+    "__v": 0,
+    "listingStatus": "ACTIVE",
+    "seller": "6914b6685602ef785785ac32"
+  },
+  {
+    "_id": "6914b6685602ef785785ac8f",
+    "name": "Vintage Windbreaker #87",
+    "slug": "product-87",
+    "description": "Authentic thrifted item with unique vintage charm. Never worn.",
+    "images": [
+      "/placeholder.svg?height=500&width=500&query=thrift-fashion-87",
+      "/placeholder.svg?height=500&width=500&query=vintage-clothing-87"
+    ],
+    "category": "6914b6685602ef785785ac1d",
+    "brand": "6914b6685602ef785785ac28",
+    "sizes": [
+      "L"
+    ],
+    "condition": "new",
+    "price": 575938,
+    "stock": 1,
+    "sold": 0,
+    "avgRating": 0,
+    "ratingCount": 0,
+    "tags": [
+      "thrift",
+      "vintage",
+      "sustainable",
+      "unique"
+    ],
+    "createdAt": "2025-11-12T16:31:36.613Z",
+    "__v": 0,
+    "listingStatus": "ACTIVE",
+    "seller": "6914b6685602ef785785ac32"
+  },
+  {
+    "_id": "6914b6685602ef785785ac90",
+    "name": "Vintage Handbag #88",
+    "slug": "product-88",
+    "description": "Authentic thrifted item with unique vintage charm. Well-loved and full of character.",
+    "images": [
+      "/placeholder.svg?height=500&width=500&query=thrift-fashion-88",
+      "/placeholder.svg?height=500&width=500&query=vintage-clothing-88"
+    ],
+    "category": "6914b6685602ef785785ac20",
+    "brand": "6914b6685602ef785785ac2e",
+    "sizes": [
+      "XL"
+    ],
+    "condition": "used",
+    "price": 68036,
+    "stock": 1,
+    "sold": 0,
+    "avgRating": 0,
+    "ratingCount": 0,
+    "tags": [
+      "thrift",
+      "vintage",
+      "sustainable",
+      "unique"
+    ],
+    "createdAt": "2025-11-12T16:31:36.613Z",
+    "__v": 0,
+    "listingStatus": "ACTIVE",
+    "seller": "6914b6685602ef785785ac32"
+  },
+  {
+    "_id": "6914b6685602ef785785ac91",
+    "name": "Oversized Blazer #89",
+    "slug": "product-89",
+    "description": "Authentic thrifted item with unique vintage charm. Never worn.",
+    "images": [
+      "/placeholder.svg?height=500&width=500&query=thrift-fashion-89",
+      "/placeholder.svg?height=500&width=500&query=vintage-clothing-89"
+    ],
+    "category": "6914b6685602ef785785ac25",
+    "brand": "6914b6685602ef785785ac27",
+    "sizes": [
+      "S"
+    ],
+    "condition": "new",
+    "price": 439032,
+    "stock": 1,
+    "sold": 0,
+    "avgRating": 0,
+    "ratingCount": 0,
+    "tags": [
+      "thrift",
+      "vintage",
+      "sustainable",
+      "unique"
+    ],
+    "createdAt": "2025-11-12T16:31:36.613Z",
+    "__v": 0,
+    "listingStatus": "ACTIVE",
+    "seller": "6914b6685602ef785785ac32"
+  },
+  {
+    "_id": "6914b6685602ef785785ac92",
+    "name": "Platform Shoes #90",
+    "slug": "product-90",
+    "description": "Authentic thrifted item with unique vintage charm. Never worn.",
+    "images": [
+      "/placeholder.svg?height=500&width=500&query=thrift-fashion-90",
+      "/placeholder.svg?height=500&width=500&query=vintage-clothing-90"
+    ],
+    "category": "6914b6685602ef785785ac25",
+    "brand": "6914b6685602ef785785ac28",
+    "sizes": [
+      "S"
+    ],
+    "condition": "new",
+    "price": 445989,
+    "stock": 1,
+    "sold": 0,
+    "avgRating": 0,
+    "ratingCount": 0,
+    "tags": [
+      "thrift",
+      "vintage",
+      "sustainable",
+      "unique"
+    ],
+    "createdAt": "2025-11-12T16:31:36.613Z",
+    "__v": 0,
+    "listingStatus": "ACTIVE",
+    "seller": "6914b6685602ef785785ac32"
+  },
+  {
+    "_id": "6914b6685602ef785785ac93",
+    "name": "Leather Jacket #91",
+    "slug": "product-91",
+    "description": "Authentic thrifted item with unique vintage charm. Never worn.",
+    "images": [
+      "/placeholder.svg?height=500&width=500&query=thrift-fashion-91",
+      "/placeholder.svg?height=500&width=500&query=vintage-clothing-91"
+    ],
+    "category": "6914b6685602ef785785ac1f",
+    "brand": "6914b6685602ef785785ac29",
+    "sizes": [
+      "XL"
+    ],
+    "condition": "new",
+    "price": 315086,
+    "stock": 1,
+    "sold": 0,
+    "avgRating": 0,
+    "ratingCount": 0,
+    "tags": [
+      "thrift",
+      "vintage",
+      "sustainable",
+      "unique"
+    ],
+    "createdAt": "2025-11-12T16:31:36.614Z",
+    "__v": 0,
+    "listingStatus": "ACTIVE",
+    "seller": "6914b6685602ef785785ac32"
+  },
+  {
+    "_id": "6914b6685602ef785785ac94",
+    "name": "Slip Dress #92",
+    "slug": "product-92",
+    "description": "Authentic thrifted item with unique vintage charm. Gently used.",
+    "images": [
+      "/placeholder.svg?height=500&width=500&query=thrift-fashion-92",
+      "/placeholder.svg?height=500&width=500&query=vintage-clothing-92"
+    ],
+    "category": "6914b6685602ef785785ac24",
+    "brand": "6914b6685602ef785785ac2b",
+    "sizes": [
+      "XL"
+    ],
+    "condition": "like-new",
+    "price": 163413,
+    "stock": 1,
+    "sold": 0,
+    "avgRating": 0,
+    "ratingCount": 0,
+    "tags": [
+      "thrift",
+      "vintage",
+      "sustainable",
+      "unique"
+    ],
+    "createdAt": "2025-11-12T16:31:36.614Z",
+    "__v": 0,
+    "listingStatus": "ACTIVE",
+    "seller": "6914b6685602ef785785ac32"
+  },
+  {
+    "_id": "6914b6685602ef785785ac95",
+    "name": "Wool Coat #93",
+    "slug": "product-93",
+    "description": "Authentic thrifted item with unique vintage charm. Never worn.",
+    "images": [
+      "/placeholder.svg?height=500&width=500&query=thrift-fashion-93",
+      "/placeholder.svg?height=500&width=500&query=vintage-clothing-93"
+    ],
+    "category": "6914b6685602ef785785ac25",
+    "brand": "6914b6685602ef785785ac2c",
+    "sizes": [
+      "XL"
+    ],
+    "condition": "new",
+    "price": 521933,
+    "stock": 1,
+    "sold": 0,
+    "avgRating": 0,
+    "ratingCount": 0,
+    "tags": [
+      "thrift",
+      "vintage",
+      "sustainable",
+      "unique"
+    ],
+    "createdAt": "2025-11-12T16:31:36.614Z",
+    "__v": 0,
+    "listingStatus": "ACTIVE",
+    "seller": "6914b6685602ef785785ac32"
+  },
+  {
+    "_id": "6914b6685602ef785785ac96",
+    "name": "Button-Up Shirt #94",
+    "slug": "product-94",
+    "description": "Authentic thrifted item with unique vintage charm. Gently used.",
+    "images": [
+      "/placeholder.svg?height=500&width=500&query=thrift-fashion-94",
+      "/placeholder.svg?height=500&width=500&query=vintage-clothing-94"
+    ],
+    "category": "6914b6685602ef785785ac22",
+    "brand": "6914b6685602ef785785ac2a",
+    "sizes": [
+      "S"
+    ],
+    "condition": "like-new",
+    "price": 495308,
+    "stock": 1,
+    "sold": 0,
+    "avgRating": 0,
+    "ratingCount": 0,
+    "tags": [
+      "thrift",
+      "vintage",
+      "sustainable",
+      "unique"
+    ],
+    "createdAt": "2025-11-12T16:31:36.614Z",
+    "__v": 0,
+    "listingStatus": "ACTIVE",
+    "seller": "6914b6685602ef785785ac32"
+  },
+  {
+    "_id": "6914b6685602ef785785ac97",
+    "name": "Vintage Jewelry #95",
+    "slug": "product-95",
+    "description": "Authentic thrifted item with unique vintage charm. Well-loved and full of character.",
+    "images": [
+      "/placeholder.svg?height=500&width=500&query=thrift-fashion-95",
+      "/placeholder.svg?height=500&width=500&query=vintage-clothing-95"
+    ],
+    "category": "6914b6685602ef785785ac1d",
+    "brand": "6914b6685602ef785785ac27",
+    "sizes": [
+      "S"
+    ],
+    "condition": "used",
+    "price": 107660,
+    "stock": 1,
+    "sold": 0,
+    "avgRating": 0,
+    "ratingCount": 0,
+    "tags": [
+      "thrift",
+      "vintage",
+      "sustainable",
+      "unique"
+    ],
+    "createdAt": "2025-11-12T16:31:36.614Z",
+    "__v": 0,
+    "listingStatus": "ACTIVE",
+    "seller": "6914b6685602ef785785ac32"
+  },
+  {
+    "_id": "6914b6685602ef785785ac98",
+    "name": "Wool Coat #96",
+    "slug": "product-96",
+    "description": "Authentic thrifted item with unique vintage charm. Never worn.",
+    "images": [
+      "/placeholder.svg?height=500&width=500&query=thrift-fashion-96",
+      "/placeholder.svg?height=500&width=500&query=vintage-clothing-96"
+    ],
+    "category": "6914b6685602ef785785ac23",
+    "brand": "6914b6685602ef785785ac29",
+    "sizes": [
+      "XL"
+    ],
+    "condition": "new",
+    "price": 526712,
+    "stock": 1,
+    "sold": 0,
+    "avgRating": 0,
+    "ratingCount": 0,
+    "tags": [
+      "thrift",
+      "vintage",
+      "sustainable",
+      "unique"
+    ],
+    "createdAt": "2025-11-12T16:31:36.614Z",
+    "__v": 0,
+    "listingStatus": "ACTIVE",
+    "seller": "6914b6685602ef785785ac32"
+  },
+  {
+    "_id": "6914b6685602ef785785ac99",
+    "name": "Leather Jacket #97",
+    "slug": "product-97",
+    "description": "Authentic thrifted item with unique vintage charm. Gently used.",
+    "images": [
+      "/placeholder.svg?height=500&width=500&query=thrift-fashion-97",
+      "/placeholder.svg?height=500&width=500&query=vintage-clothing-97"
+    ],
+    "category": "6914b6685602ef785785ac1f",
+    "brand": "6914b6685602ef785785ac27",
+    "sizes": [
+      "L"
+    ],
+    "condition": "like-new",
+    "price": 767602,
+    "stock": 1,
+    "sold": 0,
+    "avgRating": 0,
+    "ratingCount": 0,
+    "tags": [
+      "thrift",
+      "vintage",
+      "sustainable",
+      "unique"
+    ],
+    "createdAt": "2025-11-12T16:31:36.614Z",
+    "__v": 0,
+    "listingStatus": "ACTIVE",
+    "seller": "6914b6685602ef785785ac32"
+  },
+  {
+    "_id": "6914b6685602ef785785ac9a",
+    "name": "Vintage Cardigan #98",
+    "slug": "product-98",
+    "description": "Authentic thrifted item with unique vintage charm. Gently used.",
+    "images": [
+      "/placeholder.svg?height=500&width=500&query=thrift-fashion-98",
+      "/placeholder.svg?height=500&width=500&query=vintage-clothing-98"
+    ],
+    "category": "6914b6685602ef785785ac25",
+    "brand": "6914b6685602ef785785ac30",
+    "sizes": [
+      "XL"
+    ],
+    "condition": "like-new",
+    "price": 255815,
+    "stock": 1,
+    "sold": 0,
+    "avgRating": 0,
+    "ratingCount": 0,
+    "tags": [
+      "thrift",
+      "vintage",
+      "sustainable",
+      "unique"
+    ],
+    "createdAt": "2025-11-12T16:31:36.614Z",
+    "__v": 0,
+    "listingStatus": "ACTIVE",
+    "seller": "6914b6685602ef785785ac32"
+  },
+  {
+    "_id": "6914b6685602ef785785ac9b",
+    "name": "Printed Blouse #99",
+    "slug": "product-99",
+    "description": "Authentic thrifted item with unique vintage charm. Gently used.",
+    "images": [
+      "/placeholder.svg?height=500&width=500&query=thrift-fashion-99",
+      "/placeholder.svg?height=500&width=500&query=vintage-clothing-99"
+    ],
+    "category": "6914b6685602ef785785ac20",
+    "brand": "6914b6685602ef785785ac2a",
+    "sizes": [
+      "S"
+    ],
+    "condition": "like-new",
+    "price": 332025,
+    "stock": 1,
+    "sold": 0,
+    "avgRating": 0,
+    "ratingCount": 0,
+    "tags": [
+      "thrift",
+      "vintage",
+      "sustainable",
+      "unique"
+    ],
+    "createdAt": "2025-11-12T16:31:36.614Z",
+    "__v": 0,
+    "listingStatus": "ACTIVE",
+    "seller": "6914b6685602ef785785ac32"
+  },
+  {
+    "_id": "6916e8b8f64047b6d49f4d29",
+    "name": "Vintage Dickies Long Shorts",
+    "slug": "vintage-dickies-long-shorts-0",
+    "description": "Timeless Vintage Dickies Long Shorts that never goes out of style. Great addition to any outfit.",
+    "images": [
+      "https://picsum.photos/seed/0/800/800",
+      "https://source.unsplash.com/800x800/?fashion,clothing&sig=1",
+      "https://picsum.photos/seed/2/800/800"
+    ],
+    "category": "6916e8b8f64047b6d49f4d27",
+    "brand": "6916e8b7f64047b6d49f4d24",
+    "seller": "6914b6685602ef785785ac32",
+    "sizes": [
+      "S"
+    ],
+    "condition": "like-new",
+    "price": 399000,
+    "stock": 1,
+    "sold": 8,
+    "listingStatus": "ACTIVE",
+    "avgRating": 3.5,
+    "ratingCount": 26,
+    "tags": [
+      "thrift",
+      "secondhand",
+      "preloved",
+      "sustainable",
+      "dickies"
+    ],
+    "createdAt": "2025-10-18T16:58:31.128Z"
+  },
+  {
+    "_id": "6916e8b8f64047b6d49f4d2a",
+    "name": "Urban Carhartt Oversized Sneakers",
+    "slug": "urban-carhartt-oversized-sneakers-1",
+    "description": "High-quality Urban Carhartt Oversized Sneakers. Well-maintained and ready to wear.",
+    "images": [
+      "https://picsum.photos/seed/100/800/800",
+      "https://source.unsplash.com/800x800/?fashion,clothing&sig=101"
+    ],
+    "category": "6916e8b8f64047b6d49f4d26",
+    "brand": "6916e8b7f64047b6d49f4d23",
+    "seller": "6914b6685602ef785785ac32",
+    "sizes": [
+      "L"
+    ],
+    "condition": "like-new",
+    "price": 85000,
+    "stock": 1,
+    "sold": 1,
+    "listingStatus": "ACTIVE",
+    "avgRating": 4.5,
+    "ratingCount": 4,
+    "tags": [
+      "thrift",
+      "secondhand",
+      "preloved",
+      "sustainable",
+      "carhartt"
+    ],
+    "createdAt": "2025-11-13T17:29:56.422Z"
+  },
+  {
+    "_id": "6916e8b8f64047b6d49f4d2b",
+    "name": "Casual Supreme Oversized Hoodies",
+    "slug": "casual-supreme-oversized-hoodies-2",
+    "description": "Timeless Casual Supreme Oversized Hoodies that never goes out of style. Great addition to any outfit.",
+    "images": [
+      "https://picsum.photos/seed/200/800/800",
+      "https://source.unsplash.com/800x800/?fashion,clothing&sig=201"
+    ],
+    "category": "6914b6685602ef785785ac20",
+    "brand": "6916e8b7f64047b6d49f4d22",
+    "seller": "6914b6685602ef785785ac32",
+    "sizes": [
+      "XL"
+    ],
+    "condition": "like-new",
+    "price": 343000,
+    "stock": 1,
+    "sold": 7,
+    "listingStatus": "ACTIVE",
+    "avgRating": 4.5,
+    "ratingCount": 42,
+    "tags": [
+      "thrift",
+      "secondhand",
+      "preloved",
+      "sustainable",
+      "supreme"
+    ],
+    "createdAt": "2025-10-27T16:50:44.898Z"
+  },
+  {
+    "_id": "6916e8b8f64047b6d49f4d2c",
+    "name": "Limited Nike Fitted Jeans",
+    "slug": "limited-nike-fitted-jeans-3",
+    "description": "Timeless Limited Nike Fitted Jeans that never goes out of style. Great addition to any outfit.",
+    "images": [
+      "https://picsum.photos/seed/300/800/800",
+      "https://source.unsplash.com/800x800/?fashion,clothing&sig=301",
+      "https://picsum.photos/seed/302/800/800"
+    ],
+    "category": "6914b6685602ef785785ac1d",
+    "brand": "6916e8b7f64047b6d49f4d1d",
+    "seller": "6914b6685602ef785785ac32",
+    "sizes": [
+      "XL"
+    ],
+    "condition": "new",
+    "price": 563000,
+    "stock": 1,
+    "sold": 2,
+    "listingStatus": "ACTIVE",
+    "avgRating": 4.5,
+    "ratingCount": 0,
+    "tags": [
+      "thrift",
+      "secondhand",
+      "preloved",
+      "sustainable",
+      "nike"
+    ],
+    "createdAt": "2025-10-28T07:49:43.042Z"
+  },
+  {
+    "_id": "6916e8b8f64047b6d49f4d2d",
+    "name": "Modern H&M Regular Sneakers",
+    "slug": "modern-h-m-regular-sneakers-4",
+    "description": "Timeless Modern H&M Regular Sneakers that never goes out of style. Great addition to any outfit.",
+    "images": [
+      "https://picsum.photos/seed/400/800/800",
+      "https://source.unsplash.com/800x800/?fashion,clothing&sig=401",
+      "https://picsum.photos/seed/402/800/800",
+      "https://source.unsplash.com/800x800/?fashion,clothing&sig=403"
+    ],
+    "category": "6916e8b8f64047b6d49f4d26",
+    "brand": "6916e8b7f64047b6d49f4d20",
+    "seller": "6914b6685602ef785785ac32",
+    "sizes": [
+      "M"
+    ],
+    "condition": "new",
+    "price": 471000,
+    "stock": 1,
+    "sold": 8,
+    "listingStatus": "ACTIVE",
+    "avgRating": 4.5,
+    "ratingCount": 10,
+    "tags": [
+      "thrift",
+      "secondhand",
+      "preloved",
+      "sustainable",
+      "h&m"
+    ],
+    "createdAt": "2025-11-09T13:05:01.321Z"
+  },
+  {
+    "_id": "6916e8b8f64047b6d49f4d2e",
+    "name": "Vintage Uniqlo Slim Fit Jackets",
+    "slug": "vintage-uniqlo-slim-fit-jackets-5",
+    "description": "Stylish Vintage Uniqlo Slim Fit Jackets with unique character. A must-have for your wardrobe.",
+    "images": [
+      "https://picsum.photos/seed/500/800/800",
+      "https://source.unsplash.com/800x800/?fashion,clothing&sig=501",
+      "https://picsum.photos/seed/502/800/800",
+      "https://source.unsplash.com/800x800/?fashion,clothing&sig=503"
+    ],
+    "category": "6914b6685602ef785785ac1e",
+    "brand": "6916e8b7f64047b6d49f4d21",
+    "seller": "6914b6685602ef785785ac32",
+    "sizes": [
+      "S"
+    ],
+    "condition": "like-new",
+    "price": 295000,
+    "stock": 1,
+    "sold": 2,
+    "listingStatus": "ACTIVE",
+    "avgRating": 3.5,
+    "ratingCount": 10,
+    "tags": [
+      "thrift",
+      "secondhand",
+      "preloved",
+      "sustainable",
+      "uniqlo"
+    ],
+    "createdAt": "2025-11-01T13:54:10.901Z"
+  },
+  {
+    "_id": "6916e8b8f64047b6d49f4d2f",
+    "name": "Rare Zara Cropped Sneakers",
+    "slug": "rare-zara-cropped-sneakers-6",
+    "description": "High-quality Rare Zara Cropped Sneakers. Well-maintained and ready to wear.",
+    "images": [
+      "https://picsum.photos/seed/600/800/800",
+      "https://source.unsplash.com/800x800/?fashion,clothing&sig=601",
+      "https://picsum.photos/seed/602/800/800"
+    ],
+    "category": "6916e8b8f64047b6d49f4d26",
+    "brand": "6916e8b7f64047b6d49f4d1f",
+    "seller": "6914b6685602ef785785ac32",
+    "sizes": [
+      "XL"
+    ],
+    "condition": "like-new",
+    "price": 139000,
+    "stock": 1,
+    "sold": 10,
+    "listingStatus": "ACTIVE",
+    "avgRating": 3.5,
+    "ratingCount": 34,
+    "tags": [
+      "thrift",
+      "secondhand",
+      "preloved",
+      "sustainable",
+      "zara"
+    ],
+    "createdAt": "2025-10-25T11:56:26.354Z"
+  },
+  {
+    "_id": "6916e8b8f64047b6d49f4d30",
+    "name": "Retro Carhartt Slim Fit Jackets",
+    "slug": "retro-carhartt-slim-fit-jackets-7",
+    "description": "Timeless Retro Carhartt Slim Fit Jackets that never goes out of style. Great addition to any outfit.",
+    "images": [
+      "https://picsum.photos/seed/700/800/800",
+      "https://source.unsplash.com/800x800/?fashion,clothing&sig=701"
+    ],
+    "category": "6914b6685602ef785785ac1e",
+    "brand": "6916e8b7f64047b6d49f4d23",
+    "seller": "6914b6685602ef785785ac32",
+    "sizes": [
+      "M"
+    ],
+    "condition": "new",
+    "price": 446000,
+    "stock": 1,
+    "sold": 18,
+    "listingStatus": "ACTIVE",
+    "avgRating": 3.5,
+    "ratingCount": 18,
+    "tags": [
+      "thrift",
+      "secondhand",
+      "preloved",
+      "sustainable",
+      "carhartt"
+    ],
+    "createdAt": "2025-10-30T08:57:21.137Z"
+  },
+  {
+    "_id": "6916e8b8f64047b6d49f4d31",
+    "name": "Casual Uniqlo Regular Jackets",
+    "slug": "casual-uniqlo-regular-jackets-8",
+    "description": "Stylish Casual Uniqlo Regular Jackets with unique character. A must-have for your wardrobe.",
+    "images": [
+      "https://picsum.photos/seed/800/800/800",
+      "https://source.unsplash.com/800x800/?fashion,clothing&sig=801"
+    ],
+    "category": "6914b6685602ef785785ac1e",
+    "brand": "6916e8b7f64047b6d49f4d21",
+    "seller": "6914b6685602ef785785ac32",
+    "sizes": [
+      "L"
+    ],
+    "condition": "like-new",
+    "price": 236000,
+    "stock": 1,
+    "sold": 13,
+    "listingStatus": "ACTIVE",
+    "avgRating": 3.5,
+    "ratingCount": 26,
+    "tags": [
+      "thrift",
+      "secondhand",
+      "preloved",
+      "sustainable",
+      "uniqlo"
+    ],
+    "createdAt": "2025-11-05T11:21:28.120Z"
+  },
+  {
+    "_id": "6916e8b8f64047b6d49f4d32",
+    "name": "Limited Nike Oversized Sweaters",
+    "slug": "limited-nike-oversized-sweaters-9",
+    "description": "Authentic Limited Nike Oversized Sweaters in like-new condition. Perfect for everyday wear.",
+    "images": [
+      "https://picsum.photos/seed/900/800/800",
+      "https://source.unsplash.com/800x800/?fashion,clothing&sig=901"
+    ],
+    "category": "6914b6685602ef785785ac25",
+    "brand": "6916e8b7f64047b6d49f4d1d",
+    "seller": "6914b6685602ef785785ac32",
+    "sizes": [
+      "XL"
+    ],
+    "condition": "like-new",
+    "price": 89000,
+    "stock": 1,
+    "sold": 14,
+    "listingStatus": "ACTIVE",
+    "avgRating": 4.5,
+    "ratingCount": 24,
+    "tags": [
+      "thrift",
+      "secondhand",
+      "preloved",
+      "sustainable",
+      "nike"
+    ],
+    "createdAt": "2025-10-18T08:25:15.215Z"
+  },
+  {
+    "_id": "6916e8b8f64047b6d49f4d33",
+    "name": "Classic Adidas Relaxed Jackets",
+    "slug": "classic-adidas-relaxed-jackets-10",
+    "description": "Premium Classic Adidas Relaxed Jackets in excellent like-new condition. Carefully curated piece.",
+    "images": [
+      "https://picsum.photos/seed/1000/800/800",
+      "https://source.unsplash.com/800x800/?fashion,clothing&sig=1001",
+      "https://picsum.photos/seed/1002/800/800"
+    ],
+    "category": "6914b6685602ef785785ac1e",
+    "brand": "6916e8b7f64047b6d49f4d1e",
+    "seller": "6914b6685602ef785785ac32",
+    "sizes": [
+      "XL"
+    ],
+    "condition": "like-new",
+    "price": 409000,
+    "stock": 1,
+    "sold": 11,
+    "listingStatus": "ACTIVE",
+    "avgRating": 4.5,
+    "ratingCount": 34,
+    "tags": [
+      "thrift",
+      "secondhand",
+      "preloved",
+      "sustainable",
+      "adidas"
+    ],
+    "createdAt": "2025-11-04T03:35:42.650Z"
+  },
+  {
+    "_id": "6916e8b8f64047b6d49f4d34",
+    "name": "Limited Carhartt Regular Accessories",
+    "slug": "limited-carhartt-regular-accessories-11",
+    "description": "Timeless Limited Carhartt Regular Accessories that never goes out of style. Great addition to any outfit.",
+    "images": [
+      "https://picsum.photos/seed/1100/800/800",
+      "https://source.unsplash.com/800x800/?fashion,clothing&sig=1101"
+    ],
+    "category": "6914b6685602ef785785ac22",
+    "brand": "6916e8b7f64047b6d49f4d23",
+    "seller": "6914b6685602ef785785ac32",
+    "sizes": [
+      "S"
+    ],
+    "condition": "used",
+    "price": 365000,
+    "stock": 1,
+    "sold": 19,
+    "listingStatus": "ACTIVE",
+    "avgRating": 4.5,
+    "ratingCount": 36,
+    "tags": [
+      "thrift",
+      "secondhand",
+      "preloved",
+      "sustainable",
+      "carhartt"
+    ],
+    "createdAt": "2025-10-27T00:25:14.246Z"
+  },
+  {
+    "_id": "6916e8b8f64047b6d49f4d35",
+    "name": "Retro Dickies Oversized Jackets",
+    "slug": "retro-dickies-oversized-jackets-12",
+    "description": "Timeless Retro Dickies Oversized Jackets that never goes out of style. Great addition to any outfit.",
+    "images": [
+      "https://picsum.photos/seed/1200/800/800",
+      "https://source.unsplash.com/800x800/?fashion,clothing&sig=1201",
+      "https://picsum.photos/seed/1202/800/800",
+      "https://source.unsplash.com/800x800/?fashion,clothing&sig=1203"
+    ],
+    "category": "6914b6685602ef785785ac1e",
+    "brand": "6916e8b7f64047b6d49f4d24",
+    "seller": "6914b6685602ef785785ac32",
+    "sizes": [
+      "M"
+    ],
+    "condition": "used",
+    "price": 306000,
+    "stock": 1,
+    "sold": 5,
+    "listingStatus": "ACTIVE",
+    "avgRating": 3.5,
+    "ratingCount": 10,
+    "tags": [
+      "thrift",
+      "secondhand",
+      "preloved",
+      "sustainable",
+      "dickies"
+    ],
+    "createdAt": "2025-10-16T21:45:58.565Z"
+  },
+  {
+    "_id": "6916e8b8f64047b6d49f4d36",
+    "name": "Authentic Zara Short Bags",
+    "slug": "authentic-zara-short-bags-13",
+    "description": "Authentic Authentic Zara Short Bags in like-new condition. Perfect for everyday wear.",
+    "images": [
+      "https://picsum.photos/seed/1300/800/800",
+      "https://source.unsplash.com/800x800/?fashion,clothing&sig=1301"
+    ],
+    "category": "6916e8b8f64047b6d49f4d28",
+    "brand": "6916e8b7f64047b6d49f4d1f",
+    "seller": "6914b6685602ef785785ac32",
+    "sizes": [
+      "S"
+    ],
+    "condition": "like-new",
+    "price": 518000,
+    "stock": 1,
+    "sold": 7,
+    "listingStatus": "ACTIVE",
+    "avgRating": 3.5,
+    "ratingCount": 17,
+    "tags": [
+      "thrift",
+      "secondhand",
+      "preloved",
+      "sustainable",
+      "zara"
+    ],
+    "createdAt": "2025-10-26T10:57:09.056Z"
+  },
+  {
+    "_id": "6916e8b8f64047b6d49f4d37",
+    "name": "Premium Carhartt Cropped Jackets",
+    "slug": "premium-carhartt-cropped-jackets-14",
+    "description": "Timeless Premium Carhartt Cropped Jackets that never goes out of style. Great addition to any outfit.",
+    "images": [
+      "https://picsum.photos/seed/1400/800/800",
+      "https://source.unsplash.com/800x800/?fashion,clothing&sig=1401",
+      "https://picsum.photos/seed/1402/800/800"
+    ],
+    "category": "6914b6685602ef785785ac1e",
+    "brand": "6916e8b7f64047b6d49f4d23",
+    "seller": "6914b6685602ef785785ac32",
+    "sizes": [
+      "S"
+    ],
+    "condition": "used",
+    "price": 204000,
+    "stock": 1,
+    "sold": 18,
+    "listingStatus": "ACTIVE",
+    "avgRating": 4.5,
+    "ratingCount": 22,
+    "tags": [
+      "thrift",
+      "secondhand",
+      "preloved",
+      "sustainable",
+      "carhartt"
+    ],
+    "createdAt": "2025-10-17T10:09:54.657Z"
+  },
+  {
+    "_id": "6916e8b8f64047b6d49f4d38",
+    "name": "Rare Vans Regular Bags",
+    "slug": "rare-vans-regular-bags-15",
+    "description": "Premium Rare Vans Regular Bags in excellent like-new condition. Carefully curated piece.",
+    "images": [
+      "https://picsum.photos/seed/1500/800/800",
+      "https://source.unsplash.com/800x800/?fashion,clothing&sig=1501"
+    ],
+    "category": "6916e8b8f64047b6d49f4d28",
+    "brand": "6916e8b7f64047b6d49f4d25",
+    "seller": "6914b6685602ef785785ac32",
+    "sizes": [
+      "S"
+    ],
+    "condition": "like-new",
+    "price": 516000,
+    "stock": 1,
+    "sold": 5,
+    "listingStatus": "ACTIVE",
+    "avgRating": 4.5,
+    "ratingCount": 41,
+    "tags": [
+      "thrift",
+      "secondhand",
+      "preloved",
+      "sustainable",
+      "vans"
+    ],
+    "createdAt": "2025-11-01T10:52:19.784Z"
+  },
+  {
+    "_id": "6916e8b8f64047b6d49f4d39",
+    "name": "Limited Adidas Relaxed Bags",
+    "slug": "limited-adidas-relaxed-bags-16",
+    "description": "High-quality Limited Adidas Relaxed Bags. Well-maintained and ready to wear.",
+    "images": [
+      "https://picsum.photos/seed/1600/800/800",
+      "https://source.unsplash.com/800x800/?fashion,clothing&sig=1601",
+      "https://picsum.photos/seed/1602/800/800"
+    ],
+    "category": "6916e8b8f64047b6d49f4d28",
+    "brand": "6916e8b7f64047b6d49f4d1e",
+    "seller": "6914b6685602ef785785ac32",
+    "sizes": [
+      "XL"
+    ],
+    "condition": "new",
+    "price": 573000,
+    "stock": 1,
+    "sold": 1,
+    "listingStatus": "ACTIVE",
+    "avgRating": 4.5,
+    "ratingCount": 27,
+    "tags": [
+      "thrift",
+      "secondhand",
+      "preloved",
+      "sustainable",
+      "adidas"
+    ],
+    "createdAt": "2025-11-08T09:11:06.638Z"
+  },
+  {
+    "_id": "6916e8b8f64047b6d49f4d3a",
+    "name": "Classic Levi's Oversized Sneakers",
+    "slug": "classic-levi-s-oversized-sneakers-17",
+    "description": "Stylish Classic Levi's Oversized Sneakers with unique character. A must-have for your wardrobe.",
+    "images": [
+      "https://picsum.photos/seed/1700/800/800",
+      "https://source.unsplash.com/800x800/?fashion,clothing&sig=1701",
+      "https://picsum.photos/seed/1702/800/800"
+    ],
+    "category": "6916e8b8f64047b6d49f4d26",
+    "brand": "6914b6685602ef785785ac27",
+    "seller": "6914b6685602ef785785ac32",
+    "sizes": [
+      "XL"
+    ],
+    "condition": "used",
+    "price": 237000,
+    "stock": 1,
+    "sold": 19,
+    "listingStatus": "ACTIVE",
+    "avgRating": 3.5,
+    "ratingCount": 25,
+    "tags": [
+      "thrift",
+      "secondhand",
+      "preloved",
+      "sustainable",
+      "levi's"
+    ],
+    "createdAt": "2025-11-08T13:05:03.348Z"
+  },
+  {
+    "_id": "6916e8b8f64047b6d49f4d3b",
+    "name": "Classic Zara Short T-Shirts",
+    "slug": "classic-zara-short-t-shirts-18",
+    "description": "Premium Classic Zara Short T-Shirts in excellent used condition. Carefully curated piece.",
+    "images": [
+      "https://picsum.photos/seed/1800/800/800",
+      "https://source.unsplash.com/800x800/?fashion,clothing&sig=1801"
+    ],
+    "category": "6914b6685602ef785785ac1c",
+    "brand": "6916e8b7f64047b6d49f4d1f",
+    "seller": "6914b6685602ef785785ac32",
+    "sizes": [
+      "S"
+    ],
+    "condition": "used",
+    "price": 381000,
+    "stock": 1,
+    "sold": 16,
+    "listingStatus": "ACTIVE",
+    "avgRating": 4.5,
+    "ratingCount": 18,
+    "tags": [
+      "thrift",
+      "secondhand",
+      "preloved",
+      "sustainable",
+      "zara"
+    ],
+    "createdAt": "2025-11-02T05:05:31.831Z"
+  },
+  {
+    "_id": "6916e8b8f64047b6d49f4d3c",
+    "name": "Limited Zara Fitted Hoodies",
+    "slug": "limited-zara-fitted-hoodies-19",
+    "description": "Timeless Limited Zara Fitted Hoodies that never goes out of style. Great addition to any outfit.",
+    "images": [
+      "https://picsum.photos/seed/1900/800/800",
+      "https://source.unsplash.com/800x800/?fashion,clothing&sig=1901",
+      "https://picsum.photos/seed/1902/800/800",
+      "https://source.unsplash.com/800x800/?fashion,clothing&sig=1903"
+    ],
+    "category": "6914b6685602ef785785ac20",
+    "brand": "6916e8b7f64047b6d49f4d1f",
+    "seller": "6914b6685602ef785785ac32",
+    "sizes": [
+      "XL"
+    ],
+    "condition": "used",
+    "price": 177000,
+    "stock": 1,
+    "sold": 2,
+    "listingStatus": "ACTIVE",
+    "avgRating": 4.5,
+    "ratingCount": 30,
+    "tags": [
+      "thrift",
+      "secondhand",
+      "preloved",
+      "sustainable",
+      "zara"
+    ],
+    "createdAt": "2025-10-29T03:40:43.645Z"
+  },
+  {
+    "_id": "6916e8b8f64047b6d49f4d3d",
+    "name": "Classic Zara Cropped Hoodies",
+    "slug": "classic-zara-cropped-hoodies-20",
+    "description": "High-quality Classic Zara Cropped Hoodies. Well-maintained and ready to wear.",
+    "images": [
+      "https://picsum.photos/seed/2000/800/800",
+      "https://source.unsplash.com/800x800/?fashion,clothing&sig=2001",
+      "https://picsum.photos/seed/2002/800/800"
+    ],
+    "category": "6914b6685602ef785785ac20",
+    "brand": "6916e8b7f64047b6d49f4d1f",
+    "seller": "6914b6685602ef785785ac32",
+    "sizes": [
+      "L"
+    ],
+    "condition": "like-new",
+    "price": 305000,
+    "stock": 1,
+    "sold": 18,
+    "listingStatus": "ACTIVE",
+    "avgRating": 4.5,
+    "ratingCount": 38,
+    "tags": [
+      "thrift",
+      "secondhand",
+      "preloved",
+      "sustainable",
+      "zara"
+    ],
+    "createdAt": "2025-10-19T07:48:43.981Z"
+  },
+  {
+    "_id": "6916e8b8f64047b6d49f4d3e",
+    "name": "Casual Vans Oversized Accessories",
+    "slug": "casual-vans-oversized-accessories-21",
+    "description": "Authentic Casual Vans Oversized Accessories in new condition. Perfect for everyday wear.",
+    "images": [
+      "https://picsum.photos/seed/2100/800/800",
+      "https://source.unsplash.com/800x800/?fashion,clothing&sig=2101",
+      "https://picsum.photos/seed/2102/800/800",
+      "https://source.unsplash.com/800x800/?fashion,clothing&sig=2103"
+    ],
+    "category": "6914b6685602ef785785ac22",
+    "brand": "6916e8b7f64047b6d49f4d25",
+    "seller": "6914b6685602ef785785ac32",
+    "sizes": [
+      "XL"
+    ],
+    "condition": "new",
+    "price": 518000,
+    "stock": 1,
+    "sold": 2,
+    "listingStatus": "ACTIVE",
+    "avgRating": 3.5,
+    "ratingCount": 41,
+    "tags": [
+      "thrift",
+      "secondhand",
+      "preloved",
+      "sustainable",
+      "vans"
+    ],
+    "createdAt": "2025-10-31T10:21:11.540Z"
+  },
+  {
+    "_id": "6916e8b8f64047b6d49f4d3f",
+    "name": "Retro Zara Fitted Jackets",
+    "slug": "retro-zara-fitted-jackets-22",
+    "description": "Premium Retro Zara Fitted Jackets in excellent used condition. Carefully curated piece.",
+    "images": [
+      "https://picsum.photos/seed/2200/800/800",
+      "https://source.unsplash.com/800x800/?fashion,clothing&sig=2201",
+      "https://picsum.photos/seed/2202/800/800"
+    ],
+    "category": "6914b6685602ef785785ac1e",
+    "brand": "6916e8b7f64047b6d49f4d1f",
+    "seller": "6914b6685602ef785785ac32",
+    "sizes": [
+      "M"
+    ],
+    "condition": "used",
+    "price": 165000,
+    "stock": 1,
+    "sold": 10,
+    "listingStatus": "ACTIVE",
+    "avgRating": 3.5,
+    "ratingCount": 9,
+    "tags": [
+      "thrift",
+      "secondhand",
+      "preloved",
+      "sustainable",
+      "zara"
+    ],
+    "createdAt": "2025-11-08T09:37:18.219Z"
+  },
+  {
+    "_id": "6916e8b8f64047b6d49f4d40",
+    "name": "Limited Adidas Long Bags",
+    "slug": "limited-adidas-long-bags-23",
+    "description": "Stylish Limited Adidas Long Bags with unique character. A must-have for your wardrobe.",
+    "images": [
+      "https://picsum.photos/seed/2300/800/800",
+      "https://source.unsplash.com/800x800/?fashion,clothing&sig=2301"
+    ],
+    "category": "6916e8b8f64047b6d49f4d28",
+    "brand": "6916e8b7f64047b6d49f4d1e",
+    "seller": "6914b6685602ef785785ac32",
+    "sizes": [
+      "XL"
+    ],
+    "condition": "new",
+    "price": 466000,
+    "stock": 1,
+    "sold": 6,
+    "listingStatus": "ACTIVE",
+    "avgRating": 4.5,
+    "ratingCount": 30,
+    "tags": [
+      "thrift",
+      "secondhand",
+      "preloved",
+      "sustainable",
+      "adidas"
+    ],
+    "createdAt": "2025-11-13T18:59:43.803Z"
+  },
+  {
+    "_id": "6916e8b8f64047b6d49f4d41",
+    "name": "Rare Dickies Regular Jackets",
+    "slug": "rare-dickies-regular-jackets-24",
+    "description": "Timeless Rare Dickies Regular Jackets that never goes out of style. Great addition to any outfit.",
+    "images": [
+      "https://picsum.photos/seed/2400/800/800",
+      "https://source.unsplash.com/800x800/?fashion,clothing&sig=2401",
+      "https://picsum.photos/seed/2402/800/800"
+    ],
+    "category": "6914b6685602ef785785ac1e",
+    "brand": "6916e8b7f64047b6d49f4d24",
+    "seller": "6914b6685602ef785785ac32",
+    "sizes": [
+      "S"
+    ],
+    "condition": "used",
+    "price": 272000,
+    "stock": 1,
+    "sold": 7,
+    "listingStatus": "ACTIVE",
+    "avgRating": 4.5,
+    "ratingCount": 49,
+    "tags": [
+      "thrift",
+      "secondhand",
+      "preloved",
+      "sustainable",
+      "dickies"
+    ],
+    "createdAt": "2025-10-28T12:33:05.044Z"
+  },
+  {
+    "_id": "6916e8b8f64047b6d49f4d42",
+    "name": "Premium Uniqlo Short Accessories",
+    "slug": "premium-uniqlo-short-accessories-25",
+    "description": "Stylish Premium Uniqlo Short Accessories with unique character. A must-have for your wardrobe.",
+    "images": [
+      "https://picsum.photos/seed/2500/800/800",
+      "https://source.unsplash.com/800x800/?fashion,clothing&sig=2501",
+      "https://picsum.photos/seed/2502/800/800"
+    ],
+    "category": "6914b6685602ef785785ac22",
+    "brand": "6916e8b7f64047b6d49f4d21",
+    "seller": "6914b6685602ef785785ac32",
+    "sizes": [
+      "S"
+    ],
+    "condition": "new",
+    "price": 658000,
+    "stock": 1,
+    "sold": 13,
+    "listingStatus": "ACTIVE",
+    "avgRating": 3.5,
+    "ratingCount": 47,
+    "tags": [
+      "thrift",
+      "secondhand",
+      "preloved",
+      "sustainable",
+      "uniqlo"
+    ],
+    "createdAt": "2025-10-22T15:00:41.135Z"
+  },
+  {
+    "_id": "6916e8b8f64047b6d49f4d43",
+    "name": "Retro Zara Relaxed Dresses",
+    "slug": "retro-zara-relaxed-dresses-26",
+    "description": "Timeless Retro Zara Relaxed Dresses that never goes out of style. Great addition to any outfit.",
+    "images": [
+      "https://picsum.photos/seed/2600/800/800",
+      "https://source.unsplash.com/800x800/?fashion,clothing&sig=2601",
+      "https://picsum.photos/seed/2602/800/800",
+      "https://source.unsplash.com/800x800/?fashion,clothing&sig=2603"
+    ],
+    "category": "6914b6685602ef785785ac1f",
+    "brand": "6916e8b7f64047b6d49f4d1f",
+    "seller": "6914b6685602ef785785ac32",
+    "sizes": [
+      "M"
+    ],
+    "condition": "like-new",
+    "price": 379000,
+    "stock": 1,
+    "sold": 2,
+    "listingStatus": "ACTIVE",
+    "avgRating": 4.5,
+    "ratingCount": 29,
+    "tags": [
+      "thrift",
+      "secondhand",
+      "preloved",
+      "sustainable",
+      "zara"
+    ],
+    "createdAt": "2025-10-27T01:55:28.163Z"
+  },
+  {
+    "_id": "6916e8b8f64047b6d49f4d44",
+    "name": "Limited Adidas Slim Fit Bags",
+    "slug": "limited-adidas-slim-fit-bags-27",
+    "description": "Premium Limited Adidas Slim Fit Bags in excellent used condition. Carefully curated piece.",
+    "images": [
+      "https://picsum.photos/seed/2700/800/800",
+      "https://source.unsplash.com/800x800/?fashion,clothing&sig=2701"
+    ],
+    "category": "6916e8b8f64047b6d49f4d28",
+    "brand": "6916e8b7f64047b6d49f4d1e",
+    "seller": "6914b6685602ef785785ac32",
+    "sizes": [
+      "XL"
+    ],
+    "condition": "used",
+    "price": 106000,
+    "stock": 1,
+    "sold": 10,
+    "listingStatus": "ACTIVE",
+    "avgRating": 3.5,
+    "ratingCount": 46,
+    "tags": [
+      "thrift",
+      "secondhand",
+      "preloved",
+      "sustainable",
+      "adidas"
+    ],
+    "createdAt": "2025-10-22T14:33:20.929Z"
+  },
+  {
+    "_id": "6916e8b8f64047b6d49f4d45",
+    "name": "Urban Zara Relaxed Sweaters",
+    "slug": "urban-zara-relaxed-sweaters-28",
+    "description": "Authentic Urban Zara Relaxed Sweaters in used condition. Perfect for everyday wear.",
+    "images": [
+      "https://picsum.photos/seed/2800/800/800",
+      "https://source.unsplash.com/800x800/?fashion,clothing&sig=2801"
+    ],
+    "category": "6914b6685602ef785785ac25",
+    "brand": "6916e8b7f64047b6d49f4d1f",
+    "seller": "6914b6685602ef785785ac32",
+    "sizes": [
+      "M"
+    ],
+    "condition": "used",
+    "price": 283000,
+    "stock": 1,
+    "sold": 18,
+    "listingStatus": "ACTIVE",
+    "avgRating": 3.5,
+    "ratingCount": 20,
+    "tags": [
+      "thrift",
+      "secondhand",
+      "preloved",
+      "sustainable",
+      "zara"
+    ],
+    "createdAt": "2025-11-04T17:03:47.356Z"
+  },
+  {
+    "_id": "6916e8b8f64047b6d49f4d46",
+    "name": "Rare Nike Fitted Bags",
+    "slug": "rare-nike-fitted-bags-29",
+    "description": "Stylish Rare Nike Fitted Bags with unique character. A must-have for your wardrobe.",
+    "images": [
+      "https://picsum.photos/seed/2900/800/800",
+      "https://source.unsplash.com/800x800/?fashion,clothing&sig=2901"
+    ],
+    "category": "6916e8b8f64047b6d49f4d28",
+    "brand": "6916e8b7f64047b6d49f4d1d",
+    "seller": "6914b6685602ef785785ac32",
+    "sizes": [
+      "S"
+    ],
+    "condition": "new",
+    "price": 302000,
+    "stock": 1,
+    "sold": 10,
+    "listingStatus": "ACTIVE",
+    "avgRating": 3.5,
+    "ratingCount": 5,
+    "tags": [
+      "thrift",
+      "secondhand",
+      "preloved",
+      "sustainable",
+      "nike"
+    ],
+    "createdAt": "2025-11-03T00:02:03.659Z"
+  },
+  {
+    "_id": "6916e8b8f64047b6d49f4d47",
+    "name": "Vintage Uniqlo Regular Hoodies",
+    "slug": "vintage-uniqlo-regular-hoodies-30",
+    "description": "High-quality Vintage Uniqlo Regular Hoodies. Well-maintained and ready to wear.",
+    "images": [
+      "https://picsum.photos/seed/3000/800/800",
+      "https://source.unsplash.com/800x800/?fashion,clothing&sig=3001",
+      "https://picsum.photos/seed/3002/800/800"
+    ],
+    "category": "6914b6685602ef785785ac20",
+    "brand": "6916e8b7f64047b6d49f4d21",
+    "seller": "6914b6685602ef785785ac32",
+    "sizes": [
+      "XL"
+    ],
+    "condition": "new",
+    "price": 646000,
+    "stock": 1,
+    "sold": 8,
+    "listingStatus": "ACTIVE",
+    "avgRating": 3.5,
+    "ratingCount": 18,
+    "tags": [
+      "thrift",
+      "secondhand",
+      "preloved",
+      "sustainable",
+      "uniqlo"
+    ],
+    "createdAt": "2025-11-05T19:46:14.342Z"
+  },
+  {
+    "_id": "6916e8b8f64047b6d49f4d48",
+    "name": "Limited Nike Oversized Jeans",
+    "slug": "limited-nike-oversized-jeans-31",
+    "description": "Authentic Limited Nike Oversized Jeans in used condition. Perfect for everyday wear.",
+    "images": [
+      "https://picsum.photos/seed/3100/800/800",
+      "https://source.unsplash.com/800x800/?fashion,clothing&sig=3101",
+      "https://picsum.photos/seed/3102/800/800",
+      "https://source.unsplash.com/800x800/?fashion,clothing&sig=3103"
+    ],
+    "category": "6914b6685602ef785785ac1d",
+    "brand": "6916e8b7f64047b6d49f4d1d",
+    "seller": "6914b6685602ef785785ac32",
+    "sizes": [
+      "M"
+    ],
+    "condition": "used",
+    "price": 306000,
+    "stock": 1,
+    "sold": 18,
+    "listingStatus": "ACTIVE",
+    "avgRating": 4.5,
+    "ratingCount": 31,
+    "tags": [
+      "thrift",
+      "secondhand",
+      "preloved",
+      "sustainable",
+      "nike"
+    ],
+    "createdAt": "2025-10-31T19:40:22.603Z"
+  },
+  {
+    "_id": "6916e8b8f64047b6d49f4d49",
+    "name": "Classic Nike Cropped Sneakers",
+    "slug": "classic-nike-cropped-sneakers-32",
+    "description": "Premium Classic Nike Cropped Sneakers in excellent like-new condition. Carefully curated piece.",
+    "images": [
+      "https://picsum.photos/seed/3200/800/800",
+      "https://source.unsplash.com/800x800/?fashion,clothing&sig=3201"
+    ],
+    "category": "6916e8b8f64047b6d49f4d26",
+    "brand": "6916e8b7f64047b6d49f4d1d",
+    "seller": "6914b6685602ef785785ac32",
+    "sizes": [
+      "XL"
+    ],
+    "condition": "like-new",
+    "price": 194000,
+    "stock": 1,
+    "sold": 19,
+    "listingStatus": "ACTIVE",
+    "avgRating": 3.5,
+    "ratingCount": 14,
+    "tags": [
+      "thrift",
+      "secondhand",
+      "preloved",
+      "sustainable",
+      "nike"
+    ],
+    "createdAt": "2025-10-23T03:14:02.651Z"
+  },
+  {
+    "_id": "6916e8b8f64047b6d49f4d4a",
+    "name": "Vintage Levi's Relaxed Hoodies",
+    "slug": "vintage-levi-s-relaxed-hoodies-33",
+    "description": "Stylish Vintage Levi's Relaxed Hoodies with unique character. A must-have for your wardrobe.",
+    "images": [
+      "https://picsum.photos/seed/3300/800/800",
+      "https://source.unsplash.com/800x800/?fashion,clothing&sig=3301"
+    ],
+    "category": "6914b6685602ef785785ac20",
+    "brand": "6914b6685602ef785785ac27",
+    "seller": "6914b6685602ef785785ac32",
+    "sizes": [
+      "L"
+    ],
+    "condition": "like-new",
+    "price": 532000,
+    "stock": 1,
+    "sold": 10,
+    "listingStatus": "ACTIVE",
+    "avgRating": 3.5,
+    "ratingCount": 45,
+    "tags": [
+      "thrift",
+      "secondhand",
+      "preloved",
+      "sustainable",
+      "levi's"
+    ],
+    "createdAt": "2025-10-22T09:42:47.452Z"
+  },
+  {
+    "_id": "6916e8b8f64047b6d49f4d4b",
+    "name": "Vintage Carhartt Fitted Bags",
+    "slug": "vintage-carhartt-fitted-bags-34",
+    "description": "Stylish Vintage Carhartt Fitted Bags with unique character. A must-have for your wardrobe.",
+    "images": [
+      "https://picsum.photos/seed/3400/800/800",
+      "https://source.unsplash.com/800x800/?fashion,clothing&sig=3401"
+    ],
+    "category": "6916e8b8f64047b6d49f4d28",
+    "brand": "6916e8b7f64047b6d49f4d23",
+    "seller": "6914b6685602ef785785ac32",
+    "sizes": [
+      "L"
+    ],
+    "condition": "used",
+    "price": 385000,
+    "stock": 1,
+    "sold": 1,
+    "listingStatus": "ACTIVE",
+    "avgRating": 4.5,
+    "ratingCount": 1,
+    "tags": [
+      "thrift",
+      "secondhand",
+      "preloved",
+      "sustainable",
+      "carhartt"
+    ],
+    "createdAt": "2025-10-17T07:59:44.967Z"
+  },
+  {
+    "_id": "6916e8b8f64047b6d49f4d4c",
+    "name": "Retro Levi's Regular Hoodies",
+    "slug": "retro-levi-s-regular-hoodies-35",
+    "description": "Authentic Retro Levi's Regular Hoodies in used condition. Perfect for everyday wear.",
+    "images": [
+      "https://picsum.photos/seed/3500/800/800",
+      "https://source.unsplash.com/800x800/?fashion,clothing&sig=3501"
+    ],
+    "category": "6914b6685602ef785785ac20",
+    "brand": "6914b6685602ef785785ac27",
+    "seller": "6914b6685602ef785785ac32",
+    "sizes": [
+      "XL"
+    ],
+    "condition": "used",
+    "price": 289000,
+    "stock": 1,
+    "sold": 6,
+    "listingStatus": "ACTIVE",
+    "avgRating": 3.5,
+    "ratingCount": 46,
+    "tags": [
+      "thrift",
+      "secondhand",
+      "preloved",
+      "sustainable",
+      "levi's"
+    ],
+    "createdAt": "2025-10-21T09:51:54.749Z"
+  },
+  {
+    "_id": "6916e8b8f64047b6d49f4d4d",
+    "name": "Limited Adidas Short T-Shirts",
+    "slug": "limited-adidas-short-t-shirts-36",
+    "description": "Timeless Limited Adidas Short T-Shirts that never goes out of style. Great addition to any outfit.",
+    "images": [
+      "https://picsum.photos/seed/3600/800/800",
+      "https://source.unsplash.com/800x800/?fashion,clothing&sig=3601",
+      "https://picsum.photos/seed/3602/800/800"
+    ],
+    "category": "6914b6685602ef785785ac1c",
+    "brand": "6916e8b7f64047b6d49f4d1e",
+    "seller": "6914b6685602ef785785ac32",
+    "sizes": [
+      "XL"
+    ],
+    "condition": "new",
+    "price": 445000,
+    "stock": 1,
+    "sold": 5,
+    "listingStatus": "ACTIVE",
+    "avgRating": 4.5,
+    "ratingCount": 4,
+    "tags": [
+      "thrift",
+      "secondhand",
+      "preloved",
+      "sustainable",
+      "adidas"
+    ],
+    "createdAt": "2025-10-24T19:53:16.281Z"
+  },
+  {
+    "_id": "6916e8b8f64047b6d49f4d4e",
+    "name": "Vintage Nike Long Hoodies",
+    "slug": "vintage-nike-long-hoodies-37",
+    "description": "Authentic Vintage Nike Long Hoodies in like-new condition. Perfect for everyday wear.",
+    "images": [
+      "https://picsum.photos/seed/3700/800/800",
+      "https://source.unsplash.com/800x800/?fashion,clothing&sig=3701"
+    ],
+    "category": "6914b6685602ef785785ac20",
+    "brand": "6916e8b7f64047b6d49f4d1d",
+    "seller": "6914b6685602ef785785ac32",
+    "sizes": [
+      "S"
+    ],
+    "condition": "like-new",
+    "price": 279000,
+    "stock": 1,
+    "sold": 13,
+    "listingStatus": "ACTIVE",
+    "avgRating": 4.5,
+    "ratingCount": 19,
+    "tags": [
+      "thrift",
+      "secondhand",
+      "preloved",
+      "sustainable",
+      "nike"
+    ],
+    "createdAt": "2025-10-24T20:29:51.039Z"
+  },
+  {
+    "_id": "6916e8b8f64047b6d49f4d4f",
+    "name": "Urban Carhartt Relaxed Sweaters",
+    "slug": "urban-carhartt-relaxed-sweaters-38",
+    "description": "Authentic Urban Carhartt Relaxed Sweaters in like-new condition. Perfect for everyday wear.",
+    "images": [
+      "https://picsum.photos/seed/3800/800/800",
+      "https://source.unsplash.com/800x800/?fashion,clothing&sig=3801"
+    ],
+    "category": "6914b6685602ef785785ac25",
+    "brand": "6916e8b7f64047b6d49f4d23",
+    "seller": "6914b6685602ef785785ac32",
+    "sizes": [
+      "S"
+    ],
+    "condition": "like-new",
+    "price": 343000,
+    "stock": 1,
+    "sold": 9,
+    "listingStatus": "ACTIVE",
+    "avgRating": 4.5,
+    "ratingCount": 8,
+    "tags": [
+      "thrift",
+      "secondhand",
+      "preloved",
+      "sustainable",
+      "carhartt"
+    ],
+    "createdAt": "2025-11-11T09:48:47.068Z"
+  },
+  {
+    "_id": "6916e8b8f64047b6d49f4d50",
+    "name": "Rare Nike Slim Fit Hoodies",
+    "slug": "rare-nike-slim-fit-hoodies-39",
+    "description": "Timeless Rare Nike Slim Fit Hoodies that never goes out of style. Great addition to any outfit.",
+    "images": [
+      "https://picsum.photos/seed/3900/800/800",
+      "https://source.unsplash.com/800x800/?fashion,clothing&sig=3901"
+    ],
+    "category": "6914b6685602ef785785ac20",
+    "brand": "6916e8b7f64047b6d49f4d1d",
+    "seller": "6914b6685602ef785785ac32",
+    "sizes": [
+      "M"
+    ],
+    "condition": "new",
+    "price": 479000,
+    "stock": 1,
+    "sold": 1,
+    "listingStatus": "ACTIVE",
+    "avgRating": 3.5,
+    "ratingCount": 11,
+    "tags": [
+      "thrift",
+      "secondhand",
+      "preloved",
+      "sustainable",
+      "nike"
+    ],
+    "createdAt": "2025-11-12T16:48:30.510Z"
+  },
+  {
+    "_id": "6916e8b8f64047b6d49f4d51",
+    "name": "Limited Vans Relaxed Sweaters",
+    "slug": "limited-vans-relaxed-sweaters-40",
+    "description": "High-quality Limited Vans Relaxed Sweaters. Well-maintained and ready to wear.",
+    "images": [
+      "https://picsum.photos/seed/4000/800/800",
+      "https://source.unsplash.com/800x800/?fashion,clothing&sig=4001",
+      "https://picsum.photos/seed/4002/800/800",
+      "https://source.unsplash.com/800x800/?fashion,clothing&sig=4003"
+    ],
+    "category": "6914b6685602ef785785ac25",
+    "brand": "6916e8b7f64047b6d49f4d25",
+    "seller": "6914b6685602ef785785ac32",
+    "sizes": [
+      "XL"
+    ],
+    "condition": "new",
+    "price": 197000,
+    "stock": 1,
+    "sold": 7,
+    "listingStatus": "ACTIVE",
+    "avgRating": 3.5,
+    "ratingCount": 33,
+    "tags": [
+      "thrift",
+      "secondhand",
+      "preloved",
+      "sustainable",
+      "vans"
+    ],
+    "createdAt": "2025-10-22T13:07:26.136Z"
+  },
+  {
+    "_id": "6916e8b8f64047b6d49f4d52",
+    "name": "Vintage Nike Oversized Accessories",
+    "slug": "vintage-nike-oversized-accessories-41",
+    "description": "Timeless Vintage Nike Oversized Accessories that never goes out of style. Great addition to any outfit.",
+    "images": [
+      "https://picsum.photos/seed/4100/800/800",
+      "https://source.unsplash.com/800x800/?fashion,clothing&sig=4101",
+      "https://picsum.photos/seed/4102/800/800",
+      "https://source.unsplash.com/800x800/?fashion,clothing&sig=4103"
+    ],
+    "category": "6914b6685602ef785785ac22",
+    "brand": "6916e8b7f64047b6d49f4d1d",
+    "seller": "6914b6685602ef785785ac32",
+    "sizes": [
+      "XL"
+    ],
+    "condition": "new",
+    "price": 133000,
+    "stock": 1,
+    "sold": 17,
+    "listingStatus": "ACTIVE",
+    "avgRating": 3.5,
+    "ratingCount": 48,
+    "tags": [
+      "thrift",
+      "secondhand",
+      "preloved",
+      "sustainable",
+      "nike"
+    ],
+    "createdAt": "2025-11-03T23:30:32.863Z"
+  },
+  {
+    "_id": "6916e8b8f64047b6d49f4d53",
+    "name": "Rare Nike Fitted Bags",
+    "slug": "rare-nike-fitted-bags-42",
+    "description": "High-quality Rare Nike Fitted Bags. Well-maintained and ready to wear.",
+    "images": [
+      "https://picsum.photos/seed/4200/800/800",
+      "https://source.unsplash.com/800x800/?fashion,clothing&sig=4201"
+    ],
+    "category": "6916e8b8f64047b6d49f4d28",
+    "brand": "6916e8b7f64047b6d49f4d1d",
+    "seller": "6914b6685602ef785785ac32",
+    "sizes": [
+      "XL"
+    ],
+    "condition": "new",
+    "price": 549000,
+    "stock": 1,
+    "sold": 13,
+    "listingStatus": "ACTIVE",
+    "avgRating": 3.5,
+    "ratingCount": 2,
+    "tags": [
+      "thrift",
+      "secondhand",
+      "preloved",
+      "sustainable",
+      "nike"
+    ],
+    "createdAt": "2025-10-16T01:45:17.302Z"
+  },
+  {
+    "_id": "6916e8b8f64047b6d49f4d54",
+    "name": "Urban Levi's Slim Fit T-Shirts",
+    "slug": "urban-levi-s-slim-fit-t-shirts-43",
+    "description": "High-quality Urban Levi's Slim Fit T-Shirts. Well-maintained and ready to wear.",
+    "images": [
+      "https://picsum.photos/seed/4300/800/800",
+      "https://source.unsplash.com/800x800/?fashion,clothing&sig=4301"
+    ],
+    "category": "6914b6685602ef785785ac1c",
+    "brand": "6914b6685602ef785785ac27",
+    "seller": "6914b6685602ef785785ac32",
+    "sizes": [
+      "L"
+    ],
+    "condition": "used",
+    "price": 411000,
+    "stock": 1,
+    "sold": 6,
+    "listingStatus": "ACTIVE",
+    "avgRating": 4.5,
+    "ratingCount": 25,
+    "tags": [
+      "thrift",
+      "secondhand",
+      "preloved",
+      "sustainable",
+      "levi's"
+    ],
+    "createdAt": "2025-10-18T09:57:23.612Z"
+  },
+  {
+    "_id": "6916e8b8f64047b6d49f4d55",
+    "name": "Modern Zara Fitted Sneakers",
+    "slug": "modern-zara-fitted-sneakers-44",
+    "description": "Premium Modern Zara Fitted Sneakers in excellent like-new condition. Carefully curated piece.",
+    "images": [
+      "https://picsum.photos/seed/4400/800/800",
+      "https://source.unsplash.com/800x800/?fashion,clothing&sig=4401",
+      "https://picsum.photos/seed/4402/800/800",
+      "https://source.unsplash.com/800x800/?fashion,clothing&sig=4403"
+    ],
+    "category": "6916e8b8f64047b6d49f4d26",
+    "brand": "6916e8b7f64047b6d49f4d1f",
+    "seller": "6914b6685602ef785785ac32",
+    "sizes": [
+      "L"
+    ],
+    "condition": "like-new",
+    "price": 275000,
+    "stock": 1,
+    "sold": 17,
+    "listingStatus": "ACTIVE",
+    "avgRating": 4.5,
+    "ratingCount": 47,
+    "tags": [
+      "thrift",
+      "secondhand",
+      "preloved",
+      "sustainable",
+      "zara"
+    ],
+    "createdAt": "2025-11-10T05:44:32.341Z"
+  },
+  {
+    "_id": "6916e8b8f64047b6d49f4d56",
+    "name": "Authentic Nike Relaxed Dresses",
+    "slug": "authentic-nike-relaxed-dresses-45",
+    "description": "High-quality Authentic Nike Relaxed Dresses. Well-maintained and ready to wear.",
+    "images": [
+      "https://picsum.photos/seed/4500/800/800",
+      "https://source.unsplash.com/800x800/?fashion,clothing&sig=4501",
+      "https://picsum.photos/seed/4502/800/800",
+      "https://source.unsplash.com/800x800/?fashion,clothing&sig=4503"
+    ],
+    "category": "6914b6685602ef785785ac1f",
+    "brand": "6916e8b7f64047b6d49f4d1d",
+    "seller": "6914b6685602ef785785ac32",
+    "sizes": [
+      "L"
+    ],
+    "condition": "new",
+    "price": 669000,
+    "stock": 1,
+    "sold": 18,
+    "listingStatus": "ACTIVE",
+    "avgRating": 4.5,
+    "ratingCount": 9,
+    "tags": [
+      "thrift",
+      "secondhand",
+      "preloved",
+      "sustainable",
+      "nike"
+    ],
+    "createdAt": "2025-11-04T21:10:17.038Z"
+  },
+  {
+    "_id": "6916e8b8f64047b6d49f4d57",
+    "name": "Modern Carhartt Relaxed Jackets",
+    "slug": "modern-carhartt-relaxed-jackets-46",
+    "description": "Premium Modern Carhartt Relaxed Jackets in excellent used condition. Carefully curated piece.",
+    "images": [
+      "https://picsum.photos/seed/4600/800/800",
+      "https://source.unsplash.com/800x800/?fashion,clothing&sig=4601"
+    ],
+    "category": "6914b6685602ef785785ac1e",
+    "brand": "6916e8b7f64047b6d49f4d23",
+    "seller": "6914b6685602ef785785ac32",
+    "sizes": [
+      "L"
+    ],
+    "condition": "used",
+    "price": 90000,
+    "stock": 1,
+    "sold": 13,
+    "listingStatus": "ACTIVE",
+    "avgRating": 4.5,
+    "ratingCount": 32,
+    "tags": [
+      "thrift",
+      "secondhand",
+      "preloved",
+      "sustainable",
+      "carhartt"
+    ],
+    "createdAt": "2025-10-26T09:30:54.057Z"
+  },
+  {
+    "_id": "6916e8b8f64047b6d49f4d58",
+    "name": "Casual H&M Regular Bags",
+    "slug": "casual-h-m-regular-bags-47",
+    "description": "High-quality Casual H&M Regular Bags. Well-maintained and ready to wear.",
+    "images": [
+      "https://picsum.photos/seed/4700/800/800",
+      "https://source.unsplash.com/800x800/?fashion,clothing&sig=4701",
+      "https://picsum.photos/seed/4702/800/800",
+      "https://source.unsplash.com/800x800/?fashion,clothing&sig=4703"
+    ],
+    "category": "6916e8b8f64047b6d49f4d28",
+    "brand": "6916e8b7f64047b6d49f4d20",
+    "seller": "6914b6685602ef785785ac32",
+    "sizes": [
+      "M"
+    ],
+    "condition": "new",
+    "price": 264000,
+    "stock": 1,
+    "sold": 6,
+    "listingStatus": "ACTIVE",
+    "avgRating": 4.5,
+    "ratingCount": 13,
+    "tags": [
+      "thrift",
+      "secondhand",
+      "preloved",
+      "sustainable",
+      "h&m"
+    ],
+    "createdAt": "2025-11-05T07:05:30.517Z"
+  },
+  {
+    "_id": "6916e8b8f64047b6d49f4d59",
+    "name": "Limited H&M Relaxed Bags",
+    "slug": "limited-h-m-relaxed-bags-48",
+    "description": "Timeless Limited H&M Relaxed Bags that never goes out of style. Great addition to any outfit.",
+    "images": [
+      "https://picsum.photos/seed/4800/800/800",
+      "https://source.unsplash.com/800x800/?fashion,clothing&sig=4801",
+      "https://picsum.photos/seed/4802/800/800",
+      "https://source.unsplash.com/800x800/?fashion,clothing&sig=4803"
+    ],
+    "category": "6916e8b8f64047b6d49f4d28",
+    "brand": "6916e8b7f64047b6d49f4d20",
+    "seller": "6914b6685602ef785785ac32",
+    "sizes": [
+      "L"
+    ],
+    "condition": "like-new",
+    "price": 432000,
+    "stock": 1,
+    "sold": 18,
+    "listingStatus": "ACTIVE",
+    "avgRating": 4.5,
+    "ratingCount": 0,
+    "tags": [
+      "thrift",
+      "secondhand",
+      "preloved",
+      "sustainable",
+      "h&m"
+    ],
+    "createdAt": "2025-11-02T06:12:55.053Z"
+  },
+  {
+    "_id": "6916e8b8f64047b6d49f4d5a",
+    "name": "Vintage Zara Fitted Sweaters",
+    "slug": "vintage-zara-fitted-sweaters-49",
+    "description": "Stylish Vintage Zara Fitted Sweaters with unique character. A must-have for your wardrobe.",
+    "images": [
+      "https://picsum.photos/seed/4900/800/800",
+      "https://source.unsplash.com/800x800/?fashion,clothing&sig=4901",
+      "https://picsum.photos/seed/4902/800/800",
+      "https://source.unsplash.com/800x800/?fashion,clothing&sig=4903"
+    ],
+    "category": "6914b6685602ef785785ac25",
+    "brand": "6916e8b7f64047b6d49f4d1f",
+    "seller": "6914b6685602ef785785ac32",
+    "sizes": [
+      "S"
+    ],
+    "condition": "like-new",
+    "price": 490000,
+    "stock": 1,
+    "sold": 7,
+    "listingStatus": "ACTIVE",
+    "avgRating": 3.5,
+    "ratingCount": 38,
+    "tags": [
+      "thrift",
+      "secondhand",
+      "preloved",
+      "sustainable",
+      "zara"
+    ],
+    "createdAt": "2025-11-12T06:46:47.356Z"
+  }
+]

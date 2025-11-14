@@ -1,0 +1,126 @@
+[
+  {
+    "_id": "6914b6685602ef785785ac27",
+    "name": "Levi's",
+    "slug": "levis",
+    "createdAt": "2025-11-12T16:31:36.454Z",
+    "__v": 0
+  },
+  {
+    "_id": "6914b6685602ef785785ac28",
+    "name": "Tommy Hilfiger",
+    "slug": "tommy-hilfiger",
+    "createdAt": "2025-11-12T16:31:36.454Z",
+    "__v": 0
+  },
+  {
+    "_id": "6914b6685602ef785785ac29",
+    "name": "Gap",
+    "slug": "gap",
+    "createdAt": "2025-11-12T16:31:36.454Z",
+    "__v": 0
+  },
+  {
+    "_id": "6914b6685602ef785785ac2a",
+    "name": "Guess",
+    "slug": "guess",
+    "createdAt": "2025-11-12T16:31:36.454Z",
+    "__v": 0
+  },
+  {
+    "_id": "6914b6685602ef785785ac2b",
+    "name": "Ralph Lauren",
+    "slug": "ralph-lauren",
+    "createdAt": "2025-11-12T16:31:36.454Z",
+    "__v": 0
+  },
+  {
+    "_id": "6914b6685602ef785785ac2c",
+    "name": "Calvin Klein",
+    "slug": "calvin-klein",
+    "createdAt": "2025-11-12T16:31:36.455Z",
+    "__v": 0
+  },
+  {
+    "_id": "6914b6685602ef785785ac2d",
+    "name": "Vintage Brand",
+    "slug": "vintage-brand",
+    "createdAt": "2025-11-12T16:31:36.455Z",
+    "__v": 0
+  },
+  {
+    "_id": "6914b6685602ef785785ac2e",
+    "name": "Thrifted Co",
+    "slug": "thrifted-co",
+    "createdAt": "2025-11-12T16:31:36.455Z",
+    "__v": 0
+  },
+  {
+    "_id": "6914b6685602ef785785ac2f",
+    "name": "Retro Wear",
+    "slug": "retro-wear",
+    "createdAt": "2025-11-12T16:31:36.455Z",
+    "__v": 0
+  },
+  {
+    "_id": "6914b6685602ef785785ac30",
+    "name": "Classic Cuts",
+    "slug": "classic-cuts",
+    "createdAt": "2025-11-12T16:31:36.455Z",
+    "__v": 0
+  },
+  {
+    "_id": "6916e8b7f64047b6d49f4d1d",
+    "name": "Nike",
+    "slug": "nike",
+    "createdAt": "2025-11-14T08:30:47.929Z"
+  },
+  {
+    "_id": "6916e8b7f64047b6d49f4d1e",
+    "name": "Adidas",
+    "slug": "adidas",
+    "createdAt": "2025-11-14T08:30:47.947Z"
+  },
+  {
+    "_id": "6916e8b7f64047b6d49f4d1f",
+    "name": "Zara",
+    "slug": "zara",
+    "createdAt": "2025-11-14T08:30:47.952Z"
+  },
+  {
+    "_id": "6916e8b7f64047b6d49f4d20",
+    "name": "H&M",
+    "slug": "h-m",
+    "createdAt": "2025-11-14T08:30:47.958Z"
+  },
+  {
+    "_id": "6916e8b7f64047b6d49f4d21",
+    "name": "Uniqlo",
+    "slug": "uniqlo",
+    "createdAt": "2025-11-14T08:30:47.965Z"
+  },
+  {
+    "_id": "6916e8b7f64047b6d49f4d22",
+    "name": "Supreme",
+    "slug": "supreme",
+    "createdAt": "2025-11-14T08:30:47.970Z"
+  },
+  {
+    "_id": "6916e8b7f64047b6d49f4d23",
+    "name": "Carhartt",
+    "slug": "carhartt",
+    "createdAt": "2025-11-14T08:30:47.973Z"
+  },
+  {
+    "_id": "6916e8b7f64047b6d49f4d24",
+    "name": "Dickies",
+    "slug": "dickies",
+    "createdAt": "2025-11-14T08:30:47.976Z"
+  },
+  {
+    "_id": "6916e8b7f64047b6d49f4d25",
+    "name": "Vans",
+    "slug": "vans",
+    "createdAt": "2025-11-14T08:30:47.982Z"
+  }
+]

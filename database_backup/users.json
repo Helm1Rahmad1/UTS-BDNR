@@ -1,0 +1,65 @@
+[
+  {
+    "_id": "6914b6685602ef785785ac32",
+    "name": "Admin User",
+    "email": "admin@thriftstyle.com",
+    "passwordHash": "$2b$10$szp8LB7/42gHdH.jfgTDk.uQKDEDk3AWseyVx431aNfW.kU0HW2Vu",
+    "role": "admin",
+    "createdAt": "2025-11-12T16:31:36.606Z",
+    "__v": 0
+  },
+  {
+    "_id": "6914b6685602ef785785ac33",
+    "name": "John Doe",
+    "email": "john@example.com",
+    "passwordHash": "$2b$10$.ZiczhpOzI6APyretkSwN..s2UIiRWUN7wmSfbUwSDqoHv9QcgwSy",
+    "role": "user",
+    "createdAt": "2025-11-12T16:31:36.606Z",
+    "__v": 0
+  },
+  {
+    "_id": "6914b6685602ef785785ac34",
+    "name": "Jane Smith",
+    "email": "jane@example.com",
+    "passwordHash": "$2b$10$.ZiczhpOzI6APyretkSwN..s2UIiRWUN7wmSfbUwSDqoHv9QcgwSy",
+    "role": "user",
+    "createdAt": "2025-11-12T16:31:36.606Z",
+    "__v": 0
+  },
+  {
+    "_id": "6914b6685602ef785785ac35",
+    "name": "Mike Johnson",
+    "email": "mike@example.com",
+    "passwordHash": "$2b$10$.ZiczhpOzI6APyretkSwN..s2UIiRWUN7wmSfbUwSDqoHv9QcgwSy",
+    "role": "user",
+    "createdAt": "2025-11-12T16:31:36.606Z",
+    "__v": 0
+  },
+  {
+    "_id": "6914b6685602ef785785ac36",
+    "name": "Sarah Williams",
+    "email": "sarah@example.com",
+    "passwordHash": "$2b$10$.ZiczhpOzI6APyretkSwN..s2UIiRWUN7wmSfbUwSDqoHv9QcgwSy",
+    "role": "user",
+    "createdAt": "2025-11-12T16:31:36.606Z",
+    "__v": 0
+  },
+  {
+    "_id": "6914b819190c7f351ec84813",
+    "name": "helmi",
+    "email": "helmirahmadi21@gmail.com",
+    "passwordHash": "$2b$10$WJel7VcSxhNgj9BOws6kc.QyizSCugeQGFtpyLkjjqjq0i15516PK",
+    "role": "user",
+    "createdAt": "2025-11-12T16:38:49.408Z",
+    "__v": 0
+  },
+  {
+    "_id": "6916e5e3a41caa1d5d364ba6",
+    "name": "faisallee",
+    "email": "abcd@gmail.co",
+    "passwordHash": "$2b$10$cis8cKi9yVf9F6/bEDtJ6./N9J44e0IK4eXCsFL.geFjSGtn.qWk.",
+    "role": "user",
+    "createdAt": "2025-11-14T08:18:43.572Z",
+    "__v": 0
+  }
+]

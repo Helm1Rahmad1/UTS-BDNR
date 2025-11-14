@@ -9,6 +9,9 @@
     "seed": "tsx scripts/seed.ts",
     "import": "tsx scripts/import-db.ts",
     "migrate": "tsx scripts/migrate-products.ts",
+    "generate": "tsx scripts/generate-products.ts",
+    "backup": "tsx scripts/backup-db.ts",
+    "restore": "tsx scripts/restore-db.ts",
     "start": "next start"
   },
   "dependencies": {
