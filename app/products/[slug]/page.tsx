@@ -1,5 +1,8 @@
 import { connectDB } from "@/lib/mongodb"
 import Product from "@/models/Product"
+import Category from "@/models/Category"
+import Brand from "@/models/Brand"
+import User from "@/models/User"
 import ProductDetail from "@/components/product-detail"
 import ProductReviews from "@/components/product-reviews"
 import { notFound } from "next/navigation"
@@ -7,7 +10,17 @@ import { notFound } from "next/navigation"
 async function getProduct(slug: string) {
   try {
     await connectDB()
-    const product = await Product.findOne({ slug }).populate("category").populate("brand").lean()
+    
+    // Ensure models are registered
+    Category;
+    Brand;
+    User;
+    
+    const product = await Product.findOne({ slug })
+      .populate("category")
+      .populate("brand")
+      .populate("seller", "name email")
+      .lean()
 
     if (!product) {
       notFound()
@@ -25,7 +38,10 @@ async function getProduct(slug: string) {
         ...product.brand,
         _id: product.brand._id.toString(),
       } : null,
-      seller: product.seller?.toString(),
+      seller: product.seller ? {
+        ...product.seller,
+        _id: product.seller._id.toString(),
+      } : null,
     }
   } catch (error) {
     console.error("Error fetching product:", error)

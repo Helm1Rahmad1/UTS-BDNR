@@ -4,14 +4,12 @@ import type React from "react"
 
 import Link from "next/link"
 import { usePathname } from "next/navigation"
-import { LayoutDashboard, Package, Tag, ShoppingCart, LogOut } from "lucide-react"
-import { signOut } from "next-auth/react"
+import { LayoutDashboard, Package, Tag, ShoppingCart, Home } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 const navItems = [
   { href: "/dashboard", icon: LayoutDashboard, label: "Overview" },
   { href: "/dashboard/products", icon: Package, label: "Products" },
-  { href: "/dashboard/categories", icon: Tag, label: "Categories" },
   { href: "/dashboard/orders", icon: ShoppingCart, label: "Orders" },
 ]
 
@@ -47,9 +45,11 @@ export default function DashboardLayout({ children }: { children: React.ReactNod
           </nav>
 
           <div className="p-4 border-t border-border">
-            <Button onClick={() => signOut()} variant="outline" className="w-full justify-start">
-              <LogOut className="h-4 w-4 mr-2" />
-              Sign Out
+            <Button asChild variant="outline" className="w-full justify-start">
+              <Link href="/">
+                <Home className="h-4 w-4 mr-2" />
+                Back to Site
+              </Link>
             </Button>
           </div>
         </div>

@@ -2,14 +2,21 @@
 
 import { useState } from "react"
 import Image from "next/image"
+import Link from "next/link"
+import { useSession } from "next-auth/react"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
-import { Star, Heart, Share2 } from "lucide-react"
+import { Card, CardContent } from "@/components/ui/card"
+import { Separator } from "@/components/ui/separator"
+import { Avatar, AvatarFallback } from "@/components/ui/avatar"
+import { Star, Heart, Share2, Store, ShieldCheck, Package, TrendingUp, Edit } from "lucide-react"
 
 export default function ProductDetail({ product }: { product: any }) {
+  const { data: session } = useSession()
   const [selectedSize, setSelectedSize] = useState(product.sizes?.[0])
   const [quantity, setQuantity] = useState(1)
   const [selectedImage, setSelectedImage] = useState(0)
+  const isAdmin = session?.user?.role === "admin"
 
   const handleAddToCart = () => {
     const cartItem = {
@@ -32,17 +39,20 @@ export default function ProductDetail({ product }: { product: any }) {
     alert("Added to cart!")
   }
 
+  const sellerInitial = product.seller?.name?.charAt(0).toUpperCase() || "S"
+  const isActive = product.listingStatus === "ACTIVE"
+
   return (
     <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-8">
-      <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
-        {/* Images */}
-        <div>
+      <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
+        {/* Images - Left Column */}
+        <div className="lg:col-span-2">
           <div className="aspect-square rounded-lg overflow-hidden bg-muted mb-4">
             <Image
-              src={product.images[selectedImage] || "/placeholder.svg?height=500&width=500"}
+              src={product.images[selectedImage] || "/placeholder.svg?height=600&width=600"}
               alt={product.name}
-              width={500}
-              height={500}
+              width={600}
+              height={600}
               className="w-full h-full object-cover"
             />
           </div>
@@ -58,8 +68,8 @@ export default function ProductDetail({ product }: { product: any }) {
                 <Image
                   src={image || "/placeholder.svg"}
                   alt={`${product.name} ${idx + 1}`}
-                  width={100}
-                  height={100}
+                  width={150}
+                  height={150}
                   className="w-full h-full object-cover"
                 />
               </button>
@@ -67,102 +77,210 @@ export default function ProductDetail({ product }: { product: any }) {
           </div>
         </div>
 
-        {/* Info */}
-        <div>
-          <div className="mb-4">
-            <Badge>{product.condition}</Badge>
-          </div>
+        {/* Info & Actions - Right Column */}
+        <div className="lg:col-span-1">
+          <div className="sticky top-4 space-y-6">
+            {/* Product Info */}
+            <div>
+              <div className="flex items-center justify-between mb-4">
+                <div className="flex items-center gap-2">
+                  <Badge variant={isActive ? "default" : "secondary"}>
+                    {product.listingStatus}
+                  </Badge>
+                  <Badge variant="outline">{product.condition}</Badge>
+                </div>
+                {isAdmin && (
+                  <Button asChild variant="outline" size="sm">
+                    <Link href={`/dashboard/products?edit=${product._id}`}>
+                      <Edit className="h-4 w-4 mr-2" />
+                      Edit Product
+                    </Link>
+                  </Button>
+                )}
+              </div>
 
-          <h1 className="text-3xl font-bold mb-2">{product.name}</h1>
-          <p className="text-muted-foreground mb-4">{product.category?.name}</p>
+              <h1 className="text-3xl font-bold mb-2">{product.name}</h1>
+              <p className="text-muted-foreground mb-4">
+                {product.brand?.name} • {product.category?.name}
+              </p>
 
-          {/* Rating */}
-          {product.ratingCount > 0 && (
-            <div className="flex items-center gap-2 mb-6">
-              <div className="flex items-center">
-                {[...Array(5)].map((_, i) => (
-                  <Star
-                    key={i}
-                    className={`h-4 w-4 ${
-                      i < Math.round(product.avgRating) ? "fill-yellow-400 text-yellow-400" : "text-muted-foreground"
+              {/* Rating */}
+              {product.ratingCount > 0 ? (
+                <div className="flex items-center gap-2 mb-4">
+                  <div className="flex items-center">
+                    {[...Array(5)].map((_, i) => (
+                      <Star
+                        key={i}
+                        className={`h-4 w-4 ${
+                          i < Math.round(product.avgRating)
+                            ? "fill-yellow-400 text-yellow-400"
+                            : "text-muted-foreground"
+                        }`}
+                      />
+                    ))}
+                  </div>
+                  <span className="text-sm font-medium">
+                    {product.avgRating.toFixed(1)}
+                  </span>
+                  <span className="text-sm text-muted-foreground">
+                    ({product.ratingCount} reviews)
+                  </span>
+                </div>
+              ) : (
+                <p className="text-sm text-muted-foreground mb-4">No reviews yet</p>
+              )}
+
+              {/* Price */}
+              <p className="text-4xl font-bold mb-6">
+                Rp {product.price.toLocaleString("id-ID")}
+              </p>
+            </div>
+
+            <Separator />
+
+            {/* Seller Info Card */}
+            <Card>
+              <CardContent className="p-4">
+                <div className="flex items-start gap-3">
+                  <Avatar className="h-12 w-12">
+                    <AvatarFallback className="bg-primary text-primary-foreground">
+                      {sellerInitial}
+                    </AvatarFallback>
+                  </Avatar>
+                  <div className="flex-1 min-w-0">
+                    <div className="flex items-center gap-2 mb-1">
+                      <h3 className="font-semibold truncate">{product.seller?.name || "Seller"}</h3>
+                      <ShieldCheck className="h-4 w-4 text-blue-500 flex-shrink-0" />
+                    </div>
+                    <p className="text-sm text-muted-foreground truncate">
+                      {product.seller?.email}
+                    </p>
+                    <div className="flex items-center gap-4 mt-3 text-sm">
+                      <div className="flex items-center gap-1">
+                        <Store className="h-4 w-4 text-muted-foreground" />
+                        <span>{product.sold || 0} sold</span>
+                      </div>
+                      <div className="flex items-center gap-1">
+                        <Star className="h-4 w-4 text-yellow-400 fill-yellow-400" />
+                        <span>4.8</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+
+            <Separator />
+
+            {/* Size Selection */}
+            <div>
+              <h3 className="font-semibold mb-3">Select Size</h3>
+              <div className="flex gap-2">
+                {product.sizes.map((size: string) => (
+                  <button
+                    key={size}
+                    onClick={() => setSelectedSize(size)}
+                    className={`w-12 h-12 rounded border-2 font-semibold transition-colors ${
+                      selectedSize === size
+                        ? "border-primary bg-primary text-primary-foreground"
+                        : "border-input hover:border-primary"
                     }`}
-                  />
+                  >
+                    {size}
+                  </button>
                 ))}
               </div>
-              <span className="text-sm">
-                {product.avgRating.toFixed(1)} ({product.ratingCount} reviews)
-              </span>
             </div>
-          )}
 
-          {/* Price */}
-          <p className="text-3xl font-bold mb-6">Rp {product.price.toLocaleString("id-ID")}</p>
-
-          {/* Description */}
-          <p className="text-muted-foreground mb-6">{product.description}</p>
-
-          {/* Size Selection */}
-          <div className="mb-6">
-            <h3 className="font-semibold mb-3">Size</h3>
-            <div className="flex gap-2">
-              {product.sizes.map((size: string) => (
+            {/* Quantity */}
+            <div>
+              <h3 className="font-semibold mb-3">Quantity</h3>
+              <div className="flex items-center gap-4">
                 <button
-                  key={size}
-                  onClick={() => setSelectedSize(size)}
-                  className={`w-12 h-12 rounded border-2 font-semibold ${
-                    selectedSize === size
-                      ? "border-primary bg-primary text-primary-foreground"
-                      : "border-input hover:border-primary"
-                  }`}
+                  onClick={() => setQuantity(Math.max(1, quantity - 1))}
+                  className="h-10 w-10 rounded border border-input hover:bg-muted transition-colors"
                 >
-                  {size}
+                  -
                 </button>
-              ))}
+                <span className="font-semibold text-lg w-8 text-center">{quantity}</span>
+                <button
+                  onClick={() => setQuantity(quantity + 1)}
+                  disabled={!isActive}
+                  className="h-10 w-10 rounded border border-input hover:bg-muted transition-colors disabled:opacity-50"
+                >
+                  +
+                </button>
+              </div>
+              <p className="text-sm mt-2 text-muted-foreground">
+                {isActive
+                  ? `${product.stock} available`
+                  : "Item sold out"}
+              </p>
             </div>
-          </div>
 
-          {/* Quantity */}
-          <div className="mb-6">
-            <h3 className="font-semibold mb-3">Quantity</h3>
-            <div className="flex items-center gap-4">
-              <button
-                onClick={() => setQuantity(Math.max(1, quantity - 1))}
-                className="h-10 w-10 rounded border border-input hover:bg-muted"
+            {/* Action Buttons */}
+            <div className="space-y-3">
+              <Button
+                onClick={handleAddToCart}
+                disabled={!isActive || product.stock === 0}
+                size="lg"
+                className="w-full"
               >
-                -
-              </button>
-              <span className="font-semibold">{quantity}</span>
-              <button
-                onClick={() => setQuantity(quantity + 1)}
-                className="h-10 w-10 rounded border border-input hover:bg-muted"
-              >
-                +
-              </button>
+                {isActive ? "Add to Cart" : "Sold Out"}
+              </Button>
+              <div className="flex gap-2">
+                <Button variant="outline" size="lg" className="flex-1">
+                  <Heart className="h-5 w-5 mr-2" />
+                  Save
+                </Button>
+                <Button variant="outline" size="lg" className="flex-1">
+                  <Share2 className="h-5 w-5 mr-2" />
+                  Share
+                </Button>
+              </div>
             </div>
-          </div>
 
-          {/* Stock */}
-          <p className="text-sm mb-6 text-muted-foreground">
-            {product.stock > 0 ? `${product.stock} in stock` : "Out of stock"}
-          </p>
+            {/* Product Stats */}
+            <Card>
+              <CardContent className="p-4 space-y-3">
+                <div className="flex items-center justify-between text-sm">
+                  <div className="flex items-center gap-2 text-muted-foreground">
+                    <Package className="h-4 w-4" />
+                    <span>Condition</span>
+                  </div>
+                  <span className="font-medium capitalize">{product.condition}</span>
+                </div>
+                <div className="flex items-center justify-between text-sm">
+                  <div className="flex items-center gap-2 text-muted-foreground">
+                    <TrendingUp className="h-4 w-4" />
+                    <span>Total Sold</span>
+                  </div>
+                  <span className="font-medium">{product.sold || 0} items</span>
+                </div>
+              </CardContent>
+            </Card>
 
-          {/* Add to Cart */}
-          <div className="flex gap-4 mb-8">
-            <Button onClick={handleAddToCart} disabled={product.stock === 0} size="lg" className="flex-1">
-              Add to Cart
-            </Button>
-            <Button variant="outline" size="lg">
-              <Heart className="h-5 w-5" />
-            </Button>
-            <Button variant="outline" size="lg">
-              <Share2 className="h-5 w-5" />
-            </Button>
-          </div>
+            {/* Description */}
+            <div>
+              <h3 className="font-semibold mb-3">Description</h3>
+              <p className="text-muted-foreground text-sm leading-relaxed">
+                {product.description}
+              </p>
+            </div>
 
-          {/* Related */}
-          <div className="pt-8 border-t">
-            <h3 className="font-semibold mb-4">More from {product.brand?.name}</h3>
-            <p className="text-sm text-muted-foreground">Browse other products from this brand</p>
+            {/* Tags */}
+            {product.tags && product.tags.length > 0 && (
+              <div>
+                <h3 className="font-semibold mb-3">Tags</h3>
+                <div className="flex flex-wrap gap-2">
+                  {product.tags.map((tag: string) => (
+                    <Badge key={tag} variant="secondary">
+                      #{tag}
+                    </Badge>
+                  ))}
+                </div>
+              </div>
+            )}
           </div>
         </div>
       </div>

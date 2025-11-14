@@ -60,6 +60,10 @@ MONGODB_URI=mongodb://localhost:27017/thriftstyle
 
 NEXTAUTH_URL=http://localhost:3000
 NEXTAUTH_SECRET=your-secret-key-here
+
+# Optional: Pexels API for real fashion images in generate script
+# Get free API key at: https://www.pexels.com/api/
+# PEXELS_API_KEY=your-pexels-api-key
 \`\`\`
 
 4. Import existing database (if you have backup files):

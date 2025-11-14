@@ -1,23 +1,26 @@
-import { auth } from "@/auth"
+import { getToken } from "next-auth/jwt"
 import { NextResponse } from "next/server"
+import type { NextRequest } from "next/server"
 
-export default auth(async (req) => {
-  const session = req.auth
+export async function middleware(req: NextRequest) {
+  const token = await getToken({ req, secret: process.env.NEXTAUTH_SECRET })
 
   // Protect admin routes
   if (req.nextUrl.pathname.startsWith("/dashboard")) {
-    if (!session?.user?.id || session.user?.role !== "admin") {
+    if (!token || token.role !== "admin") {
       return NextResponse.redirect(new URL("/", req.url))
     }
   }
 
   // Protect checkout route
   if (req.nextUrl.pathname === "/checkout") {
-    if (!session?.user?.id) {
+    if (!token) {
       return NextResponse.redirect(new URL("/auth/login", req.url))
     }
   }
-})
+
+  return NextResponse.next()
+}
 
 export const config = {
   matcher: ["/dashboard/:path*", "/checkout/:path*", "/orders/:path*"],

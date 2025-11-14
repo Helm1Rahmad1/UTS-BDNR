@@ -10,9 +10,8 @@ const geistSans = Geist({ subsets: ["latin"] })
 const geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "ThriftStyle - Modern Thrift Fashion",
-  description: "Discover unique thrifted fashion items with modern style",
-  generator: 'v0.app'
+  title: "ThriftStyle - C2C Marketplace for Thrifted Fashion",
+  description: "Buy and sell unique thrifted fashion items. C2C marketplace with offer negotiation, seller system, and secure checkout.",
 }
 
 export default function RootLayout({
