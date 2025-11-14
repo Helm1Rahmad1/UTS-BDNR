@@ -68,7 +68,8 @@ async function getHomeData() {
         ...product.category,
         _id: product.category._id.toString()
       } : null,
-      brand: product.brand ? product.brand.toString() : null
+      brand: product.brand ? product.brand.toString() : null,
+      seller: product.seller ? product.seller.toString() : null,
     }))
 
     const newProducts = newProductsRaw.map(product => ({
@@ -78,7 +79,8 @@ async function getHomeData() {
         ...product.category,
         _id: product.category._id.toString()
       } : null,
-      brand: product.brand ? product.brand.toString() : null
+      brand: product.brand ? product.brand.toString() : null,
+      seller: product.seller ? product.seller.toString() : null,
     }))
 
     return { topSelling, newProducts, popularCategories }

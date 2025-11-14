@@ -20,7 +20,22 @@ async function getOrder(id: string) {
       notFound()
     }
 
-    return order
+    // Convert ObjectIds to strings
+    return {
+      ...order,
+      _id: order._id.toString(),
+      user: order.user?.toString(),
+      items: order.items?.map((item: any) => ({
+        ...item,
+        product: item.product ? {
+          ...item.product,
+          _id: item.product._id.toString(),
+          category: item.product.category?.toString(),
+          brand: item.product.brand?.toString(),
+          seller: item.product.seller?.toString(),
+        } : null,
+      })),
+    }
   } catch (error) {
     console.error("Error fetching order:", error)
     notFound()
@@ -30,9 +45,10 @@ async function getOrder(id: string) {
 export default async function OrderDetailPage({
   params,
 }: {
-  params: { id: string }
+  params: Promise<{ id: string }>
 }) {
-  const order = await getOrder(params.id)
+  const { id } = await params
+  const order = await getOrder(id)
 
   const statusColor: Record<string, string> = {
     PENDING: "bg-yellow-100 text-yellow-800",

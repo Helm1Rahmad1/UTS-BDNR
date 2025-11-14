@@ -84,7 +84,21 @@ export async function GET(request: NextRequest) {
 
     const result = await Product.aggregate(pipeline)
 
-    const products = result[0].data
+    const products = result[0].data.map((p: any) => ({
+      ...p,
+      _id: p._id.toString(),
+      category: p.categoryData?._id ? p.categoryData._id.toString() : p.category?.toString(),
+      brand: p.brandData?._id ? p.brandData._id.toString() : p.brand?.toString(),
+      seller: p.seller?.toString(),
+      categoryData: p.categoryData ? {
+        ...p.categoryData,
+        _id: p.categoryData._id.toString(),
+      } : undefined,
+      brandData: p.brandData ? {
+        ...p.brandData,
+        _id: p.brandData._id.toString(),
+      } : undefined,
+    }))
     const totalCount = result[0].totalCount[0]?.count || 0
 
     return NextResponse.json({

@@ -8,6 +8,7 @@
     "lint": "eslint .",
     "seed": "tsx scripts/seed.ts",
     "import": "tsx scripts/import-db.ts",
+    "migrate": "tsx scripts/migrate-products.ts",
     "start": "next start"
   },
   "dependencies": {

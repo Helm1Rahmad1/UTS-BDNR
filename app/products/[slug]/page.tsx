@@ -13,7 +13,20 @@ async function getProduct(slug: string) {
       notFound()
     }
 
-    return product
+    // Convert ObjectIds to strings for Client Components
+    return {
+      ...product,
+      _id: product._id.toString(),
+      category: product.category ? {
+        ...product.category,
+        _id: product.category._id.toString(),
+      } : null,
+      brand: product.brand ? {
+        ...product.brand,
+        _id: product.brand._id.toString(),
+      } : null,
+      seller: product.seller?.toString(),
+    }
   } catch (error) {
     console.error("Error fetching product:", error)
     notFound()
@@ -23,9 +36,10 @@ async function getProduct(slug: string) {
 export default async function ProductDetailPage({
   params,
 }: {
-  params: { slug: string }
+  params: Promise<{ slug: string }>
 }) {
-  const product = await getProduct(params.slug)
+  const { slug } = await params
+  const product = await getProduct(slug)
 
   return (
     <div>
