@@ -143,7 +143,7 @@ export default function ProductDetail({ product }: { product: any }) {
               <CardContent className="p-4">
                 <div className="flex items-start gap-3">
                   <Avatar className="h-12 w-12">
-                    <AvatarFallback className="bg-primary text-primary-foreground">
+                    <AvatarFallback className="bg-muted text-muted-foreground">
                       {sellerInitial}
                     </AvatarFallback>
                   </Avatar>

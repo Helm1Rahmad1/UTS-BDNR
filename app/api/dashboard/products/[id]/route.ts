@@ -5,7 +5,7 @@ import { type NextRequest, NextResponse } from "next/server"
 
 export async function PATCH(request: NextRequest, { params }: { params: { id: string } }) {
   try {
-    const session = await auth()
+    const session = await auth(request)
     if (!session?.user?.id || session.user.role !== "admin") {
       return NextResponse.json({ error: "Unauthorized" }, { status: 401 })
     }
@@ -28,7 +28,7 @@ export async function PATCH(request: NextRequest, { params }: { params: { id: st
 
 export async function DELETE(request: NextRequest, { params }: { params: { id: string } }) {
   try {
-    const session = await auth()
+    const session = await auth(request)
     if (!session?.user?.id || session.user.role !== "admin") {
       return NextResponse.json({ error: "Unauthorized" }, { status: 401 })
     }

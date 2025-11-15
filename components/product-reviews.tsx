@@ -2,7 +2,7 @@
 
 import type React from "react"
 
-import { useEffect, useState } from "react"
+import { useCallback, useEffect, useState } from "react"
 import { useSession } from "next-auth/react"
 import { Star, Trash2 } from "lucide-react"
 import { Button } from "@/components/ui/button"
@@ -23,11 +23,7 @@ export default function ProductReviews({ productId }: { productId: string }) {
   const [loading, setLoading] = useState(true)
   const [submitting, setSubmitting] = useState(false)
 
-  useEffect(() => {
-    fetchReviews()
-  }, [productId])
-
-  const fetchReviews = async () => {
+  const fetchReviews = useCallback(async () => {
     try {
       const res = await fetch(`/api/reviews?product=${productId}`)
       const data = await res.json()
@@ -37,7 +33,11 @@ export default function ProductReviews({ productId }: { productId: string }) {
     } finally {
       setLoading(false)
     }
-  }
+  }, [productId])
+
+  useEffect(() => {
+    fetchReviews()
+  }, [fetchReviews])
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()

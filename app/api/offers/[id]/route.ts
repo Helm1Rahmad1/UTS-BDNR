@@ -6,7 +6,7 @@ import Product from "@/models/Product"
 
 export async function PATCH(req: NextRequest, { params }: { params: Promise<{ id: string }> }) {
   try {
-    const session = await auth()
+    const session = await auth(req)
     if (!session?.user?.id) {
       return NextResponse.json({ error: "Unauthorized" }, { status: 401 })
     }
@@ -64,7 +64,7 @@ export async function PATCH(req: NextRequest, { params }: { params: Promise<{ id
 
 export async function GET(req: NextRequest, { params }: { params: Promise<{ id: string }> }) {
   try {
-    const session = await auth()
+    const session = await auth(req)
     if (!session?.user?.id) {
       return NextResponse.json({ error: "Unauthorized" }, { status: 401 })
     }

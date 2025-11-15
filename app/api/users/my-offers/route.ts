@@ -5,7 +5,7 @@ import mongoose from "mongoose"
 
 export async function GET(req: NextRequest) {
   try {
-    const session = await auth()
+    const session = await auth(req)
     if (!session?.user?.id) {
       return NextResponse.json({ error: "Unauthorized" }, { status: 401 })
     }

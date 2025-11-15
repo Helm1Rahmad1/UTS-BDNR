@@ -33,11 +33,20 @@ export default function Header() {
   }
 
   return (
-    <header className="sticky top-0 z-50 border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+    <header className="sticky top-0 z-50 border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 shadow-sm">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
-          <Link href="/" className="text-2xl font-bold text-primary">
-            ThriftStyle
+          <Link
+            href="/"
+            className="relative text-2xl font-black tracking-tight text-foreground group overflow-hidden"
+          >
+            <span className="inline-block transition-transform duration-300 group-hover:-translate-y-full group-hover:skew-x-3">
+              ThriftStyle
+            </span>
+            <span className="absolute left-0 top-full inline-block text-2xl font-black text-foreground transition-transform duration-300 group-hover:-translate-y-full group-hover:-skew-x-3">
+              ThriftStyle
+            </span>
+            <span className="absolute inset-0 pointer-events-none opacity-0 group-hover:opacity-40 group-hover:animate-[pulse_0.8s_ease-in-out] bg-gradient-to-r from-transparent via-foreground/20 to-transparent"></span>
           </Link>
 
           {/* Desktop Search */}
@@ -59,23 +68,29 @@ export default function Header() {
           {/* Desktop Nav */}
           <div className="hidden items-center gap-4 md:flex">
             {session?.user?.role === "admin" && (
-              <Link href="/dashboard" className="text-sm font-medium hover:text-primary">
-                Dashboard
-              </Link>
+              <Button asChild variant="ghost" size="sm" className="gap-2 text-foreground hover:bg-foreground/20">
+                <Link href="/dashboard">
+                  <Settings className="h-4 w-4" />
+                  <span>Dashboard</span>
+                </Link>
+              </Button>
             )}
-            <Link href="/cart" className="relative">
-              <ShoppingCart className="h-5 w-5" />
-            </Link>
+            <Button asChild variant="ghost" size="sm" className="gap-2 text-foreground hover:bg-foreground/20">
+              <Link href="/cart">
+                <ShoppingCart className="h-4 w-4" />
+                <span>Cart</span>
+              </Link>
+            </Button>
             {session ? (
               <DropdownMenu>
                 <DropdownMenuTrigger asChild>
-                  <Button variant="ghost" className="gap-2">
+                  <Button variant="ghost" className="gap-2 group text-foreground hover:bg-foreground/20">
                     <Avatar className="h-8 w-8">
-                      <AvatarFallback className="bg-primary text-primary-foreground text-sm">
+                      <AvatarFallback className="bg-muted text-muted-foreground text-sm">
                         {session.user?.name?.charAt(0).toUpperCase()}
                       </AvatarFallback>
                     </Avatar>
-                    <span className="text-sm">{session.user?.name}</span>
+                    <span className="text-sm text-foreground group-hover:text-foreground/80">{session.user?.name}</span>
                   </Button>
                 </DropdownMenuTrigger>
                 <DropdownMenuContent align="end" className="w-56">
@@ -115,7 +130,7 @@ export default function Header() {
               </DropdownMenu>
             ) : (
               <Link href="/auth/login">
-                <Button size="sm">Sign In</Button>
+                <Button size="sm" className="shadow-sm hover:shadow-md">Sign In</Button>
               </Link>
             )}
           </div>

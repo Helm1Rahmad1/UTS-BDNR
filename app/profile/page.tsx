@@ -31,7 +31,7 @@ export default async function ProfilePage() {
           <CardContent className="space-y-6">
             <div className="flex items-start gap-6">
               <Avatar className="h-20 w-20">
-                <AvatarFallback className="bg-primary text-primary-foreground text-2xl">
+                <AvatarFallback className="bg-muted text-muted-foreground text-2xl">
                   {session.user?.name?.charAt(0).toUpperCase()}
                 </AvatarFallback>
               </Avatar>

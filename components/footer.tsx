@@ -1,3 +1,5 @@
+import Link from "next/link"
+
 export default function Footer() {
   return (
     <footer className="border-t border-border bg-muted/30 py-12">
@@ -11,14 +13,14 @@ export default function Footer() {
             <h4 className="font-semibold mb-4">Shop</h4>
             <ul className="space-y-2 text-sm">
               <li>
-                <a href="/products" className="hover:text-primary">
+                <Link href="/products" className="hover:text-primary">
                   All Items
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/products?condition=new" className="hover:text-primary">
+                <Link href="/products?condition=new" className="hover:text-primary">
                   New Arrivals
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

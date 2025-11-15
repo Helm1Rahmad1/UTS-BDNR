@@ -3,6 +3,8 @@ import CredentialsProvider from "next-auth/providers/credentials"
 import { connectDB } from "@/lib/mongodb"
 import User from "@/models/User"
 import bcryptjs from "bcryptjs"
+import { getToken } from "next-auth/jwt"
+import type { NextRequest } from "next/server"
 
 export const authOptions: NextAuthOptions = {
   providers: [
@@ -61,4 +63,29 @@ export const authOptions: NextAuthOptions = {
 
 const handler = NextAuth(authOptions)
 export { handler as GET, handler as POST }
-export const { auth, signIn, signOut } = NextAuth(authOptions)
+
+type AuthSession = {
+  user: {
+    id: string
+    role?: string
+    name?: string | null
+    email?: string | null
+  }
+}
+
+export async function auth(request: NextRequest): Promise<AuthSession | null> {
+  const token = await getToken({ req: request, secret: process.env.NEXTAUTH_SECRET })
+
+  if (!token || !token.id) {
+    return null
+  }
+
+  return {
+    user: {
+      id: token.id as string,
+      role: (token.role as string) ?? undefined,
+      name: token.name,
+      email: token.email,
+    },
+  }
+}

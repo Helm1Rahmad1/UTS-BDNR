@@ -1,12 +1,14 @@
 "use client"
 
-import { useEffect, useState } from "react"
+import { useCallback, useEffect, useState } from "react"
 import { useSession } from "next-auth/react"
 import Link from "next/link"
 import { useRouter } from "next/navigation"
 import { Card } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { Loader2 } from "lucide-react"
+import { Button } from "@/components/ui/button"
+import { Empty, EmptyHeader, EmptyTitle, EmptyDescription, EmptyContent, EmptyMedia } from "@/components/ui/empty"
+import { ArrowRight, Loader2, ShoppingBag } from "lucide-react"
 
 interface Order {
   _id: string
@@ -19,10 +21,43 @@ interface Order {
 export default function OrdersPage() {
   const { data: session } = useSession()
   const router = useRouter()
-  const [orders, setOrders] = useState<Order[]>([])
+  const [orders, setOrders] = useState<Order[] | null>(null)
   const [loading, setLoading] = useState(true)
   const [page, setPage] = useState(1)
   const [pages, setPages] = useState(1)
+  const [errorMessage, setErrorMessage] = useState<string | null>(null)
+
+  const fetchOrders = useCallback(async () => {
+    setLoading(true)
+    setErrorMessage(null)
+    try {
+      const res = await fetch(`/api/orders?page=${page}`, { credentials: "include" })
+      const data = await res.json()
+
+      if (!res.ok) {
+        throw new Error(data?.error ?? "Failed to fetch orders")
+      }
+
+      if (!Array.isArray(data.orders)) {
+        throw new Error("Orders data malformed")
+      }
+
+      setOrders(data.orders)
+      setPages(Number.isFinite(data.pages) ? data.pages : 1)
+    } catch (error) {
+      console.error("Error fetching orders:", error)
+      setOrders([])
+      setPages(1)
+      const fallback = error instanceof Error ? error.message : ""
+      const friendly =
+        fallback && fallback !== "Failed to fetch orders" && fallback !== "Orders data malformed"
+          ? fallback
+          : "We couldn't reach your orders. Please try again shortly."
+      setErrorMessage(friendly)
+    } finally {
+      setLoading(false)
+    }
+  }, [page])
 
   useEffect(() => {
     if (!session?.user?.id) {
@@ -31,20 +66,7 @@ export default function OrdersPage() {
     }
 
     fetchOrders()
-  }, [session, page, router])
-
-  const fetchOrders = async () => {
-    try {
-      const res = await fetch(`/api/orders?page=${page}`)
-      const data = await res.json()
-      setOrders(data.orders)
-      setPages(data.pages)
-    } catch (error) {
-      console.error("Error fetching orders:", error)
-    } finally {
-      setLoading(false)
-    }
-  }
+  }, [router, session, fetchOrders])
 
   const statusColor: Record<string, string> = {
     PENDING: "bg-yellow-100 text-yellow-800",
@@ -52,7 +74,7 @@ export default function OrdersPage() {
     CANCELLED: "bg-red-100 text-red-800",
   }
 
-  if (loading) {
+  if (loading || orders === null) {
     return (
       <div className="flex justify-center items-center h-96">
         <Loader2 className="h-8 w-8 animate-spin" />
@@ -62,12 +84,26 @@ export default function OrdersPage() {
 
   if (orders.length === 0) {
     return (
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16 text-center">
-        <h1 className="text-3xl font-bold mb-4">My Orders</h1>
-        <p className="text-muted-foreground mb-8">You haven't placed any orders yet</p>
-        <Link href="/products" className="text-primary hover:underline">
-          Start shopping
-        </Link>
+      <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 py-16">
+        <Empty className="border border-border bg-card">
+          <EmptyHeader>
+            <EmptyMedia variant="icon">
+              <ShoppingBag className="size-5" />
+            </EmptyMedia>
+            <EmptyTitle>No orders yet</EmptyTitle>
+            <EmptyDescription>
+              {errorMessage ?? "You haven't placed any orders yet. Start shopping and your purchases will appear here."}
+            </EmptyDescription>
+          </EmptyHeader>
+          <EmptyContent>
+            <Button asChild size="lg" className="h-12 px-10 text-base font-semibold shadow-lg shadow-primary/40">
+              <Link href="/products" className="inline-flex items-center gap-2">
+                Start shopping
+                <ArrowRight className="h-4 w-4" />
+              </Link>
+            </Button>
+          </EmptyContent>
+        </Empty>
       </div>
     )
   }
@@ -75,6 +111,12 @@ export default function OrdersPage() {
   return (
     <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-8">
       <h1 className="text-3xl font-bold mb-8">My Orders</h1>
+
+      {errorMessage && (
+        <div className="mb-6 rounded border border-destructive/50 bg-destructive/10 px-4 py-3 text-sm text-destructive">
+          {errorMessage}
+        </div>
+      )}
 
       <div className="space-y-4">
         {orders.map((order) => (
