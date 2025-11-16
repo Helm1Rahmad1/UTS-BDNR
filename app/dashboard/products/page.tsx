@@ -1,6 +1,7 @@
 "use client"
 
 import { useCallback, useEffect, useState } from "react"
+import { useRouter, useSearchParams } from "next/navigation"
 import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
 import { Plus, Edit2, Trash2, Loader2, PackageSearch } from "lucide-react"
@@ -16,12 +17,18 @@ export default function ProductsPage() {
   const [page, setPage] = useState(1)
   const [pages, setPages] = useState(1)
   const [errorMessage, setErrorMessage] = useState<string | null>(null)
+  const searchParams = useSearchParams()
+  const router = useRouter()
+  const editId = searchParams.get("edit")
 
   const fetchProducts = useCallback(async () => {
     setLoading(true)
     setErrorMessage(null)
     try {
-      const res = await fetch(`/api/dashboard/products?page=${page}`, { credentials: "include" })
+      const res = await fetch(`/api/dashboard/products?page=${page}`, {
+        credentials: "include",
+        cache: "no-store",
+      })
       const data = await res.json()
 
       if (!res.ok) {
@@ -54,6 +61,62 @@ export default function ProductsPage() {
     fetchProducts()
   }, [fetchProducts])
 
+  useEffect(() => {
+    if (!editId) return
+
+    const existing = products.find((product) => product._id === editId)
+    if (existing) {
+      setSelectedProduct(existing)
+      setOpenDialog(true)
+      return
+    }
+
+    let ignore = false
+    const fetchProduct = async () => {
+      try {
+        const res = await fetch(`/api/dashboard/products/${editId}`, {
+          credentials: "include",
+          cache: "no-store",
+        })
+        if (!res.ok) {
+          throw new Error("Failed to fetch product")
+        }
+        const data = await res.json()
+        if (!ignore) {
+          setSelectedProduct(data)
+          setOpenDialog(true)
+        }
+      } catch (error) {
+        console.error("Error loading product for edit:", error)
+      }
+    }
+
+    fetchProduct()
+
+    return () => {
+      ignore = true
+    }
+  }, [editId, products])
+
+  const clearEditParam = useCallback(() => {
+    if (!editId) return
+    const params = new URLSearchParams(searchParams.toString())
+    params.delete("edit")
+    const queryString = params.toString()
+    router.replace(`/dashboard/products${queryString ? `?${queryString}` : ""}`, { scroll: false })
+  }, [editId, router, searchParams])
+
+  const handleDialogChange = useCallback(
+    (open: boolean) => {
+      setOpenDialog(open)
+      if (!open) {
+        setSelectedProduct(null)
+        clearEditParam()
+      }
+    },
+    [clearEditParam]
+  )
+
   const handleDelete = async (id: string) => {
     if (!confirm("Are you sure?")) return
     try {
@@ -70,6 +133,7 @@ export default function ProductsPage() {
         <h1 className="text-3xl font-bold">Products</h1>
         <Button
           onClick={() => {
+            clearEditParam()
             setSelectedProduct(null)
             setOpenDialog(true)
           }}
@@ -99,6 +163,7 @@ export default function ProductsPage() {
               <EmptyContent>
                 <Button
                   onClick={() => {
+                    clearEditParam()
                     setSelectedProduct(null)
                     setOpenDialog(true)
                   }}
@@ -214,18 +279,20 @@ export default function ProductsPage() {
       )}
 
       {/* Dialog */}
-      <Dialog open={openDialog} onOpenChange={setOpenDialog}>
-        <DialogContent>
+      <Dialog open={openDialog} onOpenChange={handleDialogChange}>
+        <DialogContent className="max-w-xl md:max-w-2xl lg:max-w-3xl max-h-[90vh] overflow-hidden">
           <DialogHeader>
             <DialogTitle>{selectedProduct ? "Edit Product" : "Add Product"}</DialogTitle>
           </DialogHeader>
-          <ProductForm
-            product={selectedProduct}
-            onSuccess={() => {
-              setOpenDialog(false)
-              fetchProducts()
-            }}
-          />
+          <div className="max-h-[70vh] overflow-y-auto pr-1">
+            <ProductForm
+              product={selectedProduct}
+              onSuccess={() => {
+                handleDialogChange(false)
+                fetchProducts()
+              }}
+            />
+          </div>
         </DialogContent>
       </Dialog>
     </div>

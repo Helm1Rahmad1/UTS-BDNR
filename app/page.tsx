@@ -5,6 +5,8 @@ import Product from "@/models/Product"
 import Category from "@/models/Category"
 import ProductSections from "@/components/product-sections"
 
+export const revalidate = 0
+
 async function getHomeData() {
   try {
     await connectDB()

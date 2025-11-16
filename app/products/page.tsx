@@ -39,7 +39,7 @@ export default function ProductsPage() {
           limit: "12",
         })
 
-        const res = await fetch(`/api/products?${queryParams}`)
+        const res = await fetch(`/api/products?${queryParams}`, { cache: "no-store" })
         const data = await res.json()
         setProducts(data.products)
         setTotalPages(data.totalPages)

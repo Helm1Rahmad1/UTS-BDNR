@@ -44,13 +44,8 @@ export default function DashboardLayout({ children }: { children: React.ReactNod
             })}
           </nav>
 
-          <div className="p-4 border-t border-border">
-            <Button asChild variant="outline" className="w-full justify-start">
-              <Link href="/">
-                <Home className="h-4 w-4 mr-2" />
-                Back to Site
-              </Link>
-            </Button>
+          <div className="p-4 border-t border-border text-sm text-muted-foreground">
+            Press the brand logo in the header to return to the storefront.
           </div>
         </div>
       </aside>
