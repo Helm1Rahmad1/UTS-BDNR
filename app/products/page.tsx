@@ -53,6 +53,32 @@ export default function ProductsPage() {
     fetchProducts()
   }, [q, category, brand, size, condition, sort, currentPage])
 
+  // Fetch categories and brands for filters
+  useEffect(() => {
+    const fetchFiltersData = async () => {
+      try {
+        const [categoriesRes, brandsRes] = await Promise.all([
+          fetch("/api/categories"),
+          fetch("/api/brands"),
+        ])
+        
+        if (categoriesRes.ok) {
+          const categoriesData = await categoriesRes.json()
+          setCategories(categoriesData)
+        }
+        
+        if (brandsRes.ok) {
+          const brandsData = await brandsRes.json()
+          setBrands(brandsData)
+        }
+      } catch (error) {
+        console.error("Error fetching filters data:", error)
+      }
+    }
+
+    fetchFiltersData()
+  }, [])
+
   useEffect(() => {
     setCurrentPage(1)
   }, [q, category, brand, size, condition, sort])
@@ -61,6 +87,22 @@ export default function ProductsPage() {
     <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-8">
       <div className="flex items-center justify-between mb-8">
         <h1 className="text-3xl font-bold">All Products</h1>
+        <select
+          value={sort}
+          onChange={(e) => {
+            const params = new URLSearchParams(searchParams)
+            params.set('sort', e.target.value)
+            window.history.replaceState({}, '', `/products?${params.toString()}`)
+          }}
+          className="px-3 py-2 border border-input rounded-md bg-background"
+        >
+          <option value="-createdAt">Newest First</option>
+          <option value="createdAt">Oldest First</option>
+          <option value="price">Price: Low to High</option>
+          <option value="-price">Price: High to Low</option>
+          <option value="name">Name: A to Z</option>
+          <option value="-name">Name: Z to A</option>
+        </select>
       </div>
 
       <div className="flex gap-8">

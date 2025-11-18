@@ -82,6 +82,46 @@ export default function FilterPanel({
         </div>
       </div>
 
+      {/* Categories */}
+      {categories.length > 0 && (
+        <div>
+          <h4 className="font-semibold mb-2">Categories</h4>
+          <div className="space-y-2">
+            {categories.map((category) => (
+              <button
+                key={category._id}
+                onClick={() => updateFilter("category", activeFilters.category === category.slug ? null : category.slug)}
+                className={`block w-full text-left px-3 py-2 rounded text-sm ${
+                  activeFilters.category === category.slug ? "bg-primary text-primary-foreground" : "hover:bg-muted"
+                }`}
+              >
+                {category.name}
+              </button>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {/* Brands */}
+      {brands.length > 0 && (
+        <div>
+          <h4 className="font-semibold mb-2">Brands</h4>
+          <div className="space-y-2">
+            {brands.map((brand) => (
+              <button
+                key={brand._id}
+                onClick={() => updateFilter("brand", activeFilters.brand === brand.slug ? null : brand.slug)}
+                className={`block w-full text-left px-3 py-2 rounded text-sm ${
+                  activeFilters.brand === brand.slug ? "bg-primary text-primary-foreground" : "hover:bg-muted"
+                }`}
+              >
+                {brand.name}
+              </button>
+            ))}
+          </div>
+        </div>
+      )}
+
       <div>
         <h4 className="font-semibold mb-2">Size</h4>
         <div className="grid grid-cols-2 gap-2">

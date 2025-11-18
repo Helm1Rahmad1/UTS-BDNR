@@ -15,7 +15,7 @@ import {
   DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
-import { Avatar, AvatarFallback } from "@/components/ui/avatar"
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import { useRouter } from "next/navigation"
 
 export default function Header() {
@@ -86,6 +86,9 @@ export default function Header() {
                 <DropdownMenuTrigger asChild>
                   <Button variant="ghost" className="gap-2 group text-foreground hover:bg-foreground/20">
                     <Avatar className="h-8 w-8">
+                      {session.user?.avatar ? (
+                        <AvatarImage src={session.user.avatar} alt="Avatar" />
+                      ) : null}
                       <AvatarFallback className="bg-muted text-muted-foreground text-sm">
                         {session.user?.name?.charAt(0).toUpperCase()}
                       </AvatarFallback>
