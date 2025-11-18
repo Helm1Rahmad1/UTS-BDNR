@@ -144,66 +144,87 @@ After importing/seeding, use these credentials:
 
 ## Database Schema
 
+> 💾 **Tip:** Before changing schemas or running migrations, capture the current MongoDB state with `npm run backup`. The command exports every collection into `database_backup/` so you can restore with `npm run restore` if something goes wrong.
+
 ### Collections
 
-**User**
-- `name: String`
-- `email: String (unique)`
-- `passwordHash: String`
-- `role: "user" | "admin"`
-- `createdAt: Date`
+**User** (`models/User.ts`)
+- `name: String` *(required)*
+- `email: String` *(required, unique, stored lowercase)*
+- `passwordHash: String` *(required, auto-hashed via pre-save hook)*
+- `role: "user" | "admin"` *(default: "user")*
+- `createdAt: Date` *(default: now)*
 
-**Product** (Updated for C2C)
-- `name: String`
-- `slug: String (unique)`
-- `description: String`
-- `images: [String]`
-- `category: ObjectId -> Category`
-- `brand: ObjectId -> Brand`
-- `seller: ObjectId -> User` *(NEW - required)*
-- `sizes: ["S", "M", "L", "XL"]`
-- `condition: "new" | "like-new" | "used"`
-- `price: Number`
-- `stock: Number (default: 1)`
-- `sold: Number`
-- `listingStatus: "ACTIVE" | "SOLD"` *(NEW)*
-- `avgRating: Number`
-- `ratingCount: Number`
-- `tags: [String]`
-- `createdAt: Date`
+**Product** (`models/Product.ts`)
+- `name: String` *(required)*
+- `slug: String` *(required, unique)*
+- `description: String` *(required)*
+- `images: String[]` *(at least one, stored as URLs)*
+- `category: ObjectId -> Category` *(required)*
+- `brand: ObjectId -> Brand` *(required)*
+- `seller: ObjectId -> User` *(required for C2C listings)*
+- `sizes: ["S","M","L","XL"]` *(at least one size required)*
+- `condition: "new" | "like-new" | "used"` *(default: "used")*
+- `price: Number` *(required, min 0)*
+- `stock: Number` *(required, min 0, default: 1)*
+- `sold: Number` *(default: 0)*
+- `listingStatus: "ACTIVE" | "SOLD"` *(default: "ACTIVE")*
+- `avgRating: Number` *(default: 0)*
+- `ratingCount: Number` *(default: 0)*
+- `tags: String[]`
+- `createdAt: Date` *(default: now)*
+- Indexes: text index on `name/description/tags`, compound index on `{ category, brand, price }`
 
-**Offer** (NEW)
-- `product: ObjectId -> Product`
-- `buyer: ObjectId -> User`
-- `seller: ObjectId -> User`
-- `offerPrice: Number`
-- `status: "PENDING" | "ACCEPTED" | "DECLINED"`
-- `createdAt: Date`
+**Offer** (`models/Offer.ts`)
+- `product: ObjectId -> Product` *(required)*
+- `buyer: ObjectId -> User` *(required)*
+- `seller: ObjectId -> User` *(required)*
+- `offerPrice: Number` *(required, min 0)*
+- `status: "PENDING" | "ACCEPTED" | "DECLINED"` *(default: "PENDING")*
+- `createdAt: Date` *(default: now)*
+- Indexes on `{ product, buyer }`, `{ seller, status }`, `{ buyer, status }`
 
-**Review**
-- `user: ObjectId -> User`
-- `product: ObjectId -> Product`
-- `rating: 1-5`
+**Review** (`models/Review.ts`)
+- `user: ObjectId -> User` *(required, unique with product)*
+- `product: ObjectId -> Product` *(required)*
+- `rating: Number` *(1-5)*
 - `comment: String`
-- `createdAt: Date`
+- `createdAt: Date` *(default: now)*
+- Unique compound index `{ user, product }`
 
-**Order**
-- `user: ObjectId -> User`
+**Order** (`models/Order.ts`)
+- `user: ObjectId -> User` *(required)*
 - `items: [{ product, size, qty, price }]`
-- `total: Number`
-- `status: "PENDING" | "PAID" | "CANCELLED"`
+   - `product: ObjectId -> Product`
+   - `size: "S" | "M" | "L" | "XL"`
+   - `qty: Number`
+   - `price: Number`
+- `total: Number` *(required)*
+- `status: "PENDING" | "PAID" | "CANCELLED"` *(default: "PENDING")*
+- `paymentId: String`
 - `shippingAddress: { name, phone, address, city, postalCode }`
-- `createdAt: Date`
+- `createdAt: Date` *(default: now)*
 
-**Category**
-- `name: String (unique)`
-- `slug: String (unique)`
-- `createdAt: Date`
+**Cart** (`models/Cart.ts`)
+- `user: ObjectId -> User` *(required, unique)*
+- `items: [{ product, size, qty, priceAtAdd }]`
+   - `product: ObjectId -> Product`
+   - `size: "S" | "M" | "L" | "XL"`
+   - `qty: Number` *(min 1)*
+   - `priceAtAdd: Number`
+- `updatedAt: Date` *(default: now)*
 
-**Brand**
-- `name: String (unique)`
-- `slug: String (unique)`
-- `createdAt: Date`
+**Category** (`models/Category.ts`)
+- `name: String` *(required, unique)*
+- `slug: String` *(required, unique, lowercase)*
+- `createdAt: Date` *(default: now)*
+- Index on `slug`
+
+**Brand** (`models/Brand.ts`)
+- `name: String` *(required, unique)*
+- `slug: String` *(required, unique, lowercase)*
+- `createdAt: Date` *(default: now)*
+- Index on `slug`
 
 ## Key Implementations
 
